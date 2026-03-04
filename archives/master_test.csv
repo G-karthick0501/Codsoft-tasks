@@ -1,0 +1,361 @@
+repo,file,hooks_total,useState,useEffect,useCallback,useMemo,useContext,useReducer,useCustom,props,jsx_depth,jsx_elems,conditionals,map_calls,event_handlers,bool_props,has_children,component,prop_names,comment
+clones_test/create-react-app-981ce3d1,clones_test/create-react-app-981ce3d1/packages/cra-template-typescript/template/src/App.tsx,0,0,0,0,0,0,0,0,1,4,6,0,0,0,0,0,App,,
+clones_test/create-react-app-981ce3d1,clones_test/create-react-app-981ce3d1/packages/react-error-overlay/src/components/Collapsible.js,4,2,0,0,0,2,0,0,3,3,4,0,0,0,0,0,Collapsible,props: CollapsiblePropsType,
+clones_test/create-react-app-981ce3d1,clones_test/create-react-app-981ce3d1/packages/react-error-overlay/src/components/NavigationBar.js,2,0,0,0,0,2,0,0,3,3,4,0,0,0,0,0,NavigationBar,props: NavigationBarPropsType,
+clones_test/create-react-app-981ce3d1,clones_test/create-react-app-981ce3d1/packages/react-error-overlay/src/containers/StackFrame.js,4,2,0,0,0,2,0,0,7,4,8,0,0,0,0,0,StackFrame,props: StackFramePropsType,
+clones_test/create-react-app-981ce3d1,clones_test/create-react-app-981ce3d1/packages/react-error-overlay/src/containers/CompileErrorContainer.js,2,0,0,0,0,2,0,0,1,3,5,0,0,0,0,0,CompileErrorContainer,props: CompileErrorContainerPropsType,
+clones_test/create-react-app-981ce3d1,clones_test/create-react-app-981ce3d1/packages/cra-template/template/src/App.js,0,0,0,0,0,0,0,0,1,4,6,0,0,0,0,0,App,,
+clones_test/create-react-app-981ce3d1,clones_test/create-react-app-981ce3d1/docusaurus/website/src/pages/index.js,6,0,0,0,0,0,0,6,1,7,43,0,0,0,0,0,Home,,
+clones_test/next.js-56e77b4c,clones_test/next.js-56e77b4c/packages/create-next-app/templates/default-tw/ts/pages/_document.tsx,0,0,0,0,0,0,0,0,1,3,5,0,0,0,0,0,Document,,
+clones_test/next.js-56e77b4c,clones_test/next.js-56e77b4c/packages/create-next-app/templates/default-tw/ts/pages/index.tsx,0,0,0,0,0,0,0,0,1,5,12,0,0,0,0,0,Home,,
+clones_test/next.js-56e77b4c,clones_test/next.js-56e77b4c/packages/create-next-app/templates/default-tw/js/pages/index.js,0,0,0,0,0,0,0,0,1,5,12,0,0,0,0,0,Home,,
+clones_test/next.js-56e77b4c,clones_test/next.js-56e77b4c/packages/create-next-app/templates/default-tw/js/pages/_document.js,0,0,0,0,0,0,0,0,1,3,5,0,0,0,0,0,Document,,
+clones_test/next.js-56e77b4c,clones_test/next.js-56e77b4c/packages/create-next-app/templates/app-tw/ts/app/page.tsx,0,0,0,0,0,0,0,0,1,5,12,0,0,0,0,0,Home,,
+clones_test/next.js-56e77b4c,clones_test/next.js-56e77b4c/packages/create-next-app/templates/app-tw/js/app/page.js,0,0,0,0,0,0,0,0,1,5,12,0,0,0,0,0,Home,,
+clones_test/next.js-56e77b4c,clones_test/next.js-56e77b4c/packages/create-next-app/templates/app/ts/app/page.tsx,0,0,0,0,0,0,0,0,1,5,12,0,0,0,0,0,Home,,
+clones_test/next.js-56e77b4c,clones_test/next.js-56e77b4c/packages/create-next-app/templates/app/js/app/page.js,0,0,0,0,0,0,0,0,1,5,12,0,0,0,0,0,Home,,
+clones_test/next.js-56e77b4c,clones_test/next.js-56e77b4c/packages/create-next-app/templates/default-empty/ts/pages/_document.tsx,0,0,0,0,0,0,0,0,1,3,5,0,0,0,0,0,Document,,
+clones_test/next.js-56e77b4c,clones_test/next.js-56e77b4c/packages/create-next-app/templates/default-empty/ts/pages/index.tsx,0,0,0,0,0,0,0,0,1,3,7,0,0,0,0,0,Home,,
+clones_test/next.js-56e77b4c,clones_test/next.js-56e77b4c/packages/create-next-app/templates/default-empty/js/pages/index.js,0,0,0,0,0,0,0,0,1,3,7,0,0,0,0,0,Home,,
+clones_test/next.js-56e77b4c,clones_test/next.js-56e77b4c/packages/create-next-app/templates/default-empty/js/pages/_document.js,0,0,0,0,0,0,0,0,1,3,5,0,0,0,0,0,Document,,
+clones_test/next.js-56e77b4c,clones_test/next.js-56e77b4c/packages/create-next-app/templates/default/ts/pages/_document.tsx,0,0,0,0,0,0,0,0,1,3,5,0,0,0,0,0,Document,,
+clones_test/next.js-56e77b4c,clones_test/next.js-56e77b4c/packages/create-next-app/templates/default/ts/pages/index.tsx,0,0,0,0,0,0,0,0,1,6,18,0,0,0,0,0,Home,,
+clones_test/next.js-56e77b4c,clones_test/next.js-56e77b4c/packages/create-next-app/templates/default/js/pages/index.js,0,0,0,0,0,0,0,0,1,6,18,0,0,0,0,0,Home,,
+clones_test/next.js-56e77b4c,clones_test/next.js-56e77b4c/packages/create-next-app/templates/default/js/pages/_document.js,0,0,0,0,0,0,0,0,1,3,5,0,0,0,0,0,Document,,
+clones_test/next.js-56e77b4c,clones_test/next.js-56e77b4c/packages/create-next-app/templates/default-tw-empty/ts/pages/_document.tsx,0,0,0,0,0,0,0,0,1,3,5,0,0,0,0,0,Document,,
+clones_test/next.js-56e77b4c,clones_test/next.js-56e77b4c/packages/create-next-app/templates/default-tw-empty/ts/pages/index.tsx,0,0,0,0,0,0,0,0,1,3,7,0,0,0,0,0,Home,,
+clones_test/next.js-56e77b4c,clones_test/next.js-56e77b4c/packages/create-next-app/templates/default-tw-empty/js/pages/index.js,0,0,0,0,0,0,0,0,1,3,7,0,0,0,0,0,Home,,
+clones_test/next.js-56e77b4c,clones_test/next.js-56e77b4c/packages/create-next-app/templates/default-tw-empty/js/pages/_document.js,0,0,0,0,0,0,0,0,1,3,5,0,0,0,0,0,Document,,
+clones_test/next.js-56e77b4c,clones_test/next.js-56e77b4c/packages/next-codemod/transforms/__testfixtures__/next-image-experimental/general.output.tsx,0,0,0,0,0,0,0,0,1,3,16,0,0,0,0,0,Home,,
+clones_test/next.js-56e77b4c,clones_test/next.js-56e77b4c/packages/next-codemod/transforms/__testfixtures__/next-image-experimental/general.input.tsx,0,0,0,0,0,0,0,0,1,3,16,0,0,0,0,0,Home,,
+clones_test/next.js-56e77b4c,clones_test/next.js-56e77b4c/packages/next-codemod/transforms/__testfixtures__/new-link/links-with-legacybehavior-prop.input.js,0,0,0,0,0,0,0,0,1,3,5,0,0,0,0,0,Page,,
+clones_test/next.js-56e77b4c,clones_test/next.js-56e77b4c/packages/next-codemod/transforms/__testfixtures__/new-link/styled-jsx.input.js,0,0,0,0,0,0,0,0,4,3,4,0,0,0,0,1,CustomLink,href;title;children,
+clones_test/next.js-56e77b4c,clones_test/next.js-56e77b4c/packages/next/src/server/render.tsx,0,0,0,0,0,0,0,0,33,9,27,0,0,0,0,0,noRouter,,
+clones_test/next.js-56e77b4c,clones_test/next.js-56e77b4c/packages/next/src/server/app-render/app-render.tsx,2,0,0,0,0,0,0,2,50,4,20,0,0,0,0,0,parseRequestHeaders,headers: IncomingHttpHeaders;options: ParseRequestHeadersOptions,
+clones_test/next.js-56e77b4c,clones_test/next.js-56e77b4c/packages/next/src/client/app-index.tsx,0,0,0,0,0,0,0,0,13,4,7,0,0,0,0,0,nextServerDataCallback,seg: FlightSegment,
+clones_test/next.js-56e77b4c,clones_test/next.js-56e77b4c/packages/next/src/client/index.tsx,0,0,0,0,0,0,0,0,22,8,18,0,0,0,0,0,initialize,opts: { devClient?: any },
+clones_test/next.js-56e77b4c,clones_test/next.js-56e77b4c/packages/next/src/client/components/app-router.tsx,22,0,8,0,6,0,0,8,17,8,20,0,0,0,0,0,AppRouter,"actionQueue;globalErrorState;webSocket;staticIndicatorState;}: {
+  actionQueue: AppRouterActionQueue
+  globalErrorState: GlobalErrorState
+  webSocket?: WebSocket
+  staticIndicatorState?: StaticIndicatorState",
+clones_test/next.js-56e77b4c,clones_test/next.js-56e77b4c/packages/next/src/client/components/layout-router.tsx,11,0,0,0,0,5,0,6,39,6,21,0,0,0,0,0,OuterLayoutRouter,"parallelRouterKey;error;errorStyles;errorScripts;templateStyles;templateScripts;template;notFound;forbidden;unauthorized;segmentViewBoundaries;}: {
+  parallelRouterKey: string
+  error: ErrorComponent | undefined
+  errorStyles: React.ReactNode | undefined
+  errorScripts: React.ReactNode | undefined
+  templateStyles: React.ReactNode | undefined
+  templateScripts: React.ReactNode | undefined
+  template: React.ReactNode
+  notFound: React.ReactNode | undefined
+  forbidden: React.ReactNode | undefined
+  unauthorized: React.ReactNode | undefined
+  segmentViewBoundaries?: React.ReactNode",
+clones_test/next.js-56e77b4c,clones_test/next.js-56e77b4c/packages/next/src/client/components/http-access-fallback/error-fallback.tsx,0,0,0,0,0,0,0,0,3,5,8,0,0,0,0,0,HTTPAccessErrorFallback,"status;message;}: {
+  status: number
+  message: string",
+clones_test/next.js-56e77b4c,clones_test/next.js-56e77b4c/packages/next/src/client/components/builtin/app-error.tsx,0,0,0,0,0,0,0,0,1,6,13,0,0,0,0,0,AppError,,"This is the static 500.html page for App Router apps.
+Always a server error, rendered at build time."
+clones_test/next.js-56e77b4c,clones_test/next.js-56e77b4c/packages/next/src/client/components/builtin/global-error.tsx,0,0,0,0,0,0,0,0,1,7,19,0,0,0,0,0,DefaultGlobalError,error }: { error: any,
+clones_test/next.js-56e77b4c,clones_test/next.js-56e77b4c/packages/next/src/client/components/builtin/global-not-found.tsx,0,0,0,0,0,0,0,0,1,3,3,0,0,0,0,0,GlobalNotFound,,
+clones_test/next.js-56e77b4c,clones_test/next.js-56e77b4c/packages/next/src/client/legacy/image.tsx,17,2,2,2,2,2,0,7,50,4,11,0,0,1,0,0,Image,"{
+  src;sizes;unoptimized;priority;loading;lazyRoot;lazyBoundary;className;quality;width;height;style;objectFit;objectPosition;onLoadingComplete;placeholder;blurDataURL;...all
+}: ImageProps",
+clones_test/next.js-56e77b4c,clones_test/next.js-56e77b4c/packages/next/src/next-devtools/dev-overlay.browser.tsx,12,0,2,0,0,2,0,8,50,3,6,0,0,0,0,0,getSerializedOverlayState,,
+clones_test/next.js-56e77b4c,clones_test/next.js-56e77b4c/packages/next/src/next-devtools/dev-overlay/dev-overlay.stories.tsx,6,0,0,0,0,0,0,6,1,3,8,0,0,0,0,0,getNoSquashedHydrationErrorDetails,,
+clones_test/next.js-56e77b4c,clones_test/next.js-56e77b4c/packages/next/src/next-devtools/dev-overlay/dev-overlay.tsx,10,3,0,0,0,2,0,5,2,7,11,0,0,0,0,0,DevOverlay,,
+clones_test/next.js-56e77b4c,clones_test/next.js-56e77b4c/packages/next/src/next-devtools/dev-overlay/components/tooltip/tooltip.stories.tsx,0,0,0,0,0,0,0,0,4,4,31,0,0,0,0,0,,,
+clones_test/next.js-56e77b4c,clones_test/next.js-56e77b4c/packages/next/src/next-devtools/dev-overlay/components/tooltip/tooltip.tsx,2,0,0,0,0,0,0,2,1,6,8,0,0,0,0,1,Tooltip,"{
+      className;children;title;direction;arrowSize;offset;};ref",
+clones_test/next.js-56e77b4c,clones_test/next.js-56e77b4c/packages/next/src/next-devtools/dev-overlay/components/errors/error-overlay-layout/error-overlay-layout.tsx,2,0,0,0,0,0,0,2,25,9,18,0,0,1,2,1,ErrorOverlayLayout,"{
+  errorMessage;errorType;children;errorCode;errorCount;error;debugInfo;isBuildError;onClose;versionInfo;runtimeErrors;activeIdx;setActiveIndex;isTurbopack;dialogResizerRef;generateErrorInfo;// This prop is used to animate the dialog;it comes from a parent component (<ErrorOverlay>",
+clones_test/next.js-56e77b4c,clones_test/next.js-56e77b4c/packages/next/src/next-devtools/dev-overlay/components/errors/error-overlay-pagination/error-overlay-pagination.tsx,12,2,3,4,0,0,0,3,4,3,8,0,0,1,0,0,ErrorOverlayPagination,"{
+  runtimeErrors;activeIdx;onActiveIndexChange;}: ErrorPaginationProps",
+clones_test/next.js-56e77b4c,clones_test/next.js-56e77b4c/packages/next/src/next-devtools/dev-overlay/components/errors/error-message/error-message.tsx,7,3,0,0,0,0,0,4,2,3,5,0,0,0,0,0,ErrorMessage,{ errorMessage;errorType }: ErrorMessageProps,
+clones_test/next.js-56e77b4c,clones_test/next.js-56e77b4c/packages/next/src/next-devtools/dev-overlay/components/errors/error-overlay-footer/error-feedback/error-feedback.tsx,4,2,0,2,0,0,0,0,2,4,9,0,0,0,0,0,ErrorFeedback,{ errorCode;className }: ErrorFeedbackProps,
+clones_test/next.js-56e77b4c,clones_test/next.js-56e77b4c/packages/next/src/next-devtools/dev-overlay/components/errors/error-overlay-toolbar/nodejs-inspector-button.tsx,4,0,2,0,0,0,0,2,4,4,62,0,0,0,0,0,NodeJsIcon,props: any,
+clones_test/next.js-56e77b4c,clones_test/next.js-56e77b4c/packages/next/src/next-devtools/dev-overlay/components/errors/error-overlay-bottom-stack/index.tsx,0,0,0,0,0,0,0,0,3,3,4,0,0,0,0,0,ErrorOverlayBottomStack,"errorCount;activeIdx;}: {
+  errorCount: number
+  activeIdx: number",
+clones_test/next.js-56e77b4c,clones_test/next.js-56e77b4c/packages/next/src/next-devtools/dev-overlay/components/errors/error-overlay-nav/error-overlay-nav.tsx,0,0,0,0,0,0,0,0,9,4,20,0,0,0,0,0,ErrorOverlayNav,"{
+  runtimeErrors;activeIdx;setActiveIndex;versionInfo;}: ErrorOverlayNavProps",
+clones_test/next.js-56e77b4c,clones_test/next.js-56e77b4c/packages/next/src/next-devtools/dev-overlay/components/errors/dev-tools-indicator/dev-tools-info/shortcut-recorder.tsx,8,5,0,0,0,0,0,3,13,4,17,0,0,1,0,0,ShortcutRecorder,"{
+  value;onChange;}: {
+  value: string[] | null
+  onChange: (value: string | null",
+clones_test/next.js-56e77b4c,clones_test/next.js-56e77b4c/packages/next/src/next-devtools/dev-overlay/components/errors/dev-tools-indicator/dev-tools-info/route-info.tsx,0,0,0,0,0,0,0,0,7,3,19,0,0,0,0,0,StaticRouteContent,"{
+  routerType;...props
+}: { routerType: 'pages' | 'app' } & ComponentProps<'div'>",
+clones_test/next.js-56e77b4c,clones_test/next.js-56e77b4c/packages/next/src/next-devtools/dev-overlay/components/errors/dev-tools-indicator/dev-tools-info/dev-tools-header.tsx,6,0,0,0,0,0,0,6,5,3,8,0,0,0,0,1,DevToolsHeader,title;children;ref;}: DevToolsHeaderProps & { ref?: React.Ref<HTMLDivElement>,
+clones_test/ant-design-49da1102,clones_test/ant-design-49da1102/docs/react/demo/preset-algorithm.tsx,0,0,0,0,0,0,0,0,1,3,4,0,0,0,0,0,,,
+clones_test/ant-design-49da1102,clones_test/ant-design-49da1102/docs/react/demo/local-theme.tsx,0,0,0,0,0,0,0,0,1,4,5,0,0,0,0,0,,,
+clones_test/ant-design-49da1102,clones_test/ant-design-49da1102/docs/react/demo/disable-motion.tsx,6,2,2,0,0,0,0,2,1,3,8,0,0,0,0,0,timerRef,"useRef<ReturnType<typeof setInterval>>(null);
+
+  useEffect(()",
+clones_test/ant-design-49da1102,clones_test/ant-design-49da1102/docs/react/demo/modify-theme-token.tsx,0,0,0,0,0,0,0,0,1,3,4,0,0,0,0,0,,,
+clones_test/ant-design-49da1102,clones_test/ant-design-49da1102/docs/react/demo/component-token.tsx,0,0,0,0,0,0,0,0,1,4,12,0,0,0,0,0,,,
+clones_test/ant-design-49da1102,clones_test/ant-design-49da1102/docs/react/demo/first-example.tsx,0,0,0,0,0,0,0,0,1,3,5,0,0,0,0,0,App,,
+clones_test/ant-design-49da1102,clones_test/ant-design-49da1102/docs/react/demo/dynamic-theme.tsx,2,2,0,0,0,0,0,0,1,4,7,0,0,0,0,0,,,
+clones_test/ant-design-49da1102,clones_test/ant-design-49da1102/docs/blog/semantic-beauty/demos.tsx,0,0,0,0,0,0,0,0,1,3,23,0,0,0,0,0,,,
+clones_test/ant-design-49da1102,clones_test/ant-design-49da1102/docs/blog/css-tricks/scope.tsx,0,0,0,0,0,0,0,0,1,5,8,0,0,0,0,0,styleTxt,"`
+  @scope (.blog-css-tricks-a) to (span) {
+    color: red;
+  }
+
+  .blog-css-tricks-b {
+    color: blue;
+  }
+`;
+
+export default ()",
+clones_test/ant-design-49da1102,clones_test/ant-design-49da1102/components/affix/index.tsx,4,0,0,0,0,0,0,4,3,4,5,0,0,0,0,0,getDefaultTarget,,
+clones_test/ant-design-49da1102,clones_test/ant-design-49da1102/components/affix/demo/basic.tsx,0,0,0,0,0,0,0,0,1,3,6,0,0,0,0,0,,,
+clones_test/ant-design-49da1102,clones_test/ant-design-49da1102/components/affix/demo/debug.tsx,2,2,0,0,0,0,0,0,1,4,6,0,0,0,0,0,,,
+clones_test/ant-design-49da1102,clones_test/ant-design-49da1102/components/affix/demo/target.tsx,0,0,0,0,0,0,0,0,1,4,4,0,0,0,0,0,,,
+clones_test/ant-design-49da1102,clones_test/ant-design-49da1102/components/descriptions/Cell.tsx,2,0,0,0,0,0,0,2,1,3,7,0,0,0,0,0,,,
+clones_test/ant-design-49da1102,clones_test/ant-design-49da1102/components/descriptions/index.tsx,14,0,0,0,0,0,0,14,1,6,9,0,0,0,0,0,warning,"devUseWarning('Descriptions');
+    [
+      ['labelStyle';'styles.label'];['contentStyle';'styles.content'];].forEach(([deprecatedName;newName])",
+clones_test/ant-design-49da1102,clones_test/ant-design-49da1102/components/descriptions/demo/_semantic.tsx,2,0,0,0,0,0,0,2,2,3,7,0,0,0,0,0,,,
+clones_test/ant-design-49da1102,clones_test/ant-design-49da1102/components/descriptions/demo/padding.tsx,0,0,0,0,0,0,0,0,1,3,5,0,0,0,0,0,,,
+clones_test/ant-design-49da1102,clones_test/ant-design-49da1102/components/descriptions/demo/component-token.tsx,2,2,0,0,0,0,0,0,1,4,21,0,0,0,0,0,onChange,e: RadioChangeEvent,
+clones_test/ant-design-49da1102,clones_test/ant-design-49da1102/components/descriptions/demo/size.tsx,2,2,0,0,0,0,0,0,1,3,20,0,0,0,0,0,onChange,e: RadioChangeEvent,
+clones_test/ant-design-49da1102,clones_test/ant-design-49da1102/components/descriptions/demo/style.tsx,3,3,0,0,0,0,0,0,1,3,10,0,0,0,0,0,,,
+clones_test/ant-design-49da1102,clones_test/ant-design-49da1102/components/tag/demo/draggable.tsx,8,2,0,0,0,0,0,6,2,4,5,0,0,0,0,0,handleDragEnd,event: DragEndEvent,
+clones_test/ant-design-49da1102,clones_test/ant-design-49da1102/components/tag/demo/basic.tsx,0,0,0,0,0,0,0,0,2,3,9,0,0,0,0,0,preventDefault,e: React.MouseEvent<HTMLElement>,
+clones_test/ant-design-49da1102,clones_test/ant-design-49da1102/components/tag/demo/icon.tsx,0,0,0,0,0,0,0,0,1,4,21,0,0,0,0,0,handleChange,index: number;value: boolean,
+clones_test/ant-design-49da1102,clones_test/ant-design-49da1102/components/tag/demo/control.tsx,12,6,3,0,0,0,0,3,1,3,8,0,0,0,0,0,handleClose,removedTag: string,
+clones_test/ant-design-49da1102,clones_test/ant-design-49da1102/components/tag/demo/checkable.tsx,4,4,0,0,0,0,0,0,1,3,7,0,0,0,0,0,,,
+clones_test/ant-design-49da1102,clones_test/ant-design-49da1102/components/tag/demo/_semantic.tsx,2,0,0,0,0,0,0,2,1,3,3,0,0,0,0,0,,,
+clones_test/ant-design-49da1102,clones_test/ant-design-49da1102/components/tag/demo/customize.tsx,0,0,0,0,0,0,0,0,1,3,4,0,0,0,0,0,,,
+clones_test/ant-design-49da1102,clones_test/ant-design-49da1102/components/tag/demo/disabled.tsx,2,2,0,0,0,0,0,0,1,4,27,0,0,0,0,0,handleClose,tagName: string,
+clones_test/ant-design-49da1102,clones_test/ant-design-49da1102/components/tag/demo/component-token.tsx,0,0,0,0,0,0,0,0,1,5,18,0,0,0,0,0,,,
+clones_test/ant-design-49da1102,clones_test/ant-design-49da1102/components/tag/demo/animation.tsx,8,4,2,0,0,0,0,2,1,3,6,0,0,0,0,0,handleClose,removedTag: string,
+clones_test/ant-design-49da1102,clones_test/ant-design-49da1102/components/tag/demo/status.tsx,0,0,0,0,0,0,0,0,1,4,10,0,0,0,0,0,,,
+clones_test/ant-design-49da1102,clones_test/ant-design-49da1102/components/tag/demo/style-class.tsx,0,0,0,0,0,0,0,0,4,4,9,0,0,0,0,0,classNames,createStaticStyles(({ css }),
+clones_test/ant-design-49da1102,clones_test/ant-design-49da1102/components/tag/demo/colorful.tsx,0,0,0,0,0,0,0,0,1,4,9,0,0,0,0,0,,,
+clones_test/ant-design-49da1102,clones_test/ant-design-49da1102/components/breadcrumb/Breadcrumb.tsx,10,0,0,0,0,0,0,10,3,3,6,0,0,0,0,0,mergedProps,React.useMemo((),
+clones_test/ant-design-49da1102,clones_test/ant-design-49da1102/components/breadcrumb/demo/withIcon.tsx,0,0,0,0,0,0,0,0,1,3,5,0,0,0,0,0,,,
+clones_test/ant-design-49da1102,clones_test/ant-design-49da1102/components/breadcrumb/demo/_semantic.tsx,2,0,0,0,0,0,0,2,2,3,7,0,0,0,0,0,,,
+clones_test/ant-design-49da1102,clones_test/ant-design-49da1102/components/breadcrumb/demo/component-token.tsx,0,0,0,0,0,0,0,0,1,4,11,0,0,0,0,0,,,
+clones_test/ant-design-49da1102,clones_test/ant-design-49da1102/components/alert/Alert.tsx,6,0,0,0,0,0,0,6,4,4,15,0,0,0,0,0,handleClose,e: React.MouseEvent<HTMLButtonElement>,
+clones_test/ant-design-49da1102,clones_test/ant-design-49da1102/components/alert/demo/_semantic.tsx,2,0,0,0,0,0,0,2,1,4,5,0,0,0,0,0,,,
+clones_test/ant-design-49da1102,clones_test/ant-design-49da1102/components/alert/demo/action.tsx,0,0,0,0,0,0,0,0,1,4,15,0,0,0,0,0,,,
+clones_test/ant-design-49da1102,clones_test/ant-design-49da1102/components/alert/demo/style-class.tsx,0,0,0,0,0,0,0,0,3,3,4,0,0,0,0,0,classNames,createStaticStyles(({ css }),
+clones_test/ant-design-49da1102,clones_test/ant-design-49da1102/components/alert/design/demo/action.tsx,2,0,0,0,0,0,0,2,1,6,32,0,0,0,0,0,,,
+clones_test/ant-design-49da1102,clones_test/ant-design-49da1102/components/alert/design/demo/type.tsx,2,0,0,0,0,0,0,2,1,3,17,0,0,0,0,0,,,
+clones_test/ant-design-49da1102,clones_test/ant-design-49da1102/components/result/serverError.tsx,0,0,0,0,0,0,0,0,1,3,63,0,0,0,0,0,,,
+clones_test/ant-design-49da1102,clones_test/ant-design-49da1102/components/result/unauthorized.tsx,0,0,0,0,0,0,0,0,1,3,55,0,0,0,0,0,,,
+clones_test/ant-design-49da1102,clones_test/ant-design-49da1102/components/result/noFound.tsx,0,0,0,0,0,0,0,0,1,3,55,0,0,0,0,0,,,
+clones_test/ant-design-49da1102,clones_test/ant-design-49da1102/components/result/demo/_semantic.tsx,2,0,0,0,0,0,0,2,1,3,4,0,0,0,0,0,,,
+clones_test/ant-design-49da1102,clones_test/ant-design-49da1102/components/result/demo/error.tsx,0,0,0,0,0,0,0,0,1,4,12,0,0,0,0,0,,,
+clones_test/ant-design-49da1102,clones_test/ant-design-49da1102/components/result/demo/component-token.tsx,0,0,0,0,0,0,0,0,1,3,4,0,0,0,0,0,,,
+clones_test/ant-design-49da1102,clones_test/ant-design-49da1102/components/result/demo/style-class.tsx,0,0,0,0,0,0,0,0,3,3,6,0,0,0,0,0,,,
+clones_test/material-ui-f6548a09,clones_test/material-ui-f6548a09/docs/data/joy/customization/right-to-left/RtlDemo.js,0,0,0,0,0,0,0,0,1,5,7,0,0,0,0,0,RtlDemo,,
+clones_test/material-ui-f6548a09,clones_test/material-ui-f6548a09/docs/data/joy/customization/right-to-left/RtlDemo.tsx,0,0,0,0,0,0,0,0,1,5,7,0,0,0,0,0,RtlDemo,,
+clones_test/material-ui-f6548a09,clones_test/material-ui-f6548a09/docs/data/joy/customization/right-to-left/RtlOptOut.tsx,0,0,0,0,0,0,0,0,1,4,6,0,0,0,0,0,RtlOptOut,,
+clones_test/material-ui-f6548a09,clones_test/material-ui-f6548a09/docs/data/joy/customization/right-to-left/RtlOptOut.js,0,0,0,0,0,0,0,0,1,4,6,0,0,0,0,0,RtlOptOut,,
+clones_test/material-ui-f6548a09,clones_test/material-ui-f6548a09/docs/data/joy/customization/creating-themed-components/StatSlots.js,0,0,0,0,0,0,0,0,5,3,6,0,0,0,0,0,StatSlots,,
+clones_test/material-ui-f6548a09,clones_test/material-ui-f6548a09/docs/data/joy/customization/theme-shadow/ShadowThemeViewer.js,2,0,0,0,0,0,0,2,2,7,28,0,0,0,0,0,ShadowThemeViewer,,
+clones_test/material-ui-f6548a09,clones_test/material-ui-f6548a09/docs/data/joy/customization/theme-shadow/ShadowThemeViewer.tsx,2,0,0,0,0,0,0,2,2,7,28,0,0,0,0,0,ShadowThemeViewer,,
+clones_test/material-ui-f6548a09,clones_test/material-ui-f6548a09/docs/data/joy/customization/default-theme-viewer/JoyDefaultTheme.js,2,0,0,0,0,0,0,2,1,3,3,0,0,0,0,0,JoyDefaultTheme,,
+clones_test/material-ui-f6548a09,clones_test/material-ui-f6548a09/docs/data/joy/customization/theme-typography/TypographyThemeViewer.tsx,0,0,0,0,0,0,0,0,4,8,33,0,0,0,0,0,TypographyThemeViewer,,
+clones_test/material-ui-f6548a09,clones_test/material-ui-f6548a09/docs/data/joy/customization/theme-typography/NewTypographyLevel.js,0,0,0,0,0,0,0,0,1,4,5,0,0,0,0,0,NewTypographyLevel,,
+clones_test/material-ui-f6548a09,clones_test/material-ui-f6548a09/docs/data/joy/customization/theme-typography/TypographyThemeViewer.js,0,0,0,0,0,0,0,0,4,8,33,0,0,0,0,0,TypographyThemeViewer,,
+clones_test/material-ui-f6548a09,clones_test/material-ui-f6548a09/docs/data/joy/customization/theme-typography/NewTypographyLevel.tsx,0,0,0,0,0,0,0,0,1,4,5,0,0,0,0,0,NewTypographyLevel,,
+clones_test/material-ui-f6548a09,clones_test/material-ui-f6548a09/docs/data/joy/customization/approaches/ButtonThemes.js,2,0,0,0,0,0,0,2,6,6,26,0,0,0,0,0,ButtonThemes,,
+clones_test/material-ui-f6548a09,clones_test/material-ui-f6548a09/docs/data/joy/customization/theme-colors/BootstrapVariantTokens.js,2,0,0,0,0,0,0,2,3,3,8,0,0,0,0,0,BootstrapVariantTokens,,
+clones_test/material-ui-f6548a09,clones_test/material-ui-f6548a09/docs/data/joy/customization/theme-colors/PaletteThemeViewer.tsx,2,0,0,0,0,0,0,2,3,9,29,0,0,0,0,0,PaletteThemeViewer,,
+clones_test/material-ui-f6548a09,clones_test/material-ui-f6548a09/docs/data/joy/customization/theme-colors/PaletteThemeViewer.js,2,0,0,0,0,0,0,2,3,9,29,0,0,0,0,0,PaletteThemeViewer,,
+clones_test/material-ui-f6548a09,clones_test/material-ui-f6548a09/docs/data/joy/customization/theme-colors/RemoveActiveTokens.js,2,0,0,0,0,0,0,2,1,3,3,0,0,0,0,0,RemoveActiveTokens,,"⚠️ If the value is `undefined`, it should be `undefined` for other color schemes as well."
+clones_test/material-ui-f6548a09,clones_test/material-ui-f6548a09/docs/data/joy/components/alert/AlertColors.tsx,0,0,0,0,0,0,0,0,1,4,14,0,0,0,0,0,AlertColors,,
+clones_test/material-ui-f6548a09,clones_test/material-ui-f6548a09/docs/data/joy/components/alert/AlertWithDangerState.tsx,0,0,0,0,0,0,0,0,1,5,19,0,0,0,0,0,AlertWithDangerState,,
+clones_test/material-ui-f6548a09,clones_test/material-ui-f6548a09/docs/data/joy/components/alert/AlertWithDangerState.js,0,0,0,0,0,0,0,0,1,5,19,0,0,0,0,0,AlertWithDangerState,,
+clones_test/material-ui-f6548a09,clones_test/material-ui-f6548a09/docs/data/joy/components/alert/AlertVariousStates.js,0,0,0,0,0,0,0,0,1,4,11,0,0,0,0,0,AlertVariousStates,,
+clones_test/material-ui-f6548a09,clones_test/material-ui-f6548a09/docs/data/joy/components/alert/AlertInvertedColors.js,0,0,0,0,0,0,0,0,1,5,20,0,0,0,0,0,AlertInvertedColors,,
+clones_test/material-ui-f6548a09,clones_test/material-ui-f6548a09/docs/data/joy/components/alert/AlertVariousStates.tsx,0,0,0,0,0,0,0,0,1,4,11,0,0,0,0,0,AlertVariousStates,,
+clones_test/material-ui-f6548a09,clones_test/material-ui-f6548a09/docs/data/joy/components/alert/AlertWithDecorators.tsx,0,0,0,0,0,0,0,0,1,4,8,0,0,0,0,0,AlertWithDecorators,,
+clones_test/material-ui-f6548a09,clones_test/material-ui-f6548a09/docs/data/joy/components/alert/AlertColors.js,0,0,0,0,0,0,0,0,1,4,14,0,0,0,0,0,AlertColors,,
+clones_test/material-ui-f6548a09,clones_test/material-ui-f6548a09/docs/data/joy/components/alert/AlertInvertedColors.tsx,0,0,0,0,0,0,0,0,1,5,20,0,0,0,0,0,AlertInvertedColors,,
+clones_test/material-ui-f6548a09,clones_test/material-ui-f6548a09/docs/data/joy/components/alert/AlertWithDecorators.js,0,0,0,0,0,0,0,0,1,4,8,0,0,0,0,0,AlertWithDecorators,,
+clones_test/material-ui-f6548a09,clones_test/material-ui-f6548a09/docs/data/joy/components/toggle-button-group/ToggleGroupSpacing.js,0,0,0,0,0,0,0,0,1,3,8,0,0,0,0,0,ToggleGroupSpacing,,
+clones_test/material-ui-f6548a09,clones_test/material-ui-f6548a09/docs/data/joy/components/toggle-button-group/ToggleGroup.tsx,0,0,0,0,0,0,0,0,1,3,8,0,0,0,0,0,ToggleGroup,,
+clones_test/material-ui-f6548a09,clones_test/material-ui-f6548a09/docs/data/joy/components/toggle-button-group/FigmaButtonGroup.tsx,0,0,0,0,0,0,0,0,1,3,9,0,0,0,0,0,FigmaButtonGroup,,
+clones_test/material-ui-f6548a09,clones_test/material-ui-f6548a09/docs/data/joy/components/toggle-button-group/ToggleGroupToolbar.tsx,0,0,0,0,0,0,0,0,1,5,26,0,0,0,0,0,ToggleGroupToolbar,,
+clones_test/material-ui-f6548a09,clones_test/material-ui-f6548a09/docs/data/joy/components/toggle-button-group/ToggleGroup.js,0,0,0,0,0,0,0,0,1,3,8,0,0,0,0,0,ToggleGroup,,
+clones_test/material-ui-f6548a09,clones_test/material-ui-f6548a09/docs/data/joy/components/toggle-button-group/ToggleGroupSpacing.tsx,0,0,0,0,0,0,0,0,1,3,8,0,0,0,0,0,ToggleGroupSpacing,,
+clones_test/material-ui-f6548a09,clones_test/material-ui-f6548a09/docs/data/joy/components/toggle-button-group/ToggleButtons.js,0,0,0,0,0,0,0,0,1,3,4,0,0,0,0,0,ToggleButtons,,
+clones_test/material-ui-f6548a09,clones_test/material-ui-f6548a09/docs/data/joy/components/toggle-button-group/ToggleGroupToolbar.js,0,0,0,0,0,0,0,0,1,5,26,0,0,0,0,0,ToggleGroupToolbar,,
+clones_test/material-ui-f6548a09,clones_test/material-ui-f6548a09/docs/data/joy/components/toggle-button-group/ToggleGroupColors.js,0,0,0,0,0,0,0,0,1,4,24,0,0,0,0,0,ToggleGroupColors,,
+clones_test/material-ui-f6548a09,clones_test/material-ui-f6548a09/docs/data/joy/components/toggle-button-group/ExclusiveSelection.tsx,0,0,0,0,0,0,0,0,1,3,8,0,0,0,0,0,ExclusiveSelection,,
+clones_test/material-ui-f6548a09,clones_test/material-ui-f6548a09/docs/data/joy/components/toggle-button-group/ToggleButtons.tsx,0,0,0,0,0,0,0,0,1,3,4,0,0,0,0,0,ToggleButtons,,
+clones_test/material-ui-f6548a09,clones_test/material-ui-f6548a09/docs/data/joy/components/toggle-button-group/ToggleGroupColors.tsx,0,0,0,0,0,0,0,0,1,4,24,0,0,0,0,0,ToggleGroupColors,,
+clones_test/material-ui-f6548a09,clones_test/material-ui-f6548a09/docs/data/joy/components/toggle-button-group/ToggleGroupUsage.js,0,0,0,0,0,0,0,0,1,5,8,0,0,0,0,0,ToggleGroupUsage,,
+clones_test/material-ui-f6548a09,clones_test/material-ui-f6548a09/docs/data/joy/components/toggle-button-group/FigmaButtonGroup.js,0,0,0,0,0,0,0,0,1,3,9,0,0,0,0,0,FigmaButtonGroup,,
+clones_test/material-ui-f6548a09,clones_test/material-ui-f6548a09/docs/data/joy/components/toggle-button-group/ExclusiveSelection.js,0,0,0,0,0,0,0,0,1,3,8,0,0,0,0,0,ExclusiveSelection,,
+clones_test/material-ui-f6548a09,clones_test/material-ui-f6548a09/docs/data/joy/components/menu/IconButtonMenu.js,0,0,0,0,0,0,0,0,1,3,7,0,0,0,0,0,IconButtonMenu,,
+clones_test/material-ui-f6548a09,clones_test/material-ui-f6548a09/docs/data/joy/components/menu/AppsMenu.js,0,0,0,0,0,0,0,0,1,5,19,0,0,0,0,0,AppsMenu,,
+clones_test/material-ui-f6548a09,clones_test/material-ui-f6548a09/docs/data/joy/components/menu/MenuUsage.js,0,0,0,0,0,0,0,0,1,5,9,0,0,0,0,0,MenuUsage,,
+clones_test/material-ui-f6548a09,clones_test/material-ui-f6548a09/docs/data/joy/components/menu/GroupMenu.js,0,0,0,0,0,0,0,0,1,7,12,0,0,0,0,0,GroupMenu,,
+clones_test/material-ui-f6548a09,clones_test/material-ui-f6548a09/docs/data/joy/components/menu/MenuIconSideNavExample.tsx,0,0,0,0,0,0,0,0,10,6,25,0,0,0,0,0,MenuIconSideNavExample,,
+clones_test/material-ui-f6548a09,clones_test/material-ui-f6548a09/docs/data/joy/components/menu/MenuListComposition.js,0,0,0,0,0,0,0,0,1,5,9,0,0,0,0,0,MenuListComposition,,
+clones_test/material-ui-f6548a09,clones_test/material-ui-f6548a09/docs/data/joy/components/menu/ControlledDropdown.js,0,0,0,0,0,0,0,0,1,3,6,0,0,0,0,0,ControlledDropdown,,
+clones_test/material-ui-f6548a09,clones_test/material-ui-f6548a09/docs/data/joy/components/menu/GroupMenu.tsx,0,0,0,0,0,0,0,0,1,7,12,0,0,0,0,0,GroupMenu,,
+clones_test/react-2cf58dcb,clones_test/react-2cf58dcb/packages/react-devtools-shell/src/e2e-apps/ListApp.js,4,2,0,0,0,0,0,2,3,3,7,0,0,0,0,0,App,,
+clones_test/react-2cf58dcb,clones_test/react-2cf58dcb/packages/react-devtools-shell/src/e2e-apps/ListAppLegacy.js,0,0,0,0,0,0,0,0,5,3,7,0,0,0,0,0,App,,
+clones_test/react-2cf58dcb,clones_test/react-2cf58dcb/packages/react-devtools-shell/src/perf-regression/apps/LargeSubtree.js,0,0,0,0,0,0,0,0,2,3,7,0,0,0,0,0,LargeSubtree,,
+clones_test/react-2cf58dcb,clones_test/react-2cf58dcb/packages/react-devtools-shell/src/app/ToDoList/List.js,10,4,0,6,0,0,0,0,1,3,7,0,0,0,0,0,List,props: Props,
+clones_test/react-2cf58dcb,clones_test/react-2cf58dcb/packages/react-devtools-shell/src/app/ToDoList/ListItem.js,3,0,0,3,0,0,0,0,5,3,4,0,0,0,0,0,ListItem,{item;removeItem;toggleItem}: Props,
+clones_test/react-2cf58dcb,clones_test/react-2cf58dcb/packages/react-devtools-shell/src/app/TraceUpdatesTest/index.js,4,2,0,0,0,0,0,2,4,4,27,0,0,0,0,0,TraceUpdatesTest,,
+clones_test/react-2cf58dcb,clones_test/react-2cf58dcb/packages/react-devtools-shell/src/app/Iframe/index.js,0,0,0,0,0,0,0,0,3,4,10,0,0,0,0,0,Iframe,,
+clones_test/react-2cf58dcb,clones_test/react-2cf58dcb/packages/react-devtools-shell/src/app/SuspenseTree/index.js,9,4,0,0,0,0,2,3,20,5,97,0,0,0,0,0,SuspenseTree,,
+clones_test/react-2cf58dcb,clones_test/react-2cf58dcb/packages/react-devtools-shell/src/app/Toggle/index.js,2,2,0,0,0,0,0,0,2,4,7,0,0,0,0,0,Toggle,,
+clones_test/react-2cf58dcb,clones_test/react-2cf58dcb/packages/react-devtools-shell/src/app/ReactNativeWeb/index.js,2,2,0,0,0,0,0,0,1,3,7,0,0,0,0,0,ReactNativeWeb,,
+clones_test/react-2cf58dcb,clones_test/react-2cf58dcb/packages/react-devtools-shell/src/app/Hydration/index.js,21,5,0,0,0,0,0,16,13,4,21,0,0,0,0,0,Hydration,,
+clones_test/react-2cf58dcb,clones_test/react-2cf58dcb/packages/react-devtools-shell/src/app/PartiallyStrictApp/index.js,0,0,0,0,0,0,0,0,4,3,6,0,0,0,0,0,PartiallyStrictApp,,
+clones_test/react-2cf58dcb,clones_test/react-2cf58dcb/packages/react-devtools-shell/src/app/ElementTypes/index.js,0,0,0,0,0,0,0,0,7,5,17,0,0,0,0,0,ElementTypes,,
+clones_test/react-2cf58dcb,clones_test/react-2cf58dcb/packages/react-devtools-shell/src/app/InspectableElements/CustomHooks.js,48,6,2,2,0,3,0,35,28,3,24,0,0,0,0,0,CustomHooks,,
+clones_test/react-2cf58dcb,clones_test/react-2cf58dcb/packages/react-devtools-shell/src/app/InspectableElements/Contexts.js,8,4,0,0,0,4,0,0,16,4,45,0,0,0,0,0,Contexts,,
+clones_test/react-2cf58dcb,clones_test/react-2cf58dcb/packages/react-devtools-shell/src/app/ErrorBoundaries/index.js,0,0,0,0,0,0,0,0,2,4,11,0,0,0,0,0,ErrorBoundaries,,
+clones_test/react-2cf58dcb,clones_test/react-2cf58dcb/packages/react-devtools-shell/src/app/Segments/index.js,0,0,0,0,0,0,0,0,1,9,32,0,0,0,0,0,Segments,,
+clones_test/react-2cf58dcb,clones_test/react-2cf58dcb/packages/react-devtools-shell/src/app/EditableProps/index.js,17,4,2,4,0,0,2,5,6,3,30,0,0,0,0,0,EditableProps,,
+clones_test/react-2cf58dcb,clones_test/react-2cf58dcb/packages/react-devtools-shared/src/devtools/views/UnsupportedBridgeProtocolDialog.js,5,0,2,0,0,3,0,0,4,4,22,0,0,0,0,0,UnsupportedBridgeProtocolDialog,_: {},
+clones_test/react-2cf58dcb,clones_test/react-2cf58dcb/packages/react-devtools-shared/src/devtools/views/TabBar.js,3,0,0,3,0,0,0,0,8,3,7,0,0,0,0,0,TabBar,"{
+  currentTab;disabled;id: groupName;selectTab;tabs;type;}: Props",
+clones_test/react-2cf58dcb,clones_test/react-2cf58dcb/packages/react-devtools-shared/src/devtools/views/ReactLogo.js,0,0,0,0,0,0,0,0,1,3,6,0,0,0,0,0,ReactLogo,{className}: Props,
+clones_test/react-2cf58dcb,clones_test/react-2cf58dcb/packages/react-devtools-shared/src/devtools/views/UnsupportedVersionDialog.js,7,2,2,0,0,3,0,0,2,5,8,0,0,0,0,0,UnsupportedVersionDialog,_: {},
+clones_test/react-2cf58dcb,clones_test/react-2cf58dcb/packages/react-devtools-shared/src/devtools/views/ModalDialog.js,12,0,0,2,2,2,2,4,3,3,7,0,0,0,0,0,dialogReducer,state: State;action: Action,
+clones_test/react-2cf58dcb,clones_test/react-2cf58dcb/packages/react-devtools-shared/src/devtools/views/DevTools.js,15,0,3,2,4,0,0,6,27,18,32,0,0,0,1,0,DevTools,"{
+  bridge;browserTheme;canViewElementSourceFunction;componentsPortalContainer;editorPortalContainer;inspectedElementPortalContainer;profilerPortalContainer;suspensePortalContainer;currentSelectedSource;defaultTab;enabledInspectedElementContextMenu;fetchFileWithCaching;hookNamesModuleLoaderFunction;overrideTab;showTabBar;store;warnIfLegacyBackendDetected;warnIfUnsupportedVersionDetected;viewAttributeSourceFunction;viewElementSourceFunction;readOnly;hideSettings;hideToggleErrorAction;hideToggleSuspenseAction;hideLogAction;hideViewSourceAction;}: Props",
+clones_test/react-2cf58dcb,clones_test/react-2cf58dcb/packages/react-devtools-shared/src/devtools/views/SearchInput.js,4,0,2,0,0,0,0,2,12,5,17,0,0,0,0,0,SearchInput,"{
+  goToNextResult;goToPreviousResult;placeholder;search;searchIndex;searchResultsCount;searchText;testName;}: Props",
+clones_test/react-2cf58dcb,clones_test/react-2cf58dcb/packages/react-devtools-shared/src/devtools/views/Settings/SettingsModal.js,18,0,2,2,2,4,0,8,2,5,13,0,0,0,0,0,SettingsModal,,
+clones_test/react-2cf58dcb,clones_test/react-2cf58dcb/packages/react-devtools-shared/src/devtools/views/Settings/GeneralSettings.js,7,0,0,0,2,3,0,2,5,6,33,0,0,0,0,0,GeneralSettings,_: {},
+clones_test/react-2cf58dcb,clones_test/react-2cf58dcb/packages/react-devtools-shared/src/devtools/views/Settings/ProfilerSettings.js,13,0,0,4,2,3,0,4,1,4,8,0,0,0,0,0,ProfilerSettings,_: {},
+clones_test/react-2cf58dcb,clones_test/react-2cf58dcb/packages/react-devtools-shared/src/devtools/views/Settings/ComponentsSettings.js,25,2,3,10,3,3,0,4,13,7,51,0,0,0,0,0,ComponentsSettings,"environmentNames;}: {
+  environmentNames: Promise<Array<string>>",
+clones_test/react-2cf58dcb,clones_test/react-2cf58dcb/packages/react-devtools-shared/src/devtools/views/Settings/DebuggingSettings.js,9,6,3,0,0,0,0,0,3,4,18,0,0,0,0,0,DebuggingSettings,"{
+  hookSettings;store;}: Props",
+clones_test/react-2cf58dcb,clones_test/react-2cf58dcb/packages/react-devtools-shared/src/devtools/views/Settings/CodeEditorOptions.js,3,0,0,0,0,0,0,3,3,3,5,0,0,0,0,0,CodeEditorOptions,"environmentNames;}: {
+  environmentNames: Promise<Array<string>>",
+clones_test/react-2cf58dcb,clones_test/react-2cf58dcb/packages/react-devtools-shared/src/devtools/views/SuspenseTab/SuspenseBreadcrumbs.js,22,2,0,0,0,11,0,9,12,5,25,0,0,0,0,0,SuspenseBreadcrumbs,,
+clones_test/react-2cf58dcb,clones_test/react-2cf58dcb/packages/react-devtools-shared/src/devtools/views/SuspenseTab/SuspenseScrubber.js,4,0,0,0,0,2,0,2,22,3,5,0,0,6,0,0,SuspenseScrubber,"{
+  min;max;timeline;value;highlight;onBlur;onChange;onFocus;onHoverSegment;onHoverLeave;}: {
+  min: number;max: number;timeline: $ReadOnlyArray<SuspenseTimelineStep>;value: number;highlight: number;onBlur?: (",
+clones_test/react-2cf58dcb,clones_test/react-2cf58dcb/packages/react-devtools-shared/src/devtools/views/SuspenseTab/SuspenseTimeline.js,12,0,4,0,0,6,0,2,2,3,13,0,0,0,0,0,SuspenseTimeline,,
+clones_test/react-2cf58dcb,clones_test/react-2cf58dcb/packages/react-devtools-shared/src/devtools/views/SuspenseTab/SuspenseRects.js,22,0,0,0,3,15,0,4,7,4,17,0,0,0,0,0,ScaledRect,"className;rect;visible;suspended;selected;hovered;adjust;...props
+}: {
+  className: string;rect: Rect;visible: boolean;suspended: boolean;selected?: boolean;hovered?: boolean;adjust?: boolean;...",
+clones_test/react-2cf58dcb,clones_test/react-2cf58dcb/packages/react-devtools-shared/src/devtools/views/SuspenseTab/ActivityList.js,17,0,0,0,2,7,0,8,7,3,5,0,0,0,0,0,ActivityList,"activities;}: {
+  activities: $ReadOnlyArray<{id: Element['id'];depth: number}>",
+clones_test/react-2cf58dcb,clones_test/react-2cf58dcb/packages/react-devtools-shared/src/devtools/views/SuspenseTab/SuspenseTab.js,24,0,4,0,0,8,2,10,24,7,38,0,0,0,0,0,ToggleUniqueSuspenders,,
+clones_test/react-2cf58dcb,clones_test/react-2cf58dcb/packages/react-devtools-shared/src/devtools/views/Profiler/SnapshotCommitList.js,14,3,3,0,4,0,0,4,23,6,25,0,0,0,0,0,SnapshotCommitList,"{
+  commitData;commitTimes;filteredCommitIndices;selectedCommitIndex;selectedFilteredCommitIndex;selectCommitIndex;totalDurations;}: Props",
+clones_test/react-2cf58dcb,clones_test/react-2cf58dcb/packages/react-devtools-shared/src/devtools/views/Profiler/RecordingInProgress.js,0,0,0,0,0,0,0,0,1,3,4,0,0,0,0,0,RecordingInProgress,,
+clones_test/react-2cf58dcb,clones_test/react-2cf58dcb/packages/react-devtools-shared/src/devtools/views/Profiler/CommitFlamegraph.js,18,2,0,4,5,5,0,2,10,4,11,0,0,0,0,0,CommitFlamegraphAutoSizer,_: {},
+clones_test/react-2cf58dcb,clones_test/react-2cf58dcb/packages/react-devtools-shared/src/devtools/views/Profiler/SidebarSelectedFiberInfo.js,7,0,2,0,0,3,0,2,1,4,12,0,0,0,0,0,SidebarSelectedFiberInfo,,
+clones_test/react-2cf58dcb,clones_test/react-2cf58dcb/packages/react-devtools-shared/src/devtools/views/Profiler/HoveredFiberInfo.js,3,0,0,0,0,3,0,0,1,4,11,0,0,0,0,0,HoveredFiberInfo,{fiberData}: Props,
+clones_test/react-2cf58dcb,clones_test/react-2cf58dcb/packages/react-devtools-shared/src/devtools/views/Profiler/CommitRanked.js,17,2,0,4,4,5,0,2,7,3,7,0,0,0,0,0,CommitRankedAutoSizer,_: {},
+clones_test/react-2cf58dcb,clones_test/react-2cf58dcb/packages/react-devtools-shared/src/devtools/views/Profiler/ProfilingImportExportButtons.js,11,0,0,3,0,5,0,3,1,3,11,0,0,0,0,0,ProfilingImportExportButtons,,
+clones_test/react-2cf58dcb,clones_test/react-2cf58dcb/packages/react-devtools-shared/src/devtools/views/Profiler/SidebarCommitInfo.js,3,0,0,0,0,3,0,0,1,7,29,0,0,0,0,0,SidebarCommitInfo,_: Props,
+clones_test/react-2cf58dcb,clones_test/react-2cf58dcb/packages/react-devtools-shared/src/devtools/views/Profiler/SidebarEventInfo.js,4,0,0,0,0,2,0,2,4,7,19,0,0,0,0,0,SidebarEventInfo,_: Props,
+clones_test/react-2cf58dcb,clones_test/react-2cf58dcb/packages/react-devtools-shared/src/devtools/views/Profiler/Profiler.js,10,0,2,0,0,4,0,4,2,6,35,0,0,0,0,0,Profiler,_: {},
+clones_test/react-2cf58dcb,clones_test/react-2cf58dcb/packages/react-devtools-shared/src/devtools/views/Profiler/ChartNode.js,0,0,0,0,0,0,0,0,17,3,4,0,0,4,1,0,ChartNode,"{
+  color;height;isDimmed;label;onClick;onMouseEnter;onMouseLeave;onDoubleClick;textStyle;width;x;y;}: Props",
+clones_test/react-2cf58dcb,clones_test/react-2cf58dcb/packages/react-devtools-shared/src/devtools/views/Profiler/SnapshotSelector.js,3,0,0,0,0,3,0,0,1,3,11,0,0,0,0,0,SnapshotSelector,_: Props,
+clones_test/react-2cf58dcb,clones_test/react-2cf58dcb/packages/react-devtools-shared/src/devtools/views/Profiler/NoProfilingData.js,0,0,0,0,0,0,0,0,1,3,6,0,0,0,0,0,NoProfilingData,,
+clones_test/react-dates-b4cc70c1,clones_test/react-dates-b4cc70c1/src/components/SingleDatePicker.jsx,0,0,0,0,0,0,0,0,6,3,9,0,0,3,4,0,defaultProps,"{
+  // required props for a functional interactive SingleDatePicker
+  date: null;focused: false;minDate: null;maxDate: null;// input related props
+  id: 'date';placeholder: 'Date';ariaLabel: undefined;autoComplete: 'off';titleText: undefined;disabled: false;required: false;readOnly: false;screenReaderInputMessage: '';showClearDate: false;showDefaultInputIcon: false;inputIconPosition: ICON_BEFORE_POSITION;customInputIcon: null;customCloseIcon: null;noBorder: false;block: false;small: false;regular: false;verticalSpacing: DEFAULT_VERTICAL_SPACING;keepFocusOnInput: false;// calendar presentation and interaction related props
+  orientation: HORIZONTAL_ORIENTATION;anchorDirection: ANCHOR_LEFT;openDirection: OPEN_DOWN;horizontalMargin: 0;withPortal: false;withFullScreenPortal: false;appendToBody: false;disableScroll: false;initialVisibleMonth: null;firstDayOfWeek: null;numberOfMonths: 2;keepOpenOnDateSelect: false;reopenPickerOnClearDate: false;renderCalendarInfo: null;calendarInfoPosition: INFO_POSITION_BOTTOM;hideKeyboardShortcutsPanel: false;daySize: DAY_SIZE;isRTL: false;verticalHeight: null;transitionDuration: undefined;horizontalMonthPadding: 13;// navigation related props
+  dayPickerNavigationInlineStyles: null;navPosition: NAV_POSITION_TOP;navPrev: null;navNext: null;renderNavPrevButton: null;renderNavNextButton: null;onPrevMonthClick() {};onNextMonthClick() {};onClose() {};// month presentation and interaction related props
+  renderMonthText: null;renderWeekHeaderElement: null;// day presentation and interaction related props
+  renderCalendarDay: undefined;renderDayContents: null;renderMonthElement: null;enableOutsideDays: false;isDayBlocked: ()",
+clones_test/react-dates-b4cc70c1,clones_test/react-dates-b4cc70c1/src/components/DayPickerKeyboardShortcuts.jsx,0,0,0,0,0,0,0,0,9,4,9,0,0,0,0,0,getKeyboardShortcuts,phrases,
+clones_test/react-dates-b4cc70c1,clones_test/react-dates-b4cc70c1/src/components/CalendarMonthGrid.jsx,0,0,0,0,0,0,0,0,11,3,3,0,0,0,0,0,getMonths,initialMonth;numberOfMonths;withoutTransitionMonths,
+clones_test/react-dates-b4cc70c1,clones_test/react-dates-b4cc70c1/src/components/DayPicker.jsx,0,0,0,0,0,0,0,0,19,6,14,0,0,0,0,0,onKeyboardShortcutsPanelClose,,
+clones_test/react-dates-b4cc70c1,clones_test/react-dates-b4cc70c1/src/components/DateInput.jsx,0,0,0,0,0,0,0,0,9,3,6,0,0,0,0,0,,,
+clones_test/react-dates-b4cc70c1,clones_test/react-dates-b4cc70c1/src/components/CalendarMonth.jsx,0,0,0,0,0,0,0,0,6,4,7,0,0,5,1,0,defaultProps,"{
+  month: moment();horizontalMonthPadding: 13;isVisible: true;enableOutsideDays: false;modifiers: {};orientation: HORIZONTAL_ORIENTATION;daySize: DAY_SIZE;onDayClick() {};onDayMouseEnter() {};onDayMouseLeave() {};onMonthSelect() {};onYearSelect() {};renderMonthText: null;renderCalendarDay: (props)",
+clones_test/react-dates-b4cc70c1,clones_test/react-dates-b4cc70c1/src/components/KeyboardShortcutRow.jsx,0,0,0,0,0,0,0,0,8,3,4,0,0,0,0,0,KeyboardShortcutRow,unicode;label;action;block;css;styles,
+clones_test/polaris-react-1bcdbd7c,clones_test/polaris-react-1bcdbd7c/polaris-react/.storybook/preview.jsx,4,0,2,0,0,0,0,2,12,3,13,0,0,0,0,0,StrictModeDecorator,Story;context,
+clones_test/polaris-react-1bcdbd7c,clones_test/polaris-react-1bcdbd7c/polaris-react/.storybook/addons/global-controls-panel/manager.jsx,3,0,0,0,0,0,0,3,4,4,13,0,0,0,0,0,GridPanel,props,
+clones_test/polaris-react-1bcdbd7c,clones_test/polaris-react-1bcdbd7c/polaris-react/src/components/LegacyCard/LegacyCard.tsx,10,0,2,0,0,0,0,8,6,3,11,0,0,0,0,0,LegacyCard,"{
+  children;hideOnPrint;title;subdued;sectioned;actions;primaryFooterAction;secondaryFooterActions;secondaryFooterActionsDisclosureText;footerActionAlignment;}: LegacyCardProps",
+clones_test/polaris-react-1bcdbd7c,clones_test/polaris-react-1bcdbd7c/polaris-react/src/components/LegacyCard/LegacyCard.stories.tsx,2,2,0,0,0,0,0,0,4,6,186,0,0,0,0,0,DynamicChildren,,
+clones_test/polaris-react-1bcdbd7c,clones_test/polaris-react-1bcdbd7c/polaris-react/src/components/LegacyCard/components/Section/Section.tsx,0,0,0,0,0,0,0,0,8,3,6,0,0,0,0,0,Section,"{
+  children;title;subdued;flush;fullWidth;actions;hideOnPrint;}: LegacyCardSectionProps",
+clones_test/polaris-react-1bcdbd7c,clones_test/polaris-react-1bcdbd7c/polaris-react/src/components/DataTable/DataTable.stories.tsx,6,3,0,3,0,0,0,0,8,3,64,0,0,0,0,0,sortCurrency,rows;index;direction,
+clones_test/polaris-react-1bcdbd7c,clones_test/polaris-react-1bcdbd7c/polaris-react/src/components/DataTable/DataTable.tsx,3,0,0,0,0,0,0,3,50,7,36,0,0,0,0,0,DataTable,props: DataTableProps,
+clones_test/polaris-react-1bcdbd7c,clones_test/polaris-react-1bcdbd7c/polaris-react/src/components/TopBar/TopBar.stories.tsx,11,5,0,6,0,0,0,0,8,3,18,0,0,0,0,0,TopBarWrapper,"userActions;name;detail;initials;customActivator;message;}: {
+  userActions?: UserMenuProps['actions'];
+  name?: UserMenuProps['name'];
+  detail?: UserMenuProps['detail'];
+  initials?: UserMenuProps['initials'];
+  customActivator?: UserMenuProps['customActivator'];
+  message?: UserMenuProps['message'];",
+clones_test/polaris-react-1bcdbd7c,clones_test/polaris-react-1bcdbd7c/polaris-react/src/components/TopBar/TopBar.tsx,6,0,0,0,0,0,0,6,0,4,15,0,0,2,0,0,TopBar,"{
+  showNavigationToggle;userMenu;searchResults;searchField;secondaryMenu;searchResultsVisible;searchResultsOverlayVisible;onNavigationToggle;onSearchResultsDismiss;contextControl;logoSuffix;}: TopBarProps",
+clones_test/polaris-react-1bcdbd7c,clones_test/polaris-react-1bcdbd7c/polaris-react/src/components/TopBar/components/SearchField/SearchField.tsx,15,2,2,5,0,0,0,6,11,3,9,0,0,4,1,0,SearchField,"{
+  value;focused;active;placeholder;onChange;onFocus;onBlur;onCancel;showFocusBorder;}: SearchFieldProps",
+clones_test/polaris-react-1bcdbd7c,clones_test/polaris-react-1bcdbd7c/polaris-react/src/components/TopBar/components/UserMenu/UserMenu.tsx,0,0,0,0,0,0,0,0,12,4,8,0,0,1,0,0,UserMenu,"{
+  name;detail;avatar;initials;actions;message;onToggle;open;accessibilityLabel;customActivator;customWidth;}: UserMenuProps",
+clones_test/polaris-react-1bcdbd7c,clones_test/polaris-react-1bcdbd7c/polaris-react/src/components/TopBar/components/Menu/Menu.tsx,0,0,0,0,0,0,0,0,1,4,7,0,0,0,0,0,Menu,props: MenuProps,
+clones_test/polaris-react-1bcdbd7c,clones_test/polaris-react-1bcdbd7c/polaris-react/src/components/TopBar/components/Menu/components/Message/Message.tsx,0,0,0,0,0,0,0,0,6,5,9,0,0,0,0,0,Message,"{
+  title;description;action;link;badge;}: MessageProps",
+clones_test/polaris-react-1bcdbd7c,clones_test/polaris-react-1bcdbd7c/polaris-react/src/components/TopBar/components/Search/Search.tsx,0,0,0,0,0,0,0,0,5,4,5,0,0,1,0,1,Search,"{
+  visible;children;onDismiss;overlayVisible;}: SearchProps",
+clones_test/polaris-react-1bcdbd7c,clones_test/polaris-react-1bcdbd7c/polaris-react/src/components/ResourceItem/ResourceItem.stories.tsx,4,4,0,0,0,0,0,0,7,5,49,0,0,0,0,0,,,
+clones_test/polaris-react-1bcdbd7c,clones_test/polaris-react-1bcdbd7c/polaris-react/src/components/ResourceItem/ResourceItem.tsx,9,0,0,0,0,2,0,7,21,5,25,0,0,0,0,0,noop,,
+clones_test/polaris-react-1bcdbd7c,clones_test/polaris-react-1bcdbd7c/polaris-react/src/components/OptionList/OptionList.stories.tsx,16,8,0,8,0,0,0,0,16,4,40,0,0,0,0,0,handleChange,useCallback((value),
+clones_test/polaris-react-1bcdbd7c,clones_test/polaris-react-1bcdbd7c/polaris-react/src/components/OptionList/components/Option/Option.tsx,6,0,0,4,0,0,0,2,17,4,12,0,0,3,0,0,Option,"{
+  label;value;id;select;active;allowMultiple;disabled;media;onClick;section;index;verticalAlign;onPointerEnter;onFocus;}: OptionProps",
+clones_test/polaris-react-1bcdbd7c,clones_test/polaris-react-1bcdbd7c/polaris-react/src/components/LegacyTabs/LegacyTabs.tsx,3,0,0,0,0,0,0,3,19,6,17,0,0,0,0,0,noop,,
+clones_test/polaris-react-1bcdbd7c,clones_test/polaris-react-1bcdbd7c/polaris-react/src/components/LegacyTabs/LegacyTabs.stories.tsx,12,6,0,6,0,0,0,0,5,4,38,0,0,0,0,0,handleTabChange,"useCallback(
+      (selectedTabIndex)",
+clones_test/polaris-react-1bcdbd7c,clones_test/polaris-react-1bcdbd7c/polaris-react/src/components/LegacyTabs/components/Tab/Tab.tsx,6,0,2,0,0,0,0,4,12,3,7,0,0,1,0,1,Tab,"{
+  id;focused;siblingTabHasFocus;children;onClick;selected;url;panelID;measuring;accessibilityLabel;}: TabProps",
+clones_test/polaris-react-1bcdbd7c,clones_test/polaris-react-1bcdbd7c/polaris-react/src/components/ThemeProvider/ThemeProvider.stories.tsx,6,3,0,3,0,0,0,0,2,5,14,0,0,0,0,0,toggleIsHeartMenuOpen,"useCallback(
+      ()",
+clones_test/polaris-react-1bcdbd7c,clones_test/polaris-react-1bcdbd7c/polaris-react/src/components/ThemeProvider/ThemeProvider.tsx,0,0,0,0,0,0,0,0,2,3,3,0,0,0,0,0,ThemeProvider,props: ThemeProviderProps,
+clones_test/polaris-react-1bcdbd7c,clones_test/polaris-react-1bcdbd7c/polaris-react/src/components/Icon/Icon.stories.tsx,0,0,0,0,0,0,0,0,2,3,63,0,0,0,0,0,iconContent,,
+clones_test/polaris-react-1bcdbd7c,clones_test/polaris-react-1bcdbd7c/polaris-react/src/components/Choice/Choice.tsx,0,0,0,0,0,0,0,0,18,3,10,0,0,1,0,1,Choice,"{
+  id;label;disabled;error;children;labelHidden;helpText;onClick;labelClassName;fill;bleed;bleedBlockStart;bleedBlockEnd;bleedInlineStart;bleedInlineEnd;tone;}: ChoiceProps",
+clones_test/polaris-react-1bcdbd7c,clones_test/polaris-react-1bcdbd7c/polaris-react/src/components/ResourceList/ResourceList.tsx,30,6,5,3,5,0,2,9,34,4,29,0,0,0,0,0,isBreakpointsXS,,
+clones_test/polaris-react-1bcdbd7c,clones_test/polaris-react-1bcdbd7c/polaris-react/src/components/ResourceList/ResourceList.stories.tsx,35,20,0,15,0,0,0,0,50,5,159,0,0,0,0,0,renderItem,item,
+clones_test/polaris-react-1bcdbd7c,clones_test/polaris-react-1bcdbd7c/polaris-react/src/components/MediaCard/MediaCard.tsx,4,0,0,0,0,0,0,4,10,6,21,0,0,1,0,1,MediaCard,"{
+  title;children;primaryAction;secondaryAction;description;popoverActions;portrait;size;onDismiss;}: MediaCardProps",
+clones_test/polaris-react-1bcdbd7c,clones_test/polaris-react-1bcdbd7c/polaris-react/src/components/CheckableButton/CheckableButton.tsx,4,0,0,0,0,0,0,4,2,3,5,0,0,1,0,0,CheckableButton,"{
+    accessibilityLabel;label;onToggleAll;selected;disabled;ariaLive;}: CheckableButtonProps;ref",
+clones_test/polaris-react-1bcdbd7c,clones_test/polaris-react-1bcdbd7c/polaris-react/src/components/Navigation/Navigation.stories.tsx,0,0,0,0,0,0,0,0,50,3,53,0,0,0,0,0,,,
+clones_test/polaris-react-1bcdbd7c,clones_test/polaris-react-1bcdbd7c/polaris-react/src/components/Navigation/Navigation.tsx,6,0,0,0,2,0,0,4,1,4,8,0,0,1,0,0,Navigation,"{
+  children;contextControl;location;onDismiss;ariaLabelledBy;logoSuffix;}: NavigationProps",
+clones_test/polaris-react-1bcdbd7c,clones_test/polaris-react-1bcdbd7c/polaris-react/src/components/Navigation/components/Section/Section.tsx,12,2,2,0,0,0,0,8,7,6,16,0,0,0,0,0,Section,"{
+  title;fill;action;items;rollup;separator;}: SectionProps",
+clones_test/polaris-react-1bcdbd7c,clones_test/polaris-react-1bcdbd7c/polaris-react/src/components/Navigation/components/Item/Item.tsx,16,2,2,0,0,2,0,10,50,4,30,0,0,4,2,0,Item,"{
+  url;icon: baseIcon;matchedItemIcon;label;subNavigationItems;secondaryAction;secondaryActions;displayActionsOnHover;disabled;onClick;accessibilityLabel;selected: selectedOverride;badge;new: isNew;matches;exactMatch;matchPaths;excludePaths;external;onToggleExpandedState;expanded;shouldResizeIcon;truncateText;showVerticalLine;showVerticalHoverPointer;level;onMouseEnter;onMouseLeave;}: ItemProps",
+clones_test/polaris-react-1bcdbd7c,clones_test/polaris-react-1bcdbd7c/polaris-react/src/components/Navigation/components/Item/components/SecondaryNavigation/SecondaryNavigation.tsx,6,2,0,0,0,2,0,2,8,4,4,0,0,0,1,0,SecondaryNavigation,"{
+  ItemComponent;icon;longestMatch;subNavigationItems;showExpanded;truncateText;secondaryNavigationId;}: SecondaryNavigationProps",
+clones_test/polaris-react-1bcdbd7c,clones_test/polaris-react-1bcdbd7c/polaris-react/src/components/FormLayout/FormLayout.stories.tsx,0,0,0,0,0,0,0,0,18,6,36,0,0,0,0,0,,,
+clones_test/polaris-react-1bcdbd7c,clones_test/polaris-react-1bcdbd7c/polaris-react/src/components/Listbox/Listbox.tsx,38,5,5,17,2,0,0,9,8,4,10,0,0,2,0,0,Listbox,"{
+  children;autoSelection;enableKeyboardControl;accessibilityLabel;customListId;onSelect;onActiveOptionChange;}: ListboxProps",
+clones_test/polaris-react-1bcdbd7c,clones_test/polaris-react-1bcdbd7c/polaris-react/src/components/Listbox/Listbox.stories.tsx,10,10,0,0,0,0,0,0,19,6,69,0,0,0,0,0,handleSegmentSelect,segmentIndex: string,
+clones_test/polaris-react-1bcdbd7c,clones_test/polaris-react-1bcdbd7c/polaris-react/src/components/Listbox/components/Section/Section.tsx,2,0,0,0,0,0,0,2,3,3,3,0,0,0,0,0,Section,{children;divider;title}: SectionProps,
+clones_test/polaris-react-1bcdbd7c,clones_test/polaris-react-1bcdbd7c/polaris-react/src/components/Listbox/components/TextOption/TextOption.tsx,3,0,0,0,0,3,0,0,0,4,9,0,0,0,0,0,TextOption,"{
+  children;selected;disabled;}: TextOptionProps",
+clones_test/polaris-react-1bcdbd7c,clones_test/polaris-react-1bcdbd7c/polaris-react/src/components/Listbox/components/Loading/Loading.tsx,4,0,2,0,0,0,0,2,1,3,3,0,0,0,0,0,LoadingOption,"{
+  children;accessibilityLabel: label;}: LoadingProps",
+clones_test/polaris-react-1bcdbd7c,clones_test/polaris-react-1bcdbd7c/polaris-react/src/components/Listbox/components/Action/Action.tsx,0,0,0,0,0,0,0,0,1,4,6,0,0,0,0,0,Action,props: ActionProps,
+clones_test/polaris-react-1bcdbd7c,clones_test/polaris-react-1bcdbd7c/polaris-react/src/components/ShadowBevel/ShadowBevel.stories.tsx,0,0,0,0,0,0,0,0,2,4,18,0,0,0,0,0,,,
+clones_test/polaris-react-1bcdbd7c,clones_test/polaris-react-1bcdbd7c/polaris-react/src/components/InlineError/InlineError.tsx,0,0,0,0,0,0,0,0,3,3,4,0,0,0,0,0,InlineError,{message;fieldID}: InlineErrorProps,
+clones_test/polaris-react-1bcdbd7c,clones_test/polaris-react-1bcdbd7c/polaris-react/src/components/RangeSlider/RangeSlider.stories.tsx,18,7,0,11,0,0,0,0,10,4,17,0,0,0,0,0,handleRangeSliderChange,"useCallback(
+      (value)",
+clones_test/polaris-react-1bcdbd7c,clones_test/polaris-react-1bcdbd7c/polaris-react/src/components/RangeSlider/components/SingleThumb/SingleThumb.tsx,0,0,0,0,0,0,0,0,1,4,9,0,0,0,0,0,SingleThumb,props: SingleThumbProps,
+clones_test/polaris-react-1bcdbd7c,clones_test/polaris-react-1bcdbd7c/polaris-react/src/components/RangeSlider/components/DualThumb/DualThumb.tsx,0,0,0,0,0,0,0,0,37,5,17,0,0,0,0,0,registerMouseMoveHandler,handler: (event: MouseEvent,
+clones_test/polaris-react-1bcdbd7c,clones_test/polaris-react-1bcdbd7c/polaris-react/src/components/Checkbox/Checkbox.tsx,8,0,0,0,0,2,0,6,6,4,8,0,0,3,0,0,Checkbox,"{
+      ariaControls;ariaDescribedBy: ariaDescribedByProp;label;labelHidden;checked;helpText;disabled;id: idProp;name;value;error;onChange;onFocus;onBlur;labelClassName;fill;bleed;bleedBlockStart;bleedBlockEnd;bleedInlineStart;bleedInlineEnd;tone;}: CheckboxProps;ref",
+clones_test/polaris-react-1bcdbd7c,clones_test/polaris-react-1bcdbd7c/polaris-react/src/components/Checkbox/Checkbox.stories.tsx,18,9,0,9,0,0,0,0,9,4,18,0,0,0,0,0,handleChange,,
+clones_test/polaris-react-1bcdbd7c,clones_test/polaris-react-1bcdbd7c/polaris-react/src/components/AccountConnection/AccountConnection.tsx,2,0,0,0,0,0,0,2,8,4,10,0,0,0,0,0,AccountConnection,"{
+  connected;action;avatarUrl;accountName;title;details;termsOfService;}: AccountConnectionProps",
+clones_test/polaris-react-1bcdbd7c,clones_test/polaris-react-1bcdbd7c/polaris-react/src/components/AccountConnection/AccountConnection.stories.tsx,6,3,0,3,0,0,0,0,2,3,13,0,0,0,0,0,handleAction,useCallback((),

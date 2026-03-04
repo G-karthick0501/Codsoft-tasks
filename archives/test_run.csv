@@ -1,0 +1,156 @@
+repo,file,component,loc,hooks_total,useState,useEffect,useCallback,useMemo,useContext,useReducer,useRef,useCustom,props,jsx_depth,jsx_elems,conditionals,map_calls,filter_calls,reduce_calls,has_fetch,num_imports,event_handlers,bool_props,has_children,prop_names,comment
+radix-ui/primitives,packages/react/avatar/src/avatar.tsx,Avatar,197,8,3,1,0,0,0,0,1,4,0,11,15,3,0,0,0,0,7,0,0,0,,
+radix-ui/primitives,packages/react/popper/src/popper.tsx,PopperArrow,427,10,4,1,0,0,0,0,2,6,0,19,28,10,0,1,0,0,12,0,0,0,,
+radix-ui/primitives,packages/react/tabs/src/tabs.tsx,Tabs,298,7,0,1,0,0,0,0,1,5,0,13,18,2,0,0,0,0,11,0,0,0,,"The value for the selected tab, if controlled"
+radix-ui/primitives,packages/react/slot/src/slot.tsx,Slot,228,0,0,0,0,0,0,0,0,0,1,8,11,4,1,1,0,0,2,0,0,1,children,the new element to render is the one passed as a child of `Slottable`
+radix-ui/primitives,packages/react/switch/src/switch.tsx,Switch,221,8,1,1,0,0,0,0,2,5,0,12,16,5,0,0,0,0,9,0,0,0,,We set this to true by default so that events bubble to forms without JS (SSR)
+radix-ui/primitives,packages/react/toggle/src/toggle.tsx,Toggle,69,1,0,0,0,0,0,0,0,1,0,2,2,3,0,0,0,0,4,0,0,0,,The controlled state of the toggle.
+radix-ui/primitives,packages/react/toolbar/src/toolbar.tsx,Toolbar,250,4,0,0,0,0,0,0,0,4,0,17,26,1,0,0,0,0,11,0,0,0,,
+radix-ui/primitives,packages/react/announce/src/announce.tsx,Announce,236,6,1,1,2,0,0,0,2,1,5,6,7,2,1,1,0,0,5,0,0,0,type;relevant;role;atomic;id,"Mirrors the `aria-atomic` DOM attribute for live regions. It is an optional attribute that indicates whether assistive technologies will present all, or only parts of, the changed region based on the "
+radix-ui/primitives,packages/react/checkbox/src/checkbox.tsx,CheckboxTrigger,413,8,2,2,0,0,0,0,3,5,0,28,35,6,0,0,0,0,10,0,0,0,,Used to force mounting when more control is needed. Useful when controlling animation with React animation libraries.
+radix-ui/primitives,packages/react/progress/src/progress.tsx,Progress,160,1,0,0,0,0,0,0,0,1,0,6,9,7,0,0,0,0,4,0,0,0,,Split this out for clearer readability of the error message.
+radix-ui/primitives,packages/react/radio-group/src/radio.tsx,Radio,215,7,1,1,0,0,0,0,2,4,0,12,17,5,0,0,0,0,9,0,0,0,,Used to force mounting when more control is needed. Useful when controlling animation with React animation libraries.
+mantinedev/mantine,.storybook/preview.tsx,ColorSchemeWrapper,109,3,0,2,0,0,0,0,0,2,1,2,11,2,0,0,0,0,10,0,0,1,children,Removes incorrect key error from SliderMarks component visible only in Storybook
+mantinedev/mantine,packages/@mantine/carousel/src/Carousel.tsx,Carousel,413,8,3,3,6,0,0,0,0,5,0,11,20,7,1,0,0,0,10,0,0,0,,Options passed down to embla carousel
+mantinedev/mantine,packages/@mantine/core/src/core/Box/Box.tsx,Box,138,4,0,0,0,0,0,0,0,4,0,2,4,2,0,0,0,0,11,0,0,0,,"Class added to the root element, if applicable"
+mantinedev/mantine,packages/@mantine/dropzone/src/Dropzone.tsx,Dropzone,324,4,0,0,0,0,0,0,0,4,0,14,17,0,0,0,1,0,7,0,0,0,,Key of `theme.colors` or any valid CSS color to set colors of `Dropzone.Accept` @default `theme.primaryColor`
+mantinedev/mantine,packages/@mantine/form/src/stories/_base.tsx,FormBase,32,1,2,0,0,0,0,0,0,0,2,2,8,0,0,0,0,0,2,0,0,1,children;form,
+mantinedev/mantine,packages/@mantine/modals/src/ConfirmModal.tsx,ConfirmModal,64,1,0,0,0,0,0,0,0,1,6,4,6,1,0,0,0,0,3,0,2,0,id;cancelProps;confirmProps;labels;cancel;confirm,
+mantinedev/mantine,packages/@mantine/spotlight/src/Spotlight.tsx,Spotlight,158,2,0,0,0,0,0,0,0,2,0,5,10,0,2,0,0,0,14,0,0,0,,Props passed down to the `Spotlight.Search`
+mantinedev/mantine,apps/mantine.dev/src/pages/_app.tsx,App,113,2,0,0,0,0,0,0,0,2,3,6,15,1,0,0,0,0,31,0,0,0,Component;pageProps;router,
+mantinedev/mantine,apps/mantine.dev/src/components/Shell/Shell.tsx,Shell,60,1,0,0,0,0,0,0,0,1,8,3,8,3,0,0,0,0,8,1,0,1,children;withNav;withNavbar;withMobileNavbar;fluid;navbarOpened;onNavbarOpenedChange;headerControlsProps,
+mantinedev/mantine,apps/help.mantine.dev/src/pages/_app.tsx,App,78,0,0,0,0,0,0,0,0,0,2,2,5,0,0,0,0,0,12,0,0,0,Component;pageProps,
+mantinedev/mantine,packages/@mantine/modals/src/ModalsProvider.tsx,ModalsProvider,242,4,0,0,8,0,0,2,2,1,4,5,7,0,0,0,0,0,7,0,0,1,children;modalProps;labels;modals,Your app
+mantinedev/mantine,packages/@mantine/tiptap/src/RichTextEditor.tsx,RichTextEditor,215,3,0,0,0,2,0,0,0,2,0,7,7,0,0,0,0,0,12,0,0,0,,Tiptap editor instance
+mantinedev/mantine,packages/@mantine/charts/src/Heatmap/Heatmap.tsx,Heatmap,313,4,2,0,0,2,0,0,0,2,0,6,10,10,2,0,0,0,10,0,0,0,,"Heatmap data, key is date in `YYYY-MM-DD` format (interpreted as a UTC calendar day)"
+mantinedev/mantine,packages/@mantine/core/src/components/Kbd/Kbd.tsx,Kbd,59,2,0,0,0,0,0,0,0,2,0,4,5,0,0,0,0,0,2,0,0,0,,Controls `font-size` and `padding` @default `'sm'`
+mantinedev/mantine,packages/@mantine/spotlight/src/SpotlightRoot.tsx,SpotlightRoot,215,6,0,0,0,0,0,0,0,6,0,6,6,3,0,0,0,0,6,0,0,0,,"Spotlight store, can be used to create multiple instances of spotlight"
+mantinedev/mantine,packages/@mantine/dates/src/components/Day/Day.tsx,Day,145,2,0,0,0,0,0,0,0,2,0,5,5,2,0,0,0,0,4,0,0,0,,"Determines which element is used as root, `'button'` by default, `'div'` if static prop is set"
+mantinedev/mantine,packages/@mantine/spotlight/src/SpotlightEmpty.tsx,SpotlightEmpty,46,2,0,0,0,0,0,0,0,2,0,2,3,0,0,0,0,0,3,0,0,0,,
+mantinedev/mantine,apps/mantine.dev/src/components/MdxTabs/MdxTabs.tsx,MdxTabs,103,3,2,2,0,0,0,0,0,1,2,4,25,1,0,0,0,0,11,0,0,1,children;meta,
+mantinedev/mantine,packages/@mantine/charts/src/BarChart/BarChart.tsx,BarChart,489,5,2,0,0,0,0,0,0,4,0,23,34,29,4,0,0,0,7,0,0,0,,Data used to display chart.
+mantinedev/mantine,packages/@mantine/core/src/components/Card/Card.tsx,Card,111,2,0,0,0,0,0,0,0,2,0,6,6,0,1,0,0,0,6,0,0,0,,Key of `theme.shadows` or any valid CSS value to set `box-shadow`
+mantinedev/mantine,packages/@mantine/charts/src/PieChart/PieChart.tsx,PieChart,323,4,0,0,0,0,0,0,0,4,0,14,20,10,1,0,0,0,4,0,0,0,,Data used to render chart
+chakra-ui/chakra-ui,apps/www/components/toc.tsx,Toc,66,2,0,2,0,0,0,0,0,1,0,3,5,1,2,0,0,0,5,0,0,0,,
+chakra-ui/chakra-ui,apps/www/app/docs/sidebar.tsx,SidebarStart,187,6,2,2,0,0,0,0,3,3,0,5,22,1,4,1,0,0,9,0,0,0,,
+chakra-ui/chakra-ui,sandbox/remix-ts/app/root.tsx,App,49,1,0,0,0,0,0,0,0,1,0,2,7,0,0,0,0,0,5,0,0,0,,
+chakra-ui/chakra-ui,apps/www/components/mdx/code.tsx,Pre,96,4,2,2,2,0,0,0,3,0,0,5,10,1,0,0,0,0,3,0,0,0,,
+chakra-ui/chakra-ui,apps/www/app/launch-week/page.tsx,LaunchWeekPage,332,0,0,0,0,0,0,0,0,0,2,6,76,0,4,0,0,0,10,0,0,0,data;index,DaySection component for rendering each launch day
+shadcn-ui/ui,apps/v4/components/callout.tsx,Callout,35,0,0,0,0,0,0,0,0,0,6,2,3,0,0,0,0,0,2,0,0,1,title;children;icon;className;variant;props,
+shadcn-ui/ui,apps/v4/components/docs-toc.tsx,DocsTableOfContents,126,4,2,1,0,1,0,0,0,1,3,3,7,0,3,0,0,0,5,0,0,0,toc;variant;className,
+shadcn-ui/ui,apps/v4/components/main-nav.tsx,MainNav,41,1,0,0,0,0,0,0,0,1,3,2,2,0,1,0,0,0,5,0,0,0,items;className;props,
+shadcn-ui/ui,apps/v4/components/nav-user.tsx,NavUser,114,1,0,0,0,0,0,0,0,1,1,7,36,1,0,0,0,0,4,0,0,0,user,
+shadcn-ui/ui,apps/v4/app/layout.tsx,RootLayout,117,0,0,0,0,0,0,0,0,0,1,6,9,0,0,0,0,0,14,0,0,1,children,
+shadcn-ui/ui,apps/v4/components/cards/chat.tsx,CardsChat,273,1,4,0,0,0,0,0,0,0,0,8,48,3,3,2,0,0,10,0,0,0,,
+shadcn-ui/ui,apps/v4/hooks/use-layout.tsx,Layout,163,6,2,3,2,2,2,0,0,1,6,3,4,3,0,0,0,0,1,0,0,1,forcedLayout;storageKey;defaultLayout;attribute;value;children,Prevent layout changes during hydration
+shadcn-ui/ui,apps/v4/components/charts-nav.tsx,ChartsNav,67,1,0,0,0,0,0,0,0,1,2,2,5,0,1,0,0,0,4,0,0,0,className;props,
+shadcn-ui/ui,apps/v4/components/colors-nav.tsx,ColorsNav,41,1,0,0,0,0,0,0,0,1,2,2,5,0,1,0,0,0,5,0,0,0,className;props,
+shadcn-ui/ui,apps/v4/components/nav-header.tsx,NavHeader,37,1,0,0,0,0,0,0,0,1,0,5,11,0,0,0,0,0,3,0,0,0,,
+shadcn-ui/ui,apps/v4/components/mobile-nav.tsx,MobileNav,211,3,1,0,0,0,0,0,0,2,3,3,28,2,4,0,0,0,10,0,0,0,tree;items;className,
+shadcn-ui/ui,apps/v4/app/(app)/blocks/layout.tsx,BlocksLayout,79,0,0,0,0,0,0,0,0,0,1,3,14,0,0,0,0,0,7,0,0,1,children,
+tailwindlabs/headlessui,playgrounds/react/pages/dialog/dialog.tsx,Home,238,2,5,0,0,0,0,0,0,1,2,4,46,2,0,0,0,0,7,0,0,0,active;disabled,
+tailwindlabs/headlessui,playgrounds/react/pages/suspense/portal.tsx,Index,72,0,0,0,0,0,0,0,0,0,1,2,21,0,0,0,0,0,2,0,0,1,children,
+tailwindlabs/headlessui,playgrounds/react/pages/combobox/multi-select.tsx,Home,164,1,3,0,0,0,0,0,0,0,0,2,21,3,2,3,0,0,2,0,0,0,,
+tailwindlabs/headlessui,playgrounds/react/pages/listbox/multi-select.tsx,Home,154,1,2,0,0,0,0,0,0,0,0,2,21,4,2,2,0,0,2,0,0,0,,
+tailwindlabs/headlessui,playgrounds/react/pages/combinations/form.tsx,App,386,1,3,0,0,0,0,0,0,0,2,6,76,16,3,1,0,0,4,0,0,1,title;children,
+tailwindlabs/headlessui,playgrounds/react/pages/menu/menu-with-popper.tsx,Home,93,3,2,2,0,0,0,0,0,1,2,2,16,0,0,0,0,0,6,0,0,0,active;disabled,
+tailwindlabs/headlessui,playgrounds/react/pages/dialog/sibling-dialogs.tsx,App,136,1,5,0,0,0,0,0,0,0,4,4,35,0,0,0,0,0,3,1,0,1,level;open;onClose;children,
+tailwindlabs/headlessui,playgrounds/react/pages/menu/multiple-elements.tsx,Home,86,0,0,0,0,0,0,0,0,0,2,2,20,0,0,0,0,0,3,0,0,0,active;disabled,
+tailwindlabs/headlessui,playgrounds/react/pages/listbox/listbox-overlaps.tsx,Home,81,1,2,0,0,0,0,0,0,0,0,2,14,0,1,0,0,0,2,0,0,0,,
+tailwindlabs/headlessui,playgrounds/react/pages/dialog/scrollable-dialog.tsx,Example,96,2,2,0,0,0,0,0,2,0,0,4,19,2,1,0,0,0,3,0,0,0,,
+tailwindlabs/headlessui,playgrounds/react/pages/combobox/command-palette.tsx,Home,135,2,3,2,0,0,0,0,0,0,0,4,17,7,1,1,0,0,3,0,0,0,,
+tailwindlabs/headlessui,playgrounds/react/pages/listbox/multiple-elements.tsx,Home,134,2,2,2,0,0,0,0,0,0,0,2,20,3,1,0,0,0,3,0,0,0,,
+tailwindlabs/headlessui,playgrounds/react/pages/dialog/dialog-focus-issue.tsx,DialogFocusIssue,42,1,2,0,0,0,0,0,0,0,0,3,21,0,0,0,0,0,3,0,0,0,,
+tailwindlabs/headlessui,playgrounds/react/pages/menu/menu-with-transition.tsx,Home,80,0,0,0,0,0,0,0,0,0,2,2,16,1,0,0,0,0,3,0,0,0,active;disabled,
+tailwindlabs/headlessui,playgrounds/react/pages/menu/menu-with-floating-ui.tsx,Home,94,3,2,2,0,0,0,0,0,1,2,2,16,0,0,0,0,0,6,0,0,0,active;disabled,
+tailwindlabs/headlessui,packages/@headlessui-react/src/internal/open-closed.tsx,OpenClosedProvider,28,2,0,0,0,0,2,0,0,1,2,2,3,0,0,0,0,0,1,0,0,1,value;children,
+tailwindlabs/headlessui,playgrounds/react/pages/dialog/dialog-scroll-issue.tsx,App,73,1,2,0,0,0,0,0,0,0,2,4,22,1,0,0,0,0,2,0,0,0,open;close,
+tailwindlabs/headlessui,packages/@headlessui-react/src/internal/form-fields.tsx,FormFieldsProvider,108,4,3,3,0,0,2,0,0,1,1,2,8,1,1,0,0,0,6,0,0,1,children,
+tailwindlabs/headlessui,playgrounds/react/pages/combinations/tabs-in-dialog.tsx,App,32,1,2,0,0,0,0,0,0,0,0,5,15,0,0,0,0,0,3,0,0,0,,
+tailwindlabs/headlessui,playgrounds/react/pages/combobox/combobox-countries.tsx,Home,128,3,4,3,0,0,0,0,0,1,0,3,16,4,1,1,0,0,5,0,0,0,,
+tailwindlabs/headlessui,packages/@headlessui-react/src/components/field/field.tsx,Field,84,6,0,0,0,0,0,0,0,6,0,10,12,1,0,0,0,0,10,0,0,0,,
+tailwindlabs/headlessui,playgrounds/react/pages/tabs/tabs-with-pure-tailwind.tsx,Home,91,1,2,0,0,0,0,0,0,0,0,3,12,6,2,0,0,0,3,0,0,0,,
+tailwindlabs/headlessui,packages/@headlessui-react/src/components/label/label.tsx,Label,250,14,2,0,0,3,3,0,0,11,1,5,10,1,0,2,0,0,11,0,0,0,inherit,---
+ant-design/ant-design,components/app/App.tsx,,108,8,0,0,0,2,2,0,0,6,0,8,8,2,0,0,0,0,12,0,0,0,,============================ Render ============================
+ant-design/ant-design,components/card/Card.tsx,Card,310,7,0,0,0,1,0,0,0,6,0,6,18,7,1,0,0,0,15,0,0,0,,@deprecated Please use `label` instead
+ant-design/ant-design,components/form/Form.tsx,Form,301,13,0,0,0,2,2,0,1,10,0,16,23,0,0,0,0,0,25,0,0,0,,Style
+ant-design/ant-design,components/list/Item.tsx,Meta,175,1,0,0,0,0,4,0,0,0,7,4,13,4,1,0,0,0,8,0,0,0,prefixCls;customizePrefixCls;className;avatar;title;description;others,
+ant-design/ant-design,components/menu/menu.tsx,InternalMenu,338,7,0,0,0,2,2,0,0,5,0,8,10,1,0,0,0,0,25,0,0,0,,@private Internal Usage. Not promise crash if used in production. Connect with chenshuai2144   for removing. @deprecated Will be removed in next version. Use `tooltip={false}` instead.
+ant-design/ant-design,components/flex/index.tsx,Flex,82,3,0,0,0,0,1,0,0,2,0,4,4,0,0,0,0,0,11,0,0,0,,
+ant-design/ant-design,.dumi/pages/404/index.tsx,,59,2,0,2,0,0,0,0,0,1,1,3,5,2,0,0,0,0,6,0,0,0,router,Report if necessary
+ant-design/ant-design,components/list/index.tsx,ListWithForwardRef,348,7,2,0,0,3,1,0,0,4,0,5,21,3,2,0,0,0,20,0,0,0,,Style
+ant-design/ant-design,components/menu/index.tsx,Menu,97,3,0,0,0,0,1,0,2,1,0,13,14,2,0,0,0,0,14,0,0,0,,
+ant-design/ant-design,components/rate/index.tsx,Rate,103,4,0,0,0,0,1,0,0,3,0,2,5,0,0,0,0,0,13,0,0,0,,Style
+ant-design/ant-design,components/space/Item.tsx,,49,1,0,0,0,0,1,0,0,0,0,2,4,0,0,0,0,0,5,0,0,0,,
+ant-design/ant-design,components/tabs/index.tsx,InternalTabs,306,12,0,0,0,1,1,0,1,9,0,3,7,3,0,0,0,0,22,0,0,0,,@deprecated Please use `destroyOnHidden` instead
+ant-design/ant-design,components/tour/index.tsx,,160,6,0,0,0,1,0,0,0,5,0,3,5,0,1,0,0,0,13,0,0,0,,=========== Merged Props for Semantic ===========
+ant-design/ant-design,components/spin/index.tsx,,297,7,1,1,0,0,0,0,0,5,0,4,9,4,0,0,0,0,12,0,0,0,,@deprecated Please use `description` instead
+ant-design/ant-design,components/grid/col.tsx,Col,167,2,0,0,0,0,2,0,0,1,0,4,5,2,0,0,0,0,9,0,0,0,,===================== Size ======================
+ant-design/ant-design,components/affix/index.tsx,Affix,286,7,3,3,0,0,1,0,6,3,0,12,15,2,0,0,0,0,7,0,0,0,,Triggered when the specified offset is reached from the top of the window
+ant-design/ant-design,.dumi/hooks/useMenu.tsx,,240,6,0,0,0,2,0,0,0,5,0,4,15,1,4,0,0,0,9,0,0,0,,
+ant-design/ant-design,components/alert/Alert.tsx,Alert,409,7,1,0,0,4,0,0,1,4,0,14,30,9,0,0,0,0,16,0,0,0,,"Type of Alert styles, options:`success`, `info`, `warning`, `error`"
+ant-design/ant-design,components/grid/row.tsx,Row,146,8,1,1,0,2,1,0,0,4,0,7,8,2,0,0,0,0,10,0,0,0,,Add gutter related style
+ant-design/ant-design,components/badge/Badge.tsx,Badge,302,5,0,0,0,3,0,0,4,3,0,6,14,6,0,0,0,0,15,0,0,0,,Number to show in badge
+ant-design/ant-design,components/empty/index.tsx,,173,4,0,0,0,0,0,0,0,4,0,3,9,2,0,0,0,0,10,0,0,0,,@deprecated Please use `styles.image` instead
+ant-design/ant-design,components/image/index.tsx,,245,7,0,0,0,3,0,0,0,6,0,6,7,0,0,0,0,0,13,0,0,0,,@deprecated Use `open` instead
+ant-design/ant-design,components/input/Group.tsx,,77,3,0,0,0,2,3,0,0,1,0,8,8,0,0,0,0,0,9,0,0,0,,@deprecated Please use `Space.Compact`
+ant-design/ant-design,components/modal/Modal.tsx,,304,11,0,0,0,3,1,0,0,9,0,9,14,6,0,0,0,0,22,0,0,0,,ref: https://github.com/ant-design/ant-design/issues/15795
+ant-design/ant-design,components/radio/group.tsx,RadioGroup,159,10,0,0,1,1,2,0,0,7,0,3,6,0,1,0,0,0,15,0,0,0,,Style
+ant-design/ant-design,components/radio/radio.tsx,Radio,166,7,0,0,0,0,4,0,1,5,0,5,8,2,0,0,0,0,17,0,0,0,,Style
+ant-design/ant-design,components/input/Input.tsx,Input,330,14,0,2,0,0,3,0,3,11,0,8,14,0,0,0,0,0,26,0,0,0,,"@deprecated Use `Space.Compact` instead.  @example ```tsx import { Space, Input } from 'antd';  <Space.Compact>   {addon}   <Input defaultValue=""name"" /> </Space.Compact> ```"
+ant-design/ant-design,components/space/Addon.tsx,SpaceAddon,59,3,0,0,0,0,1,0,0,2,0,2,3,0,0,0,0,0,8,0,0,0,,
+ant-design/ant-design,components/space/index.tsx,InternalSpace,231,5,0,0,0,1,0,0,0,4,0,7,9,3,0,0,0,0,16,0,0,0,,@deprecated please use `orientation` instead
+ariakit/ariakit,examples/menubar/menu.tsx,Menu,64,1,0,0,0,0,0,0,0,1,0,3,9,3,0,0,0,0,3,0,0,0,,
+ariakit/ariakit,templates/react/src/app.tsx,App,51,1,2,0,0,0,0,0,0,0,0,2,5,0,0,0,0,0,2,0,0,0,,
+ariakit/ariakit,examples/menu-slide/menu.tsx,Menu,225,6,0,1,0,1,1,0,0,2,3,3,23,4,0,0,0,0,3,0,0,1,label;children;props,"In right-to-left layouts, scrollLeft is negative."
+ariakit/ariakit,website/components/popup.tsx,Popup,61,0,0,0,0,0,0,0,0,0,6,3,4,0,0,0,0,0,4,0,0,1,scroller;size;shadow;arrow;children;props,
+ariakit/ariakit,examples/tag/index.react.tsx,Example,25,1,2,0,0,0,0,0,0,0,0,3,7,0,1,0,0,0,3,0,0,0,,
+ariakit/ariakit,website/components/plus.tsx,PlusFeature,466,13,7,4,0,0,3,0,0,10,3,8,45,6,0,0,0,1,25,0,0,0,icon;feature;props,
+adobe/react-spectrum,starters/docs/src/Table.tsx,Table,126,1,0,0,0,0,0,0,0,1,0,7,32,1,0,0,0,0,5,0,0,0,,
+adobe/react-spectrum,.storybook-s2/docs/Intro.jsx,Docs,298,0,0,0,0,0,0,0,0,0,1,9,227,0,0,0,0,0,16,0,0,1,children,
+adobe/react-spectrum,starters/docs/src/Switch.tsx,Switch,24,0,0,0,0,0,0,0,0,0,2,2,4,1,0,0,0,0,2,0,0,1,children;props,
+adobe/react-spectrum,.storybook-s2/docs/Colors.jsx,Colors,182,0,0,0,0,0,0,0,0,0,1,4,144,1,1,0,0,0,4,0,0,0,scale,
+adobe/react-spectrum,starters/docs/src/Tooltip.tsx,Tooltip,33,0,0,0,0,0,0,0,0,0,2,3,4,0,0,0,0,0,2,0,0,1,children;props,
+adobe/react-spectrum,examples/next-app/app/page.tsx,Home,19,1,0,0,0,0,0,0,0,1,0,3,4,0,0,0,0,0,2,0,0,0,,
+adobe/react-spectrum,starters/docs/src/GridList.tsx,GridListItem,58,0,0,0,0,0,0,0,0,0,2,5,10,1,0,0,0,0,5,0,0,1,children;props,
+adobe/react-spectrum,examples/rsp-cra-18/src/App.tsx,App,82,1,2,0,0,0,0,0,0,0,0,5,27,1,0,0,0,0,18,0,0,0,,
+adobe/react-spectrum,starters/docs/src/TextField.tsx,TextField,29,0,0,0,0,0,0,0,0,0,5,2,5,0,0,0,0,0,3,0,0,0,label;description;errorMessage;placeholder;props,
+adobe/react-spectrum,starters/tailwind/src/Meter.tsx,Meter,46,0,0,0,0,0,0,0,0,0,2,2,7,0,0,0,0,0,5,0,0,0,label;props,
+adobe/react-spectrum,starters/tailwind/src/Table.tsx,Table,145,1,0,0,0,0,0,0,0,1,0,9,29,0,0,0,0,0,7,0,0,0,,
+mui/material-ui,docs/pages/components.tsx,Components,100,1,0,0,0,0,0,0,0,1,0,8,18,0,3,0,0,0,17,0,0,0,,
+mui/material-ui,test/regressions/index.jsx,FixtureRenderer,353,6,1,3,3,0,0,0,0,3,3,2,11,1,2,0,0,0,7,0,0,0,component;FixtureComponent;path,"/ .(js|ts|tsx)'], {   import: 'default',   eager: true, });  const regressionFixtures = [];  Object.keys(importRegressionFixtures).forEach((path) => {   const [suite, name] = path     .replace('./fixt"
+mui/material-ui,docs/src/theming.tsx,JoyModeObserver,108,6,0,1,0,2,3,0,0,3,2,2,5,4,0,0,0,0,6,0,1,1,children;hasJoy,"Set to true if the children render Joy UI components. Otherwise, Joy UI components will throw errors because they try to get fields that does not exist in material theme."
+mui/material-ui,docs/pages/blog.tsx,Blog,472,5,2,1,1,0,0,0,1,1,0,10,60,6,7,3,0,0,30,0,0,0,,
+mui/material-ui,docs/src/layouts/AppFooter.tsx,AppFooter,245,1,0,0,0,0,0,0,0,1,0,5,54,1,0,0,0,0,17,0,0,0,,
+mui/material-ui,docs/src/layouts/AppHeader.tsx,AppHeader,80,1,0,0,0,0,0,0,0,1,0,5,15,0,0,0,0,0,14,0,0,0,,
+mui/material-ui,packages/mui-docs/src/Ad/Ad.tsx,AD_MARGIN_TOP,234,7,2,2,1,0,1,0,3,2,0,3,13,1,0,0,0,0,9,0,0,0,,send explicit `'null'`
+mui/material-ui,test/regressions/TestViewer.jsx,TestViewer,100,2,1,1,0,0,0,0,0,0,0,3,5,0,0,0,0,0,6,0,0,0,,We're simulating `act(() => ReactDOM.render(children))` In the end children passive effects should've been flushed. React doesn't have any such guarantee outside of `act()` so we're approximating it.
+mui/material-ui,docs/src/components/home/Hero.tsx,Hero,144,3,0,0,0,0,0,0,0,3,0,5,21,1,0,0,0,0,10,0,0,0,,
+mui/material-ui,packages/mui-joy/src/Tab/Tab.tsx,Tab,314,8,0,0,0,0,1,0,1,6,0,4,5,2,0,0,0,0,15,0,0,0,,Demos:  - [Tabs](https://mui.com/joy-ui/react-tabs/)  API:  - [Tab API](https://mui.com/joy-ui/api/tab/)
+mui/material-ui,docs/src/layouts/HeroContainer.tsx,HeroContainer,182,2,0,0,0,0,0,0,1,1,0,5,12,3,0,0,0,0,6,0,0,0,,
+mui/material-ui,packages/mui-joy/src/Chip/Chip.tsx,Chip,431,7,0,0,0,1,0,0,1,5,0,5,9,0,0,0,0,0,16,0,0,0,,"Chips represent complex entities in small blocks, such as a contact.  Demos:  - [Chip](https://mui.com/joy-ui/react-chip/)  API:  - [Chip API](https://mui.com/joy-ui/api/chip/)"
+mui/material-ui,packages/mui-joy/src/Link/Link.tsx,Link,395,5,1,0,0,0,2,0,0,3,0,5,7,0,0,0,0,0,14,0,0,0,,Demos:  - [Link](https://mui.com/joy-ui/react-link/)  API:  - [Link API](https://mui.com/joy-ui/api/link/)
+mui/material-ui,packages/mui-joy/src/Step/Step.tsx,Step,291,3,0,0,0,0,0,0,0,3,0,2,3,0,0,0,0,0,11,0,0,0,,CSS architecture: - The root is a flex container with direction based on the provided orientation (horizontal by default). - The indicator slot is used to render the icon or text provided in the `indi
+mui/material-ui,packages/mui-joy/src/List/List.tsx,StyledList,350,4,0,0,0,0,3,0,0,3,0,3,5,9,0,0,0,0,16,0,0,0,,Demos:  - [Lists](https://mui.com/joy-ui/react-list/)  API:  - [List API](https://mui.com/joy-ui/api/list/)
+mui/material-ui,packages/mui-joy/src/Menu/Menu.tsx,Menu,319,7,0,0,0,1,0,0,0,6,0,6,7,0,0,0,0,0,19,0,0,0,,Demos:  - [Menu](https://mui.com/joy-ui/react-menu/)  API:  - [Menu API](https://mui.com/joy-ui/api/menu/)
+reach/reach-ui,packages/checkbox/src/custom.tsx,CustomCheckboxContainer,388,6,1,1,0,0,0,0,2,3,12,5,13,5,0,0,0,0,5,2,0,1,as;Comp;checked;controlledChecked;children;defaultChecked;disabled;onClick;onChange;error;__componentName;props,Welcome to @reach/checkbox!  A CustomCheckbox is useful because full control of a native HTML input's design is not always possible. You may want to provide custom check graphics or change the shape o
+reach/reach-ui,packages/utils/src/context.tsx,Provider,52,2,0,0,0,1,3,0,0,0,0,11,11,0,0,0,0,0,1,0,0,0,,@deprecated
+reach/reach-ui,packages/alert/src/reach-alert.tsx,AlertRendered,215,4,0,1,0,0,0,0,2,2,4,6,12,1,1,0,0,0,5,0,0,1,as;Comp;children;props,"Welcome to @reach/alert!  An alert is an element that displays a brief, important message in a way that attracts the user's attention without interrupting the user's task. Dynamically rendered alerts "
+reach/reach-ui,packages/dialog/src/reach-dialog.tsx,DialogWrapper,498,5,0,3,1,0,0,0,2,2,3,5,13,8,0,0,0,0,7,0,1,1,isOpen;children;props,"Welcome to @reach/dialog!  An accessible dialog or ""modal"" window.  @see Docs     https://reach.tech/dialog @see Source   https://github.com/reach/reach-ui/tree/main/packages/dialog @see WAI-ARIA http"
+reach/reach-ui,playground/stories/listbox/common.tsx,Tag,41,3,1,0,1,0,0,0,1,0,0,2,4,0,0,0,0,0,1,0,0,0,,
+reach/reach-ui,packages/portal/src/reach-portal.tsx,,134,6,1,2,0,0,0,0,2,2,3,5,7,1,0,0,0,0,3,0,0,1,children;type;containerRef,Welcome to @reach/portal!  Creates and appends a DOM node to the end of `document.body` and renders a React tree into it. Useful for rendering a natural React element hierarchy with a different DOM hi
+reach/reach-ui,packages/popover/src/reach-popover.tsx,Popover,380,5,0,1,0,0,0,0,1,3,2,6,9,0,1,1,0,0,7,0,0,0,unstable_skipInitialPortalRender;props,Welcome to @reach/popover!
+reach/reach-ui,playground/stories/alert/basic.example.tsx,Example,129,5,0,3,0,0,0,1,2,2,0,2,9,3,1,0,0,0,4,0,0,0,,
+reach/reach-ui,packages/disclosure/src/reach-disclosure.tsx,DisclosureButton,291,7,0,0,0,1,0,0,1,5,6,4,6,3,0,0,0,0,4,1,0,1,children;defaultOpen;onChange;open;openProp;props,"Welcome to @reach/disclosure!  A disclosure is a button that controls visibility of a panel of content. When the content inside the panel is hidden, it is often styled as a typical push button with a "
+reach/reach-ui,playground/stories/tabs/rtl-html.example.tsx,Example,46,2,0,0,0,0,0,0,2,0,0,4,10,0,0,0,0,0,3,0,0,0,,
+reach/reach-ui,playground/stories/combobox/basic.example.tsx,MyCombobox,49,2,1,0,0,0,0,0,0,1,0,4,7,1,1,0,0,0,4,0,0,0,,
+reach/reach-ui,playground/stories/listbox/styled.example.tsx,Example,378,0,0,0,0,0,0,0,0,0,6,4,29,2,2,0,0,0,5,0,0,0,displayName;githubAvatar;twitterAvatar;twitterHandle;userName;props,@typedef {Object} User @property {string} displayName @property {string} twitterHandle @property {string} twitterAvatar @property {string} githubAvatar
+reach/reach-ui,playground/stories/popover/hidden.example.tsx,Example,53,3,1,0,1,0,0,0,1,0,0,2,8,0,0,0,0,0,2,0,0,0,,
+reach/reach-ui,packages/descendants/src/reach-descendants.tsx,,427,11,1,0,1,1,3,0,0,6,0,27,28,20,1,2,0,0,2,0,0,0,,"This hook registers our descendant by passing it into an array. We can then search that array by to find its index when registering it in the component. We use this for focus management, keyboard navi"
+reach/reach-ui,packages/menu-button/src/reach-menu-button.tsx,Menu,483,8,0,1,0,2,0,0,0,6,0,10,21,4,0,0,0,0,7,0,0,0,,Welcome to @reach/menu-button!  An accessible dropdown menu for the common dropdown menu button design pattern.  @see Docs     https://reach.tech/menu-button @see Source   https://github.com/reach/rea
+reach/reach-ui,playground/stories/dialog/animated.example.tsx,Example,57,2,1,0,0,0,0,0,0,1,0,2,8,0,0,0,0,0,4,0,0,0,,
+reach/reach-ui,playground/stories/listbox/grouped.example.tsx,Example,54,1,1,0,0,0,0,0,0,0,0,2,22,0,0,0,0,0,5,0,0,0,,
+reach/reach-ui,playground/stories/dialog/dropdown.example.tsx,Example,35,1,1,0,0,0,0,0,0,0,0,3,10,0,0,0,0,0,6,0,0,0,,
+reach/reach-ui,playground/stories/accordion/basic.example.tsx,Example,149,1,0,0,0,0,0,1,0,0,0,3,16,0,0,0,0,0,4,0,0,0,,//////////////////////////////////////////////////////////////////////////////
+reach/reach-ui,playground/stories/listbox/in-form.example.tsx,Example,112,2,1,0,0,0,0,0,1,0,0,2,21,0,0,0,0,0,4,0,0,0,,
+reach/reach-ui,playground/stories/tabs/controlled.example.tsx,Example,63,1,1,0,0,0,0,0,0,0,0,3,11,1,0,0,0,0,3,0,0,0,,

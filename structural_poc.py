@@ -194,18 +194,55 @@ def count_map_calls(node):
     return cnt
 
 
+# Regex fallbacks — more reliable across JS/TSX variants
+_RE_TERNARY  = re.compile(r'(?<![=!<>])\?(?!\.)(?!\?)')   # ? not preceded by =, !, <, >
+_RE_MAP      = re.compile(r'\.map\s*\(')
+_RE_FILTER   = re.compile(r'\.filter\s*\(')
+_RE_FETCH    = re.compile(r'\bfetch\s*\(|\buseQuery\b|\buseSWR\b|\baxios\b')
+_RE_IMPORT   = re.compile(r'^import\s+', re.MULTILINE)
+
+def count_conditionals_regex(src_text: str) -> int:
+    """Count ternary operators in JSX expressions via regex."""
+    # strip string literals to avoid false positives
+    clean = re.sub(r'(["\']).*?\1', '""', src_text)
+    return len(_RE_TERNARY.findall(clean))
+
+def count_map_calls_regex(src_text: str) -> int:
+    return len(_RE_MAP.findall(src_text))
+
+def count_filter_calls_regex(src_text: str) -> int:
+    return len(_RE_FILTER.findall(src_text))
+
+def has_fetch_regex(src_text: str) -> int:
+    return 1 if _RE_FETCH.search(src_text) else 0
+
+def count_imports(src_text: str) -> int:
+    return len(_RE_IMPORT.findall(src_text))
+
+
 def analyze(path, js_lang, tsx_lang, ts_lang):
     tree = parse_file(path, js_lang, tsx_lang, ts_lang)
     if tree is None:
         return None
     src = path.read_bytes()
+    src_text = src.decode('utf-8', errors='ignore')
     root = tree.root_node
     hook_counts = count_hooks(root, src)
     props = count_props(root)
     depth = jsx_max_depth(root)
     jsxElems = count_jsx_elements(root)
-    conds = count_conditionals(root)
-    maps = count_map_calls(root)
+
+    # Use AST walk first; fall back to regex if AST gives zero
+    # (regex is more reliable across JS/TSX parser variants)
+    conds_ast = count_conditionals(root)
+    maps_ast  = count_map_calls(root)
+    conds = conds_ast if conds_ast > 0 else count_conditionals_regex(src_text)
+    maps  = maps_ast  if maps_ast  > 0 else count_map_calls_regex(src_text)
+
+    # Additional regex-based features
+    filter_calls = count_filter_calls_regex(src_text)
+    has_fetch    = has_fetch_regex(src_text)
+    num_imports  = count_imports(src_text)
 
     comp_name, prop_list, comment = extract_lexical(src)
     # prop-based features
@@ -220,6 +257,9 @@ def analyze(path, js_lang, tsx_lang, ts_lang):
         "jsx_elems": jsxElems,
         "conditionals": conds,
         "map_calls": maps,
+        "filter_calls": filter_calls,
+        "has_fetch": has_fetch,
+        "num_imports": num_imports,
         "component": comp_name,
         "prop_list": prop_list,
         "comment": comment,
@@ -285,6 +325,7 @@ def main():
                     h.get("useMemo", 0), h.get("useContext", 0), h.get("useReducer", 0), h.get("custom", 0),
                     props, depth,
                     res["jsx_elems"], res["conditionals"], res["map_calls"],
+                    res["filter_calls"], res["has_fetch"], res["num_imports"],
                     res["event_handlers"], res["bool_props"], res["has_children"],
                     res["component"] or "", ";".join(res["prop_list"]), res["comment"],
                 ])
@@ -301,6 +342,7 @@ def main():
             "useMemo", "useContext", "useReducer", "useCustom",
             "props", "jsx_depth",
             "jsx_elems", "conditionals", "map_calls",
+            "filter_calls", "has_fetch", "num_imports",
             "event_handlers", "bool_props", "has_children",
             "component", "prop_names", "comment",
         ])

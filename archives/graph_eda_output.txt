@@ -1,0 +1,51 @@
+﻿============================================================
+--- 1. REBUILDING GRAPH EMBEDDINGS ---
+
+============================================================
+--- 2. CORRELATIONAL MATRIX & HEATMAP (Graph Dims vs Structural Features) ---
+Top absolute correlations between Graph Dimensions and AST Logic:
+  G_Dim_0 <-> hooks_total    : -0.5552
+  G_Dim_1 <-> hooks_total    : 0.5552
+  G_Dim_9 <-> reduce_calls   : 0.2978
+  G_Dim_8 <-> reduce_calls   : -0.2976
+  G_Dim_0 <-> num_imports    : -0.2274
+  G_Dim_1 <-> num_imports    : 0.2272
+  G_Dim_5 <-> hooks_total    : -0.2150
+  G_Dim_4 <-> hooks_total    : -0.2149
+  G_Dim_3 <-> hooks_total    : 0.2001
+  G_Dim_1 <-> props          : -0.1995
+Saved 'graph_ast_heatmap.png'
+
+============================================================
+--- 3. t-SNE PERPLEXITY ANALYSIS ---
+Computing t-SNE with perplexity=5...
+Computing t-SNE with perplexity=30...
+Computing t-SNE with perplexity=100...
+Saved 'tsne_perplexity_grid.png'
+
+============================================================
+--- 4. GMM CLUSTERING & AIC/BIC ON GRAPH EMBEDDINGS ---
+GMM Model Selection (Lower is better):
+  Clusters: 2  | AIC: -999147 | BIC: -997639
+  Clusters: 4  | AIC: -1154613 | BIC: -1151590
+  Clusters: 8  | AIC: -1381334 | BIC: -1375283
+  Clusters: 12 | AIC: -1428415 | BIC: -1419335
+-> Optimal number of Topological Gaussian Clusters based on BIC: 12
+
+============================================================
+--- 5. KNN DENSITY ANALYSIS (K-Nearest Neighbors) ---
+Average Cosine Distance to 5th Nearest Neighbor: 0.0299
+Most Topologically Isolated Component:
+  Example (File: basic.example.tsx)
+  Dist to 5th neighbor: 0.7352
+  Hooks: 1, Props: 0, JsxElems: 16
+
+============================================================
+--- 6. AGGLOMERATIVE (HIERARCHICAL) CLUSTERING ---
+Agglomerative Hierarchy Sizes (Top-Down groupings):
+agg_cluster
+0    700
+1    376
+2    859
+3    682
+Name: count, dtype: int64

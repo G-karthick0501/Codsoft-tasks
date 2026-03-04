@@ -1,0 +1,151 @@
+﻿Loading index and models...
+
+================================================================================
+QUERY: 'A component that fetches user data from an API and handles loading states.'
+  1. LoadingSkeleton | Dist: 0.6542
+     File: docs/data/joy/components/skeleton/LoadingSkeleton.tsx
+     Comment: 
+     Struct: Hooks=2, Props=0, Depth=4, JsxElems=7
+  2. CheckboxProvider | Dist: 0.7475
+     File: packages/ariakit-react-core/src/checkbox/checkbox-provider.tsx
+     Comment: Provides a checkbox store for its descendants. This comes in handy when creating a group of checkboxes that share the same state. `CheckboxProvider` can efficiently manage the value of a checkbox, whe
+     Struct: Hooks=1, Props=0, Depth=5, JsxElems=10
+  3.  | Dist: 0.7569
+     File: .dumi/theme/builtins/RefinedChangelog/index.tsx
+     Comment: 
+     Struct: Hooks=3, Props=1, Depth=6, JsxElems=17
+
+================================================================================
+QUERY: 'A simple button with an icon and label.'
+  1.  | Dist: 0.7374
+     File: packages/react/accessible-icon/src/accessible-icon.tsx
+     Comment: The accessible label for the icon. This label will be visually hidden but announced to screen reader users, similar to `alt` text for `img` tags.
+     Struct: Hooks=0, Props=2, Depth=4, JsxElems=4
+  2. IconButtons | Dist: 0.7815
+     File: docs/data/joy/components/button/IconButtons.tsx
+     Comment: 
+     Struct: Hooks=1, Props=0, Depth=4, JsxElems=13
+  3. ToastContainer | Dist: 0.8187
+     File: packages/@react-spectrum/toast/src/ToastContainer.tsx
+     Comment: A label for the action button within the toast.
+     Struct: Hooks=6, Props=0, Depth=2, JsxElems=3
+
+================================================================================
+QUERY: 'A sidebar navigation layout with multiple nested sections.'
+  1. DirectionSnackbar | Dist: 0.8263
+     File: docs/data/material/components/snackbars/DirectionSnackbar.tsx
+     Comment: 
+     Struct: Hooks=1, Props=0, Depth=7, JsxElems=18
+  2. BreadcrumbsWithMenu | Dist: 0.8416
+     File: docs/data/joy/components/breadcrumbs/BreadcrumbsWithMenu.tsx
+     Comment: 
+     Struct: Hooks=1, Props=0, Depth=5, JsxElems=12
+  3. SideMenuMobile | Dist: 0.8662
+     File: docs/data/material/getting-started/templates/dashboard/components/SideMenuMobile.tsx
+     Comment: 
+     Struct: Hooks=0, Props=2, Depth=5, JsxElems=16
+
+================================================================================
+QUERY: 'A date picker calendar with range selection.'
+  1. RangeCalendar | Dist: 0.6485
+     File: packages/@react-spectrum/calendar/src/RangeCalendar.tsx
+     Comment: RangeCalendars display a grid of days in one or more months and allow users to select a contiguous range of dates.
+     Struct: Hooks=7, Props=0, Depth=6, JsxElems=7
+  2. Calendar | Dist: 0.7103
+     File: packages/@react-spectrum/calendar/src/Calendar.tsx
+     Comment: Calendars display a grid of days in one or more months and allow users to select a single date.
+     Struct: Hooks=7, Props=0, Depth=6, JsxElems=7
+  3. Calendar29 | Dist: 0.7741
+     File: deprecated/www/__registry__/default/blocks/calendar-29.tsx
+     Comment: 
+     Struct: Hooks=1, Props=0, Depth=6, JsxElems=15
+
+================================================================================
+QUERY: 'A high-performance virtualized list or table.'
+  1. ListBox | Dist: 0.9368
+     File: packages/@react-spectrum/listbox/src/ListBox.tsx
+     Comment: A list of options that can allow selection of one or more.
+     Struct: Hooks=3, Props=0, Depth=6, JsxElems=7
+  2. VirtualizerItem | Dist: 0.9670
+     File: packages/@react-aria/virtualizer/src/VirtualizerItem.tsx
+     Comment: 
+     Struct: Hooks=3, Props=0, Depth=2, JsxElems=3
+  3. DesignSystemComponents | Dist: 0.9889
+     File: docs/src/components/home/DesignSystemComponents.tsx
+     Comment: 
+     Struct: Hooks=1, Props=0, Depth=5, JsxElems=7
+
+================================================================================
+QUERY: 'A dark mode toggle switch.'
+  1. Toggle | Dist: 0.7317
+     File: packages/react/toggle/src/toggle.tsx
+     Comment: The controlled state of the toggle.
+     Struct: Hooks=1, Props=0, Depth=2, JsxElems=2
+  2. Switch | Dist: 0.7399
+     File: packages/@react-spectrum/switch/src/Switch.tsx
+     Comment: Switches allow users to turn an individual option on or off. They are usually used to activate or deactivate a specific setting.
+     Struct: Hooks=7, Props=0, Depth=3, JsxElems=6
+  3. ModeToggle | Dist: 0.7438
+     File: deprecated/www/components/mode-toggle.tsx
+     Comment: 
+     Struct: Hooks=1, Props=0, Depth=3, JsxElems=10
+
+================================================================================
+QUERY: 'A rich text editor with toolbars.'
+  1. RichTextEditorRoot | Dist: 0.7582
+     File: apps/compositions/src/ui/rich-text-editor.tsx
+     Comment: 
+     Struct: Hooks=2, Props=0, Depth=2, JsxElems=8
+  2. ToolbarProvider | Dist: 0.7603
+     File: packages/ariakit-react-core/src/toolbar/toolbar-provider.tsx
+     Comment: Provides a toolbar store to [Toolbar](https://ariakit.org/components/toolbar) components. @see https://ariakit.org/components/toolbar @example ```jsx <ToolbarProvider>   <Toolbar>     <ToolbarItem /> 
+     Struct: Hooks=1, Props=0, Depth=2, JsxElems=6
+  3. RichTextEditorContent | Dist: 0.7723
+     File: packages/@mantine/tiptap/src/RichTextEditorContent/RichTextEditorContent.tsx
+     Comment: 
+     Struct: Hooks=2, Props=0, Depth=3, JsxElems=5
+
+================================================================================
+QUERY: 'A complex multi-step signup form.'
+  1. SignupForm | Dist: 0.7907
+     File: apps/v4/registry/bases/base/blocks/signup-01/components/signup-form.tsx
+     Comment: 
+     Struct: Hooks=0, Props=1, Depth=6, JsxElems=27
+  2. SignupForm | Dist: 0.7907
+     File: apps/v4/registry/bases/radix/blocks/signup-01/components/signup-form.tsx
+     Comment: 
+     Struct: Hooks=0, Props=1, Depth=6, JsxElems=27
+  3. SignupForm | Dist: 0.7907
+     File: apps/v4/registry/new-york-v4/blocks/signup-01/components/signup-form.tsx
+     Comment: 
+     Struct: Hooks=0, Props=1, Depth=6, JsxElems=27
+
+================================================================================
+QUERY: 'A toast notification manager.'
+  1. Toaster | Dist: 0.6438
+     File: packages/react/src/components/toast/toast.tsx
+     Comment: //////////////////////////////////////////////////////////////////////////////////
+     Struct: Hooks=3, Props=0, Depth=5, JsxElems=7
+  2. ToastContainer | Dist: 0.6679
+     File: packages/@react-spectrum/toast/src/ToastContainer.tsx
+     Comment: A label for the action button within the toast.
+     Struct: Hooks=6, Props=0, Depth=2, JsxElems=3
+  3. Toaster | Dist: 0.6705
+     File: deprecated/www/registry/default/ui/toaster.tsx
+     Comment: 
+     Struct: Hooks=1, Props=0, Depth=3, JsxElems=7
+
+================================================================================
+QUERY: 'A responsive image gallery with lightbox.'
+  1. ImageSkeleton | Dist: 0.9395
+     File: docs/data/joy/components/skeleton/ImageSkeleton.tsx
+     Comment: 
+     Struct: Hooks=2, Props=0, Depth=4, JsxElems=7
+  2. ResponsiveModal | Dist: 0.9850
+     File: docs/data/joy/components/modal/ResponsiveModal.tsx
+     Comment: 
+     Struct: Hooks=1, Props=0, Depth=5, JsxElems=9
+  3. MediaControlCard | Dist: 1.0195
+     File: docs/data/material/components/cards/MediaControlCard.tsx
+     Comment: 
+     Struct: Hooks=1, Props=0, Depth=4, JsxElems=15

@@ -1,0 +1,10 @@
+radix-ui/primitives
+mantinedev/mantine
+chakra-ui/chakra-ui
+ant-design/ant-design
+shadcn-ui/ui
+adobe/react-spectrum
+tailwindlabs/headlessui
+mui/material-ui
+reach/reach-ui
+ariakit/ariakit
