@@ -35,11 +35,61 @@ for col in numeric_cols:
         df[col] = 0
 df[numeric_cols] = df[numeric_cols].fillna(0)
 
-# Build combined_context for text encoding
+# Build ENRICHED combined_context — inject structural features into text
+# so MiniLM can encode structural intent, not just names/comments
 df['component'] = df['component'].fillna('')
 df['comment']   = df['comment'].fillna('')
-df['combined_context'] = ('Component: ' + df['component'].astype(str)
-                          + ' Comments: '  + df['comment'].astype(str))
+
+def build_enriched_context(row):
+    parts = [f"Component: {row['component']}"]
+
+    # Hook signature
+    hooks_used = []
+    for h in ['useState', 'useEffect', 'useCallback', 'useMemo',
+              'useContext', 'useReducer', 'useRef']:
+        if row.get(h, 0) > 0:
+            hooks_used.append(h)
+    if hooks_used:
+        parts.append(f"Uses hooks: {', '.join(hooks_used)}")
+
+    # Complexity tier
+    ht = row.get('hooks_total', 0)
+    if ht >= 8:
+        parts.append("Complexity: very high stateful component")
+    elif ht >= 5:
+        parts.append("Complexity: high stateful component")
+    elif ht >= 2:
+        parts.append("Complexity: moderate stateful component")
+    elif ht == 0:
+        parts.append("Complexity: stateless presentational component")
+
+    # JSX depth
+    depth = row.get('jsx_depth', 0)
+    if depth >= 10:
+        parts.append("Deep nested JSX structure")
+    elif depth >= 5:
+        parts.append("Moderate JSX nesting")
+
+    # Behavioral signals
+    if row.get('has_fetch', 0) == 1:
+        parts.append("Fetches remote data")
+    if row.get('event_handlers', 0) >= 2:
+        parts.append("Has multiple event handlers")
+    if row.get('map_calls', 0) >= 2:
+        parts.append("Renders lists with map")
+    if row.get('conditionals', 0) >= 3:
+        parts.append("Complex conditional rendering")
+    if row.get('props', 0) >= 5:
+        parts.append(f"Accepts {int(row['props'])} props")
+
+    # Comment
+    if str(row.get('comment', '')).strip():
+        parts.append(f"Description: {row['comment']}")
+
+    return ' | '.join(parts)
+
+df['combined_context'] = df.apply(build_enriched_context, axis=1)
+print(f"  Example context: {df['combined_context'].iloc[0][:120]}...")
 
 print(f"  Clean components: {len(df):,}  |  Repos: {df['repo'].nunique()}")
 
@@ -101,10 +151,16 @@ svd = SVD(n_components=64)
 all_embeddings = svd.fit_transform(adjacency)
 
 comp_indices = [i for i, node in enumerate(nodes_list) if node.startswith('C_')]
-graph_embeddings = all_embeddings[comp_indices].astype('float32')
-norms = np.linalg.norm(graph_embeddings, axis=1, keepdims=True)
+graph_embeddings_raw = all_embeddings[comp_indices].astype('float32')
+
+# Save RAW magnitudes (structural density signal) BEFORE normalization
+graph_mags = np.linalg.norm(graph_embeddings_raw, axis=1)
+print(f"  Graph mags: min={graph_mags.min():.3f} max={graph_mags.max():.3f} mean={graph_mags.mean():.3f}")
+
+# Normalize for directional similarity in FAISS
+norms = graph_mags.copy().reshape(-1, 1)
 norms[norms == 0] = 1
-graph_embeddings = graph_embeddings / norms
+graph_embeddings = graph_embeddings_raw / norms
 print(f"  Graph embeddings: {graph_embeddings.shape}")
 
 # ─── 4. FUSE & BUILD FAISS INDEX ──────────────────────────────────────────────
@@ -122,6 +178,7 @@ print("\n[5/5] Saving artifacts to data/...")
 Path('data').mkdir(exist_ok=True)
 faiss.write_index(index, 'data/graphrag_index.faiss')
 np.save('data/graph_embeddings.npy', graph_embeddings)
+np.save('data/graph_mags.npy', graph_mags)
 df.to_pickle('data/vectors_reference.pkl')
 
 print("\n" + "=" * 55)

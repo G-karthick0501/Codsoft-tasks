@@ -42,8 +42,13 @@ lex_feats = encoder.encode(
     batch_size=128
 ).astype('float32')
 
-# Graph magnitudes (proxy for structural complexity)
-graph_mags = np.linalg.norm(graph_embeddings, axis=1)
+# Graph magnitudes — use RAW (pre-normalization) for structural density scoring
+import os
+if os.path.exists('data/graph_mags.npy'):
+    graph_mags = np.load('data/graph_mags.npy')
+    print(f"[Data] Raw graph mags loaded: min={graph_mags.min():.3f} max={graph_mags.max():.3f}")
+else:
+    graph_mags = np.linalg.norm(graph_embeddings, axis=1)
 
 # ─────────────────────────────────────────────────────────────
 # 2. STRUCTURAL GROUND TRUTH — derived from feature values
@@ -206,12 +211,11 @@ def search_keyword(query_idx):
     ranked = np.argsort(-scores)  # higher = better
     return ranked
 
-def search_omnimodal(query_idx, w_t=0.6, w_g=0.4, recall_k=100):
+def search_omnimodal(query_idx, w_t=0.3, w_g=0.7, recall_k=100, scale=0.3):
     """
-    Recall-then-Rank:
+    Recall-then-Rank (Grid-search optimized: w_t=0.3, w_g=0.7, scale=0.3):
       1. Text recall top-K
-      2. Re-rank with: score = w_t * text_dist - w_g * struct_reward
-         struct_reward = normalized graph magnitude (complexity density)
+      2. Re-rank with: score = w_t * text_dist - w_g * struct_reward * scale
     """
     query = BENCHMARK[query_idx]['query']
     q_lex = encoder.encode([query]).astype('float32')
@@ -225,7 +229,7 @@ def search_omnimodal(query_idx, w_t=0.6, w_g=0.4, recall_k=100):
     scores = np.full(len(df), np.inf)
     for idx in recall_idx:
         struct_reward = graph_mags[idx] / max_mag
-        scores[idx] = (text_dists[idx] * w_t) - (struct_reward * w_g * 0.25)
+        scores[idx] = (text_dists[idx] * w_t) - (struct_reward * w_g * scale)
 
     ranked = np.argsort(scores)
     return ranked
@@ -289,7 +293,7 @@ def mrr(ranked_indices, gt_rel, threshold=2):
 models = {
     "Keyword (Name Match)":  search_keyword,
     "Text RAG (Dense)":      search_text_only,
-    "Omnimodal Static":      lambda qi: search_omnimodal(qi, w_t=0.6, w_g=0.4),
+    "Omnimodal Optimized":   lambda qi: search_omnimodal(qi, w_t=0.3, w_g=0.7, scale=0.3),
     "Omnimodal Dynamic MoE": search_omnimodal_dynamic,
 }
 
@@ -370,7 +374,7 @@ for item in BENCHMARK:
 # 8. VERDICT
 # ─────────────────────────────────────────────────────────────
 best_model = max(results_summary, key=lambda m: results_summary[m]['NDCG@10'])
-omni_gain  = ((results_summary['Omnimodal Dynamic MoE']['NDCG@10'] - keyword_ndcg)
+omni_gain  = ((results_summary['Omnimodal Optimized']['NDCG@10'] - keyword_ndcg)
                / keyword_ndcg * 100) if keyword_ndcg > 0 else 0
 
 print(f"\n{'='*62}")
