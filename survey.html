@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Relevance Survey</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: #f3f4f6;
+            color: #1f2937;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            overflow: hidden;
+        }
+        .container {
+            background: white;
+            padding: 2rem;
+            border-radius: 12px;
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+            max-width: 600px;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+        }
+        .header { text-align: center; }
+        .header h1 { font-size: 1.5rem; margin-bottom: 0.5rem; color: #111827; }
+        .progress { font-size: 0.875rem; color: #6b7280; font-weight: bold; }
+        
+        .query-box {
+            background: #eef2ff;
+            border-left: 4px solid #4f46e5;
+            padding: 1rem;
+            border-radius: 0 8px 8px 0;
+            font-size: 1.125rem;
+            font-weight: 500;
+        }
+        
+        .code-box {
+            background: #1e293b;
+            color: #f8fafc;
+            padding: 1rem;
+            border-radius: 8px;
+            font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+            font-size: 0.9rem;
+            white-space: pre-wrap;
+            overflow-x: auto;
+            max-height: 250px;
+            overflow-y: auto;
+        }
+        
+        .buttons {
+            display: flex;
+            gap: 1rem;
+            margin-top: 1rem;
+        }
+        
+        button {
+            flex: 1;
+            padding: 0.75rem;
+            border: none;
+            border-radius: 6px;
+            font-size: 1rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.2s;
+            color: white;
+        }
+        
+        .btn-yes { background-color: #10b981; }
+        .btn-yes:hover { background-color: #059669; transform: translateY(-2px); }
+        
+        .btn-no { background-color: #ef4444; }
+        .btn-no:hover { background-color: #dc2626; transform: translateY(-2px); }
+        
+        .hidden { display: none !important; }
+        
+        #download-btn {
+            background-color: #4f46e5;
+            width: 100%;
+            margin-top: 1rem;
+        }
+        #download-btn:hover { background-color: #4338ca; }
+    </style>
+</head>
+<body>
+
+    <div class="container" id="survey-container">
+        <div class="header">
+            <h1>Component Relevance Assessment</h1>
+            <div class="progress" id="progress-text">Question 1 of 60</div>
+        </div>
+        
+        <div class="query-box">
+            <strong>Query:</strong> <span id="q-text">loading...</span>
+        </div>
+        
+        <div class="code-box" id="c-text">
+            loading...
+        </div>
+        
+        <div style="text-align: center; font-weight: bold; font-size: 1.1rem;">
+            Does this component successfully match the query request?
+        </div>
+        
+        <div class="buttons">
+            <button class="btn-yes" onclick="submitAnswer(1)">Yes, Looks Relevant</button>
+            <button class="btn-no" onclick="submitAnswer(0)">No, Not Relevant</button>
+        </div>
+    </div>
+
+    <!-- Done Screen -->
+    <div class="container hidden" id="done-container" style="text-align: center;">
+        <h1 style="font-size: 3rem; margin: 0;">🎉</h1>
+        <h2>All Done! Thank You!</h2>
+        <p style="color: #4b5563;">You have completed the annotation task.</p>
+        <button id="download-btn" onclick="submitToServer()">Submit Answers securely</button>
+    </div>
+
+    <script>
+        const questions = [{"id": "Q1-C1", "query": "completely stateless layout container with zero hooks", "code": "// Component Name: (Anonymous)\n// Original File: uber/baseweb/src/heading/heading.tsx\n// Purpose: No documentation.\n\n// --- AST Structural Properties ---\nLine Count: 42\nUI Elements: 3 (Depth: 2)\nTotal Hooks: 0\nuseState: 0, useEffect: 0, useRef: 0, useContext: 0\nEvent Handlers: 0\nArray Maps: 0, Filters: 0\nData Fetching: No"}, {"id": "Q1-C2", "query": "completely stateless layout container with zero hooks", "code": "// Component Name: Example\n// Original File: adobe/react-spectrum/packages/dev/s2-docs/src/CodePlatter.tsx\n// Purpose: const V0 = createIcon(props => (   <svg viewBox=\"0 0 40 20\" {...props}>     <path       d=\"M23.3919 0H32.9188C36.7819 0 39.9136 3.13165 39.9136 6.99475V16.0805H36.0006V6.99475C36.0006 6.90167 35.9969\n\n// --- AST Structural Properties ---\nLine Count: 453\nUI Elements: 60 (Depth: 10)\nTotal Hooks: 3\nuseState: 3, useEffect: 0, useRef: 3, useContext: 6\nEvent Handlers: 0\nArray Maps: 0, Filters: 0\nData Fetching: No"}, {"id": "Q1-C3", "query": "completely stateless layout container with zero hooks", "code": "// Component Name: Layout\n// Original File: react-dnd/react-dnd/packages/docsite/src/components/layout.tsx\n// Purpose: No documentation.\n\n// --- AST Structural Properties ---\nLine Count: 111\nUI Elements: 11 (Depth: 7)\nTotal Hooks: 3\nuseState: 2, useEffect: 0, useRef: 0, useContext: 0\nEvent Handlers: 0\nArray Maps: 0, Filters: 0\nData Fetching: No"}, {"id": "Q1-C4", "query": "completely stateless layout container with zero hooks", "code": "// Component Name: Modal\n// Original File: pubkey/rxdb/docs-src/src/components/modal.tsx\n// Purpose: Extra class applied to the modal root for styling hooks\n\n// --- AST Structural Properties ---\nLine Count: 109\nUI Elements: 6 (Depth: 3)\nTotal Hooks: 0\nuseState: 0, useEffect: 0, useRef: 0, useContext: 0\nEvent Handlers: 0\nArray Maps: 0, Filters: 1\nData Fetching: No"}, {"id": "Q1-C5", "query": "completely stateless layout container with zero hooks", "code": "// Component Name: (Anonymous)\n// Original File: ant-design/ant-design/components/pagination/Pagination.tsx\n// Purpose: @deprecated Not official support. Will be removed in next major version.\n\n// --- AST Structural Properties ---\nLine Count: 300\nUI Elements: 22 (Depth: 7)\nTotal Hooks: 10\nuseState: 0, useEffect: 0, useRef: 0, useContext: 0\nEvent Handlers: 0\nArray Maps: 0, Filters: 0\nData Fetching: No"}, {"id": "Q2-C6", "query": "pure presentational badge with no state at all", "code": "// Component Name: (Anonymous)\n// Original File: uber/baseweb/src/heading/heading.tsx\n// Purpose: No documentation.\n\n// --- AST Structural Properties ---\nLine Count: 42\nUI Elements: 3 (Depth: 2)\nTotal Hooks: 0\nuseState: 0, useEffect: 0, useRef: 0, useContext: 0\nEvent Handlers: 0\nArray Maps: 0, Filters: 0\nData Fetching: No"}, {"id": "Q2-C7", "query": "pure presentational badge with no state at all", "code": "// Component Name: Example\n// Original File: adobe/react-spectrum/packages/dev/s2-docs/src/CodePlatter.tsx\n// Purpose: const V0 = createIcon(props => (   <svg viewBox=\"0 0 40 20\" {...props}>     <path       d=\"M23.3919 0H32.9188C36.7819 0 39.9136 3.13165 39.9136 6.99475V16.0805H36.0006V6.99475C36.0006 6.90167 35.9969\n\n// --- AST Structural Properties ---\nLine Count: 453\nUI Elements: 60 (Depth: 10)\nTotal Hooks: 3\nuseState: 3, useEffect: 0, useRef: 3, useContext: 6\nEvent Handlers: 0\nArray Maps: 0, Filters: 0\nData Fetching: No"}, {"id": "Q2-C8", "query": "pure presentational badge with no state at all", "code": "// Component Name: Layout\n// Original File: react-dnd/react-dnd/packages/docsite/src/components/layout.tsx\n// Purpose: No documentation.\n\n// --- AST Structural Properties ---\nLine Count: 111\nUI Elements: 11 (Depth: 7)\nTotal Hooks: 3\nuseState: 2, useEffect: 0, useRef: 0, useContext: 0\nEvent Handlers: 0\nArray Maps: 0, Filters: 0\nData Fetching: No"}, {"id": "Q2-C9", "query": "pure presentational badge with no state at all", "code": "// Component Name: Modal\n// Original File: pubkey/rxdb/docs-src/src/components/modal.tsx\n// Purpose: Extra class applied to the modal root for styling hooks\n\n// --- AST Structural Properties ---\nLine Count: 109\nUI Elements: 6 (Depth: 3)\nTotal Hooks: 0\nuseState: 0, useEffect: 0, useRef: 0, useContext: 0\nEvent Handlers: 0\nArray Maps: 0, Filters: 1\nData Fetching: No"}, {"id": "Q2-C10", "query": "pure presentational badge with no state at all", "code": "// Component Name: (Anonymous)\n// Original File: ant-design/ant-design/components/pagination/Pagination.tsx\n// Purpose: @deprecated Not official support. Will be removed in next major version.\n\n// --- AST Structural Properties ---\nLine Count: 300\nUI Elements: 22 (Depth: 7)\nTotal Hooks: 10\nuseState: 0, useEffect: 0, useRef: 0, useContext: 0\nEvent Handlers: 0\nArray Maps: 0, Filters: 0\nData Fetching: No"}, {"id": "Q3-C11", "query": "text display component with no interactivity or state", "code": "// Component Name: Table\n// Original File: adobe/react-spectrum/packages/dev/s2-docs/src/Table.tsx\n// Purpose: No documentation.\n\n// --- AST Structural Properties ---\nLine Count: 127\nUI Elements: 6 (Depth: 6)\nTotal Hooks: 0\nuseState: 0, useEffect: 0, useRef: 0, useContext: 0\nEvent Handlers: 0\nArray Maps: 0, Filters: 0\nData Fetching: No"}, {"id": "Q3-C12", "query": "text display component with no interactivity or state", "code": "// Component Name: GroupLabel\n// Original File: reach/reach-ui/playground/stories/listbox/grouped-composed-label.example.tsx\n// Purpose: No documentation.\n\n// --- AST Structural Properties ---\nLine Count: 69\nUI Elements: 25 (Depth: 3)\nTotal Hooks: 1\nuseState: 1, useEffect: 0, useRef: 0, useContext: 0\nEvent Handlers: 0\nArray Maps: 0, Filters: 0\nData Fetching: No"}, {"id": "Q3-C13", "query": "text display component with no interactivity or state", "code": "// Component Name: Playground\n// Original File: FormidableLabs/victory/website/src/theme/Playground/index.tsx\n// Purpose: This theme file overrides original file from the docusaurus theme to customize the playground component  Original file: @docusaurus/theme-live-codeblock/src/theme/Playground/index.tsx\n\n// --- AST Structural Properties ---\nLine Count: 145\nUI Elements: 26 (Depth: 2)\nTotal Hooks: 3\nuseState: 1, useEffect: 0, useRef: 0, useContext: 0\nEvent Handlers: 0\nArray Maps: 0, Filters: 0\nData Fetching: No"}, {"id": "Q3-C14", "query": "text display component with no interactivity or state", "code": "// Component Name: AppSidebar\n// Original File: shadcn-ui/ui/deprecated/www/registry/new-york/blocks/sidebar-02/components/app-sidebar.tsx\n// Purpose: This is sample data.\n\n// --- AST Structural Properties ---\nLine Count: 215\nUI Elements: 16 (Depth: 9)\nTotal Hooks: 0\nuseState: 0, useEffect: 0, useRef: 0, useContext: 0\nEvent Handlers: 0\nArray Maps: 2, Filters: 0\nData Fetching: No"}, {"id": "Q3-C15", "query": "text display component with no interactivity or state", "code": "// Component Name: (Anonymous)\n// Original File: data-driven-forms/react-forms/packages/react-form-renderer/src/form-renderer/form-renderer.tsx\n// Purpose: Only permit one child element\n\n// --- AST Structural Properties ---\nLine Count: 248\nUI Elements: 18 (Depth: 16)\nTotal Hooks: 4\nuseState: 2, useEffect: 0, useRef: 3, useContext: 0\nEvent Handlers: 0\nArray Maps: 0, Filters: 1\nData Fetching: No"}, {"id": "Q4-C16", "query": "animated modal with refs and multiple event handlers", "code": "// Component Name: (Anonymous)\n// Original File: reactotron/reactotron/lib/reactotron-core-ui/src/modals/SnapshotRenameModal/index.tsx\n// Purpose: No documentation.\n\n// --- AST Structural Properties ---\nLine Count: 90\nUI Elements: 8 (Depth: 5)\nTotal Hooks: 3\nuseState: 2, useEffect: 0, useRef: 2, useContext: 0\nEvent Handlers: 2\nArray Maps: 0, Filters: 0\nData Fetching: No"}, {"id": "Q4-C17", "query": "animated modal with refs and multiple event handlers", "code": "// Component Name: (Anonymous)\n// Original File: adazzle/react-data-grid/website/components/DraggableRowRenderer.tsx\n// Purpose: only accept pertinent drag events: - ignore drag events going from the container to an element inside the container - ignore drag events going from an element inside the container to the container\n\n// --- AST Structural Properties ---\nLine Count: 91\nUI Elements: 10 (Depth: 9)\nTotal Hooks: 1\nuseState: 3, useEffect: 0, useRef: 0, useContext: 0\nEvent Handlers: 0\nArray Maps: 0, Filters: 0\nData Fetching: No"}, {"id": "Q4-C18", "query": "animated modal with refs and multiple event handlers", "code": "// Component Name: Route\n// Original File: adazzle/react-data-grid/website/routes/AllFeatures.tsx\n// Purpose: No documentation.\n\n// --- AST Structural Properties ---\nLine Count: 314\nUI Elements: 9 (Depth: 6)\nTotal Hooks: 3\nuseState: 4, useEffect: 0, useRef: 0, useContext: 0\nEvent Handlers: 0\nArray Maps: 1, Filters: 0\nData Fetching: No"}, {"id": "Q4-C19", "query": "animated modal with refs and multiple event handlers", "code": "// Component Name: (Anonymous)\n// Original File: andreypopp/react-textarea-autosize/src/index.tsx\n// Purpose: No documentation.\n\n// --- AST Structural Properties ---\nLine Count: 121\nUI Elements: 9 (Depth: 7)\nTotal Hooks: 6\nuseState: 0, useEffect: 0, useRef: 3, useContext: 0\nEvent Handlers: 2\nArray Maps: 0, Filters: 0\nData Fetching: No"}, {"id": "Q4-C20", "query": "animated modal with refs and multiple event handlers", "code": "// Component Name: CardColors\n// Original File: mui/material-ui/docs/data/joy/components/card/CardColors.tsx\n// Purpose: No documentation.\n\n// --- AST Structural Properties ---\nLine Count: 109\nUI Elements: 20 (Depth: 6)\nTotal Hooks: 1\nuseState: 2, useEffect: 0, useRef: 0, useContext: 0\nEvent Handlers: 0\nArray Maps: 0, Filters: 0\nData Fetching: No"}, {"id": "Q5-C21", "query": "form with multiple conditional validations and state", "code": "// Component Name: TableRowGroup\n// Original File: adobe/react-spectrum/packages/@react-aria/table/stories/example-resizing.tsx\n// Purpose: No documentation.\n\n// --- AST Structural Properties ---\nLine Count: 321\nUI Elements: 34 (Depth: 9)\nTotal Hooks: 20\nuseState: 3, useEffect: 0, useRef: 12, useContext: 0\nEvent Handlers: 0\nArray Maps: 4, Filters: 0\nData Fetching: No"}, {"id": "Q5-C22", "query": "form with multiple conditional validations and state", "code": "// Component Name: (Anonymous)\n// Original File: reactotron/reactotron/lib/reactotron-core-ui/src/timelineCommands/StateValuesChangeCommand/index.tsx\n// Purpose: No documentation.\n\n// --- AST Structural Properties ---\nLine Count: 58\nUI Elements: 6 (Depth: 3)\nTotal Hooks: 0\nuseState: 0, useEffect: 0, useRef: 0, useContext: 0\nEvent Handlers: 0\nArray Maps: 0, Filters: 0\nData Fetching: No"}, {"id": "Q5-C23", "query": "form with multiple conditional validations and state", "code": "// Component Name: (Anonymous)\n// Original File: data-driven-forms/react-forms/packages/pf4-component-mapper/src/wizard/wizard-components/step-buttons.tsx\n// Purpose: No documentation.\n\n// --- AST Structural Properties ---\nLine Count: 123\nUI Elements: 16 (Depth: 9)\nTotal Hooks: 0\nuseState: 0, useEffect: 0, useRef: 0, useContext: 0\nEvent Handlers: 0\nArray Maps: 0, Filters: 0\nData Fetching: No"}, {"id": "Q5-C24", "query": "form with multiple conditional validations and state", "code": "// Component Name: Modal\n// Original File: rsuite/rsuite/src/Modal/Modal.tsx\n// Purpose: A modal can have different sizes\n\n// --- AST Structural Properties ---\nLine Count: 293\nUI Elements: 6 (Depth: 5)\nTotal Hooks: 9\nuseState: 2, useEffect: 0, useRef: 4, useContext: 0\nEvent Handlers: 0\nArray Maps: 0, Filters: 0\nData Fetching: No"}, {"id": "Q5-C25", "query": "form with multiple conditional validations and state", "code": "// Component Name: (Anonymous)\n// Original File: react-bootstrap/react-bootstrap/src/Accordion.tsx\n// Purpose: Element used to render the component.\n\n// --- AST Structural Properties ---\nLine Count: 108\nUI Elements: 4 (Depth: 3)\nTotal Hooks: 3\nuseState: 0, useEffect: 0, useRef: 0, useContext: 0\nEvent Handlers: 0\nArray Maps: 0, Filters: 0\nData Fetching: No"}, {"id": "Q6-C26", "query": "complex table with filtering and mapping", "code": "// Component Name: LabelsMonth\n// Original File: uiwjs/react-heat-map/core/src/LabelsMonth.tsx\n// Purpose: No documentation.\n\n// --- AST Structural Properties ---\nLine Count: 62\nUI Elements: 2 (Depth: 2)\nTotal Hooks: 1\nuseState: 0, useEffect: 0, useRef: 0, useContext: 0\nEvent Handlers: 0\nArray Maps: 2, Filters: 2\nData Fetching: No"}, {"id": "Q6-C27", "query": "complex table with filtering and mapping", "code": "// Component Name: InterestGallery\n// Original File: zheeeng/react-keyboard-navigator/packages/react-keyboard-navigator-example/pages/interestGallery$.tsx\n// Purpose: @title Interest Gallery @order 3\n\n// --- AST Structural Properties ---\nLine Count: 74\nUI Elements: 7 (Depth: 2)\nTotal Hooks: 3\nuseState: 3, useEffect: 0, useRef: 0, useContext: 0\nEvent Handlers: 0\nArray Maps: 1, Filters: 0\nData Fetching: No"}, {"id": "Q6-C28", "query": "complex table with filtering and mapping", "code": "// Component Name: InterestGallery\n// Original File: zheeeng/react-keyboard-navigator/packages/react-keyboard-navigator-example/pages/macOSFinder$.tsx\n// Purpose: @title MacOS Finder @order 2\n\n// --- AST Structural Properties ---\nLine Count: 151\nUI Elements: 43 (Depth: 3)\nTotal Hooks: 2\nuseState: 3, useEffect: 0, useRef: 0, useContext: 0\nEvent Handlers: 0\nArray Maps: 0, Filters: 0\nData Fetching: No"}, {"id": "Q6-C29", "query": "complex table with filtering and mapping", "code": "// Component Name: Modal\n// Original File: ag-grid/ag-grid/external/ag-website-shared/src/components/search/SearchModal.jsx\n// Purpose: We don't want to send a search request if the query is empty, so we override the search method to check for this.\n\n// --- AST Structural Properties ---\nLine Count: 226\nUI Elements: 9 (Depth: 2)\nTotal Hooks: 6\nuseState: 3, useEffect: 3, useRef: 0, useContext: 0\nEvent Handlers: 0\nArray Maps: 1, Filters: 2\nData Fetching: No"}, {"id": "Q6-C30", "query": "complex table with filtering and mapping", "code": "// Component Name: CheckboxWidget\n// Original File: mozilla-services/react-jsonschema-form/packages/mantine/src/widgets/CheckboxWidget.tsx\n// Purpose: The `CheckBoxWidget` is a widget for rendering boolean properties.  It is typically used to represent a boolean.  @param props - The `WidgetProps` for this component\n\n// --- AST Structural Properties ---\nLine Count: 106\nUI Elements: 6 (Depth: 5)\nTotal Hooks: 1\nuseState: 0, useEffect: 0, useRef: 0, useContext: 0\nEvent Handlers: 0\nArray Maps: 0, Filters: 0\nData Fetching: No"}, {"id": "Q7-C31", "query": "extremely large data fetching dashboard over 150 lines", "code": "// Component Name: Component\n// Original File: table-library/react-table-library/.storybook/stories/ClientVsServer/Server/base.jsx\n// Purpose: client-side select\n\n// --- AST Structural Properties ---\nLine Count: 235\nUI Elements: 21 (Depth: 4)\nTotal Hooks: 8\nuseState: 3, useEffect: 1, useRef: 1, useContext: 0\nEvent Handlers: 0\nArray Maps: 3, Filters: 0\nData Fetching: Yes"}, {"id": "Q7-C32", "query": "extremely large data fetching dashboard over 150 lines", "code": "// Component Name: JoyToggleButton\n// Original File: mui/material-ui/docs/pages/experiments/joy/toggle-button.tsx\n// Purpose: No documentation.\n\n// --- AST Structural Properties ---\nLine Count: 85\nUI Elements: 15 (Depth: 5)\nTotal Hooks: 3\nuseState: 2, useEffect: 1, useRef: 0, useContext: 0\nEvent Handlers: 1\nArray Maps: 2, Filters: 0\nData Fetching: No"}, {"id": "Q7-C33", "query": "extremely large data fetching dashboard over 150 lines", "code": "// Component Name: JoyStyleGuide\n// Original File: mui/material-ui/docs/pages/experiments/joy/style-guide.tsx\n// Purpose: No documentation.\n\n// --- AST Structural Properties ---\nLine Count: 215\nUI Elements: 45 (Depth: 5)\nTotal Hooks: 5\nuseState: 3, useEffect: 3, useRef: 1, useContext: 0\nEvent Handlers: 0\nArray Maps: 5, Filters: 0\nData Fetching: No"}, {"id": "Q7-C34", "query": "extremely large data fetching dashboard over 150 lines", "code": "// Component Name: (Anonymous)\n// Original File: pankod/refine/examples/auth-keycloak/src/App.tsx\n// Purpose: No documentation.\n\n// --- AST Structural Properties ---\nLine Count: 202\nUI Elements: 37 (Depth: 6)\nTotal Hooks: 2\nuseState: 0, useEffect: 0, useRef: 0, useContext: 0\nEvent Handlers: 0\nArray Maps: 0, Filters: 0\nData Fetching: Yes"}, {"id": "Q7-C35", "query": "extremely large data fetching dashboard over 150 lines", "code": "// Component Name: ArrayItem\n// Original File: data-driven-forms/react-forms/packages/pf4-component-mapper/src/field-array/field-array.tsx\n// Purpose: No documentation.\n\n// --- AST Structural Properties ---\nLine Count: 141\nUI Elements: 24 (Depth: 11)\nTotal Hooks: 2\nuseState: 0, useEffect: 0, useRef: 0, useContext: 0\nEvent Handlers: 0\nArray Maps: 2, Filters: 0\nData Fetching: No"}, {"id": "Q8-C36", "query": "giant monolithic page component with deep html nesting", "code": "// Component Name: Tooltip\n// Original File: adobe/react-spectrum/packages/@react-spectrum/s2/src/Tooltip.tsx\n// Purpose: The content of the tooltip.\n\n// --- AST Structural Properties ---\nLine Count: 222\nUI Elements: 15 (Depth: 11)\nTotal Hooks: 5\nuseState: 2, useEffect: 0, useRef: 0, useContext: 3\nEvent Handlers: 0\nArray Maps: 0, Filters: 0\nData Fetching: No"}, {"id": "Q8-C37", "query": "giant monolithic page component with deep html nesting", "code": "// Component Name: Pagination\n// Original File: Shopify/polaris/polaris-react/src/components/Pagination/Pagination.tsx\n// Purpose: Keyboard shortcuts for the next button\n\n// --- AST Structural Properties ---\nLine Count: 254\nUI Elements: 20 (Depth: 3)\nTotal Hooks: 1\nuseState: 0, useEffect: 0, useRef: 0, useContext: 0\nEvent Handlers: 2\nArray Maps: 2, Filters: 0\nData Fetching: No"}, {"id": "Q8-C38", "query": "giant monolithic page component with deep html nesting", "code": "// Component Name: Navigation\n// Original File: Shopify/polaris/polaris-react/src/components/Navigation/Navigation.tsx\n// Purpose: id of the element used as aria-labelledby\n\n// --- AST Structural Properties ---\nLine Count: 91\nUI Elements: 8 (Depth: 3)\nTotal Hooks: 3\nuseState: 0, useEffect: 0, useRef: 0, useContext: 0\nEvent Handlers: 1\nArray Maps: 0, Filters: 0\nData Fetching: No"}, {"id": "Q8-C39", "query": "giant monolithic page component with deep html nesting", "code": "// Component Name: Component\n// Original File: shadcn-ui/ui/deprecated/www/registry/new-york/internal/sidebar-01.tsx\n// Purpose: No documentation.\n\n// --- AST Structural Properties ---\nLine Count: 285\nUI Elements: 47 (Depth: 8)\nTotal Hooks: 1\nuseState: 1, useEffect: 0, useRef: 0, useContext: 0\nEvent Handlers: 0\nArray Maps: 3, Filters: 0\nData Fetching: No"}, {"id": "Q8-C40", "query": "giant monolithic page component with deep html nesting", "code": "// Component Name: Home\n// Original File: tailwindlabs/headlessui/playgrounds/react/pages/combobox/combobox-virtual-with-empty-states.tsx\n// Purpose: No documentation.\n\n// --- AST Structural Properties ---\nLine Count: 196\nUI Elements: 21 (Depth: 5)\nTotal Hooks: 2\nuseState: 4, useEffect: 0, useRef: 3, useContext: 0\nEvent Handlers: 0\nArray Maps: 0, Filters: 1\nData Fetching: No"}, {"id": "Q9-C41", "query": "massive interactive map using refs over 150 lines", "code": "// Component Name: Datepicker\n// Original File: themesberg/flowbite-react/packages/ui/src/components/Datepicker/Datepicker.tsx\n// Purpose: Focus the datepicker input.\n\n// --- AST Structural Properties ---\nLine Count: 389\nUI Elements: 30 (Depth: 11)\nTotal Hooks: 8\nuseState: 5, useEffect: 3, useRef: 3, useContext: 0\nEvent Handlers: 0\nArray Maps: 0, Filters: 0\nData Fetching: No"}, {"id": "Q9-C42", "query": "massive interactive map using refs over 150 lines", "code": "// Component Name: References\n// Original File: mui/material-ui/docs/src/components/home/References.tsx\n// Purpose: No documentation.\n\n// --- AST Structural Properties ---\nLine Count: 48\nUI Elements: 4 (Depth: 2)\nTotal Hooks: 0\nuseState: 0, useEffect: 0, useRef: 0, useContext: 0\nEvent Handlers: 0\nArray Maps: 0, Filters: 0\nData Fetching: No"}, {"id": "Q9-C43", "query": "massive interactive map using refs over 150 lines", "code": "// Component Name: ProductSuite\n// Original File: mui/material-ui/docs/src/components/home/ProductSuite.tsx\n// Purpose: No documentation.\n\n// --- AST Structural Properties ---\nLine Count: 91\nUI Elements: 17 (Depth: 7)\nTotal Hooks: 2\nuseState: 1, useEffect: 0, useRef: 0, useContext: 0\nEvent Handlers: 0\nArray Maps: 0, Filters: 0\nData Fetching: No"}, {"id": "Q9-C44", "query": "massive interactive map using refs over 150 lines", "code": "// Component Name: TOC\n// Original File: Shopify/polaris/polaris.shopify.com/src/components/TOC/TOC.tsx\n// Purpose: No documentation.\n\n// --- AST Structural Properties ---\nLine Count: 216\nUI Elements: 7 (Depth: 2)\nTotal Hooks: 3\nuseState: 3, useEffect: 3, useRef: 3, useContext: 0\nEvent Handlers: 0\nArray Maps: 2, Filters: 0\nData Fetching: No"}, {"id": "Q9-C45", "query": "massive interactive map using refs over 150 lines", "code": "// Component Name: (Anonymous)\n// Original File: adobe/react-spectrum/starters/tailwind/src/CommandPalette.tsx\n// Purpose: No documentation.\n\n// --- AST Structural Properties ---\nLine Count: 56\nUI Elements: 10 (Depth: 9)\nTotal Hooks: 2\nuseState: 0, useEffect: 2, useRef: 0, useContext: 0\nEvent Handlers: 0\nArray Maps: 0, Filters: 0\nData Fetching: No"}, {"id": "Q10-C46", "query": "somewhat complex interactive form wrapper", "code": "// Component Name: Route\n// Original File: adazzle/react-data-grid/website/routes/CustomizableRenderers.tsx\n// Purpose: No documentation.\n\n// --- AST Structural Properties ---\nLine Count: 198\nUI Elements: 9 (Depth: 2)\nTotal Hooks: 3\nuseState: 4, useEffect: 0, useRef: 0, useContext: 0\nEvent Handlers: 1\nArray Maps: 0, Filters: 0\nData Fetching: No"}, {"id": "Q10-C47", "query": "somewhat complex interactive form wrapper", "code": "// Component Name: CSSGrid\n// Original File: carbon-design-system/carbon/packages/react/src/components/Grid/CSSGrid.tsx\n// Purpose: Copyright IBM Corp. 2016, 2023  This source code is licensed under the Apache-2.0 license found in the LICENSE file in the root directory of this source tree.\n\n// --- AST Structural Properties ---\nLine Count: 190\nUI Elements: 11 (Depth: 5)\nTotal Hooks: 2\nuseState: 0, useEffect: 0, useRef: 0, useContext: 0\nEvent Handlers: 0\nArray Maps: 0, Filters: 0\nData Fetching: No"}, {"id": "Q10-C48", "query": "somewhat complex interactive form wrapper", "code": "// Component Name: TextPage\n// Original File: pinterest/gestalt/docs/pages/web/textui.tsx\n// Purpose: No documentation.\n\n// --- AST Structural Properties ---\nLine Count: 153\nUI Elements: 29 (Depth: 3)\nTotal Hooks: 0\nuseState: 0, useEffect: 0, useRef: 0, useContext: 0\nEvent Handlers: 0\nArray Maps: 0, Filters: 0\nData Fetching: No"}, {"id": "Q10-C49", "query": "somewhat complex interactive form wrapper", "code": "// Component Name: ExternalInput\n// Original File: measuredco/puck/packages/core/components/ExternalInput/index.tsx\n// Purpose: No documentation.\n\n// --- AST Structural Properties ---\nLine Count: 315\nUI Elements: 33 (Depth: 2)\nTotal Hooks: 4\nuseState: 7, useEffect: 2, useRef: 0, useContext: 0\nEvent Handlers: 1\nArray Maps: 5, Filters: 0\nData Fetching: No"}, {"id": "Q10-C50", "query": "somewhat complex interactive form wrapper", "code": "// Component Name: ShowcaseThemeSwitch\n// Original File: nextui-org/nextui/apps/docs/src/app/showcase/[id]/showcase-theme-switch.tsx\n// Purpose: Determine the tooltip content based on whether switching is disabled\n\n// --- AST Structural Properties ---\nLine Count: 66\nUI Elements: 9 (Depth: 3)\nTotal Hooks: 2\nuseState: 0, useEffect: 0, useRef: 0, useContext: 0\nEvent Handlers: 0\nArray Maps: 0, Filters: 0\nData Fetching: No"}, {"id": "Q11-C51", "query": "mostly simple display card with one state at most", "code": "// Component Name: (Anonymous)\n// Original File: naver/egjs-flicking/docs/src/showcases/ArtWindow.tsx\n// Purpose: No documentation.\n\n// --- AST Structural Properties ---\nLine Count: 75\nUI Elements: 22 (Depth: 2)\nTotal Hooks: 1\nuseState: 3, useEffect: 0, useRef: 0, useContext: 0\nEvent Handlers: 0\nArray Maps: 0, Filters: 0\nData Fetching: No"}, {"id": "Q11-C52", "query": "mostly simple display card with one state at most", "code": "// Component Name: App\n// Original File: tannerlinsley/react-table/examples/react/basic-external-state/src/main.tsx\n// Purpose: Manage sorting state with React.useState (although react state causes more re-renders here than necessary compared to using a store)\n\n// --- AST Structural Properties ---\nLine Count: 210\nUI Elements: 18 (Depth: 2)\nTotal Hooks: 3\nuseState: 5, useEffect: 0, useRef: 0, useContext: 0\nEvent Handlers: 0\nArray Maps: 5, Filters: 0\nData Fetching: No"}, {"id": "Q11-C53", "query": "mostly simple display card with one state at most", "code": "// Component Name: Component\n// Original File: table-library/react-table-library/.storybook/stories/Server/Features/Search/base.jsx\n// Purpose: initial fetching\n\n// --- AST Structural Properties ---\nLine Count: 92\nUI Elements: 16 (Depth: 4)\nTotal Hooks: 4\nuseState: 2, useEffect: 2, useRef: 0, useContext: 0\nEvent Handlers: 0\nArray Maps: 1, Filters: 0\nData Fetching: No"}, {"id": "Q11-C54", "query": "mostly simple display card with one state at most", "code": "// Component Name: CloseButton\n// Original File: tolgee/tolgee-js/packages/web/src/package/ui/KeyDialog/Tags/CloseButton.tsx\n// Purpose: No documentation.\n\n// --- AST Structural Properties ---\nLine Count: 23\nUI Elements: 3 (Depth: 2)\nTotal Hooks: 0\nuseState: 0, useEffect: 0, useRef: 0, useContext: 0\nEvent Handlers: 1\nArray Maps: 0, Filters: 0\nData Fetching: No"}, {"id": "Q11-C55", "query": "mostly simple display card with one state at most", "code": "// Component Name: Component\n// Original File: table-library/react-table-library/.storybook/stories/Composites/HideResize/base.jsx\n// Purpose: No documentation.\n\n// --- AST Structural Properties ---\nLine Count: 144\nUI Elements: 25 (Depth: 4)\nTotal Hooks: 1\nuseState: 1, useEffect: 0, useRef: 0, useContext: 0\nEvent Handlers: 0\nArray Maps: 1, Filters: 1\nData Fetching: No"}, {"id": "Q12-C56", "query": "tiny basic generic button component under 50 lines", "code": "// Component Name: SidebarsMDXPage\n// Original File: ccontrols/component-controls/ui/app/src/SidebarsPage/SidebarsMDXPage.tsx\n// Purpose: @jsx jsx\n\n// --- AST Structural Properties ---\nLine Count: 43\nUI Elements: 7 (Depth: 4)\nTotal Hooks: 1\nuseState: 0, useEffect: 0, useRef: 2, useContext: 0\nEvent Handlers: 0\nArray Maps: 0, Filters: 0\nData Fetching: No"}, {"id": "Q12-C57", "query": "tiny basic generic button component under 50 lines", "code": "// Component Name: PickerContext\n// Original File: adobe/react-spectrum/packages/@react-spectrum/s2/src/TabsPicker.tsx\n// Purpose: The contents of the collection.\n\n// --- AST Structural Properties ---\nLine Count: 366\nUI Elements: 32 (Depth: 17)\nTotal Hooks: 6\nuseState: 0, useEffect: 0, useRef: 2, useContext: 2\nEvent Handlers: 0\nArray Maps: 0, Filters: 0\nData Fetching: No"}, {"id": "Q12-C58", "query": "tiny basic generic button component under 50 lines", "code": "// Component Name: SwitchContext\n// Original File: adobe/react-spectrum/packages/@react-spectrum/s2/src/Switch.tsx\n// Purpose: The size of the Switch.  @default 'M'\n\n// --- AST Structural Properties ---\nLine Count: 198\nUI Elements: 13 (Depth: 11)\nTotal Hooks: 6\nuseState: 0, useEffect: 0, useRef: 3, useContext: 2\nEvent Handlers: 0\nArray Maps: 0, Filters: 0\nData Fetching: No"}, {"id": "Q12-C59", "query": "tiny basic generic button component under 50 lines", "code": "// Component Name: InputGroup\n// Original File: adobe/react-spectrum/starters/docs/src/InputGroup.tsx\n// Purpose: No documentation.\n\n// --- AST Structural Properties ---\nLine Count: 25\nUI Elements: 4 (Depth: 2)\nTotal Hooks: 1\nuseState: 0, useEffect: 0, useRef: 0, useContext: 0\nEvent Handlers: 0\nArray Maps: 0, Filters: 0\nData Fetching: No"}, {"id": "Q12-C60", "query": "tiny basic generic button component under 50 lines", "code": "// Component Name: NavWorkspaces\n// Original File: shadcn-ui/ui/deprecated/www/registry/new-york/blocks/sidebar-15/components/nav-workspaces.tsx\n// Purpose: No documentation.\n\n// --- AST Structural Properties ---\nLine Count: 85\nUI Elements: 24 (Depth: 6)\nTotal Hooks: 0\nuseState: 0, useEffect: 0, useRef: 0, useContext: 0\nEvent Handlers: 0\nArray Maps: 2, Filters: 0\nData Fetching: No"}];
+        let currentIndex = 0;
+        const answers = [];
+
+        function renderQuestion() {
+            if (currentIndex >= questions.length) {
+                document.getElementById('survey-container').classList.add('hidden');
+                document.getElementById('done-container').classList.remove('hidden');
+                return;
+            }
+            
+            const q = questions[currentIndex];
+            document.getElementById('progress-text').innerText = `Question ${currentIndex + 1} of ${questions.length}`;
+            document.getElementById('q-text').innerText = q.query;
+            document.getElementById('c-text').innerText = q.code;
+        }
+
+        function submitAnswer(score) {
+            const q = questions[currentIndex];
+            answers.push({
+                "Pair ID": q.id,
+                "Query": q.query,
+                "Is Relevant? (1=Yes, 0=No)": score
+            });
+            
+            currentIndex++;
+            renderQuestion();
+        }
+
+        async function submitToServer() {
+            const username = prompt("Please enter your Discord Handle or Name:");
+            if (!username) return;
+            
+            const btn = document.getElementById('download-btn');
+            btn.innerText = "Submitting...";
+            btn.disabled = true;
+
+            const payload = {
+                annotator_id: username,
+                answers: answers
+            };
+
+            try {
+                const res = await fetch('https://script.google.com/macros/s/AKfycbxWIuGWCFPzBARkL1t_mM7xGUe0Qv92wfTmfYD9d1HlJ1nzOqdd3E1zm4yRe35PiffwkQ/exec', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'text/plain;charset=utf-8' },
+                    body: JSON.stringify(payload)
+                });
+                
+                if (res.ok) {
+                    document.getElementById('done-container').innerHTML = 
+                        "<h2>✅ Success!</h2><p>Your answers have been securely submitted direct to Karthick!</p><p>You can close this tab now. Thank you so much!</p>";
+                } else {
+                    alert("Error submitting. Please try again.");
+                    btn.innerText = "Submit Answers securely";
+                    btn.disabled = false;
+                }
+            } catch (err) {
+                alert("Error submitting to server: " + err);
+                btn.innerText = "Submit Answers securely";
+                btn.disabled = false;
+            }
+        }
+
+        // Start
+        renderQuestion();
+    </script>
+</body>
+</html>
