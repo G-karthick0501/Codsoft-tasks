@@ -1,0 +1,721 @@
+Pair ID,Query,Component Snapshot (AST Data),"Is Relevant? (1=Yes, 0=No)",Annotator Notes (Optional),GroundTruth_Hidden
+Q1-C1,completely stateless layout container with zero hooks,"// Component Name: nan
+// Original File: uber/baseweb/src/heading/heading.tsx
+// Purpose: No documentation.
+
+// --- AST Structural Properties ---
+Line Count: 42
+UI Elements: 3 (Depth: 2)
+Total Hooks: 0
+useState: 0, useEffect: 0, useRef: 0, useContext: 0
+Event Handlers: 0
+Array Maps: 0, Filters: 0
+Data Fetching: No",,,1
+Q1-C2,completely stateless layout container with zero hooks,"// Component Name: Example
+// Original File: adobe/react-spectrum/packages/dev/s2-docs/src/CodePlatter.tsx
+// Purpose: const V0 = createIcon(props => (   <svg viewBox=""0 0 40 20"" {...props}>     <path       d=""M23.3919 0H32.9188C36.7819 0 39.9136 3.13165 39.9136 6.99475V16.0805H36.0006V6.99475C36.0006 6.90167 35.9969
+
+// --- AST Structural Properties ---
+Line Count: 453
+UI Elements: 60 (Depth: 10)
+Total Hooks: 3
+useState: 3, useEffect: 0, useRef: 3, useContext: 6
+Event Handlers: 0
+Array Maps: 0, Filters: 0
+Data Fetching: No",,,0
+Q1-C3,completely stateless layout container with zero hooks,"// Component Name: Layout
+// Original File: react-dnd/react-dnd/packages/docsite/src/components/layout.tsx
+// Purpose: No documentation.
+
+// --- AST Structural Properties ---
+Line Count: 111
+UI Elements: 11 (Depth: 7)
+Total Hooks: 3
+useState: 2, useEffect: 0, useRef: 0, useContext: 0
+Event Handlers: 0
+Array Maps: 0, Filters: 0
+Data Fetching: No",,,0
+Q1-C4,completely stateless layout container with zero hooks,"// Component Name: Modal
+// Original File: pubkey/rxdb/docs-src/src/components/modal.tsx
+// Purpose: Extra class applied to the modal root for styling hooks
+
+// --- AST Structural Properties ---
+Line Count: 109
+UI Elements: 6 (Depth: 3)
+Total Hooks: 0
+useState: 0, useEffect: 0, useRef: 0, useContext: 0
+Event Handlers: 0
+Array Maps: 0, Filters: 1
+Data Fetching: No",,,1
+Q1-C5,completely stateless layout container with zero hooks,"// Component Name: nan
+// Original File: ant-design/ant-design/components/pagination/Pagination.tsx
+// Purpose: @deprecated Not official support. Will be removed in next major version.
+
+// --- AST Structural Properties ---
+Line Count: 300
+UI Elements: 22 (Depth: 7)
+Total Hooks: 10
+useState: 0, useEffect: 0, useRef: 0, useContext: 0
+Event Handlers: 0
+Array Maps: 0, Filters: 0
+Data Fetching: No",,,0
+Q2-C6,pure presentational badge with no state at all,"// Component Name: nan
+// Original File: uber/baseweb/src/heading/heading.tsx
+// Purpose: No documentation.
+
+// --- AST Structural Properties ---
+Line Count: 42
+UI Elements: 3 (Depth: 2)
+Total Hooks: 0
+useState: 0, useEffect: 0, useRef: 0, useContext: 0
+Event Handlers: 0
+Array Maps: 0, Filters: 0
+Data Fetching: No",,,1
+Q2-C7,pure presentational badge with no state at all,"// Component Name: Example
+// Original File: adobe/react-spectrum/packages/dev/s2-docs/src/CodePlatter.tsx
+// Purpose: const V0 = createIcon(props => (   <svg viewBox=""0 0 40 20"" {...props}>     <path       d=""M23.3919 0H32.9188C36.7819 0 39.9136 3.13165 39.9136 6.99475V16.0805H36.0006V6.99475C36.0006 6.90167 35.9969
+
+// --- AST Structural Properties ---
+Line Count: 453
+UI Elements: 60 (Depth: 10)
+Total Hooks: 3
+useState: 3, useEffect: 0, useRef: 3, useContext: 6
+Event Handlers: 0
+Array Maps: 0, Filters: 0
+Data Fetching: No",,,0
+Q2-C8,pure presentational badge with no state at all,"// Component Name: Layout
+// Original File: react-dnd/react-dnd/packages/docsite/src/components/layout.tsx
+// Purpose: No documentation.
+
+// --- AST Structural Properties ---
+Line Count: 111
+UI Elements: 11 (Depth: 7)
+Total Hooks: 3
+useState: 2, useEffect: 0, useRef: 0, useContext: 0
+Event Handlers: 0
+Array Maps: 0, Filters: 0
+Data Fetching: No",,,0
+Q2-C9,pure presentational badge with no state at all,"// Component Name: Modal
+// Original File: pubkey/rxdb/docs-src/src/components/modal.tsx
+// Purpose: Extra class applied to the modal root for styling hooks
+
+// --- AST Structural Properties ---
+Line Count: 109
+UI Elements: 6 (Depth: 3)
+Total Hooks: 0
+useState: 0, useEffect: 0, useRef: 0, useContext: 0
+Event Handlers: 0
+Array Maps: 0, Filters: 1
+Data Fetching: No",,,1
+Q2-C10,pure presentational badge with no state at all,"// Component Name: nan
+// Original File: ant-design/ant-design/components/pagination/Pagination.tsx
+// Purpose: @deprecated Not official support. Will be removed in next major version.
+
+// --- AST Structural Properties ---
+Line Count: 300
+UI Elements: 22 (Depth: 7)
+Total Hooks: 10
+useState: 0, useEffect: 0, useRef: 0, useContext: 0
+Event Handlers: 0
+Array Maps: 0, Filters: 0
+Data Fetching: No",,,0
+Q3-C11,text display component with no interactivity or state,"// Component Name: Table
+// Original File: adobe/react-spectrum/packages/dev/s2-docs/src/Table.tsx
+// Purpose: No documentation.
+
+// --- AST Structural Properties ---
+Line Count: 127
+UI Elements: 6 (Depth: 6)
+Total Hooks: 0
+useState: 0, useEffect: 0, useRef: 0, useContext: 0
+Event Handlers: 0
+Array Maps: 0, Filters: 0
+Data Fetching: No",,,1
+Q3-C12,text display component with no interactivity or state,"// Component Name: GroupLabel
+// Original File: reach/reach-ui/playground/stories/listbox/grouped-composed-label.example.tsx
+// Purpose: No documentation.
+
+// --- AST Structural Properties ---
+Line Count: 69
+UI Elements: 25 (Depth: 3)
+Total Hooks: 1
+useState: 1, useEffect: 0, useRef: 0, useContext: 0
+Event Handlers: 0
+Array Maps: 0, Filters: 0
+Data Fetching: No",,,0
+Q3-C13,text display component with no interactivity or state,"// Component Name: Playground
+// Original File: FormidableLabs/victory/website/src/theme/Playground/index.tsx
+// Purpose: This theme file overrides original file from the docusaurus theme to customize the playground component  Original file: @docusaurus/theme-live-codeblock/src/theme/Playground/index.tsx
+
+// --- AST Structural Properties ---
+Line Count: 145
+UI Elements: 26 (Depth: 2)
+Total Hooks: 3
+useState: 1, useEffect: 0, useRef: 0, useContext: 0
+Event Handlers: 0
+Array Maps: 0, Filters: 0
+Data Fetching: No",,,0
+Q3-C14,text display component with no interactivity or state,"// Component Name: AppSidebar
+// Original File: shadcn-ui/ui/deprecated/www/registry/new-york/blocks/sidebar-02/components/app-sidebar.tsx
+// Purpose: This is sample data.
+
+// --- AST Structural Properties ---
+Line Count: 215
+UI Elements: 16 (Depth: 9)
+Total Hooks: 0
+useState: 0, useEffect: 0, useRef: 0, useContext: 0
+Event Handlers: 0
+Array Maps: 2, Filters: 0
+Data Fetching: No",,,1
+Q3-C15,text display component with no interactivity or state,"// Component Name: nan
+// Original File: data-driven-forms/react-forms/packages/react-form-renderer/src/form-renderer/form-renderer.tsx
+// Purpose: Only permit one child element
+
+// --- AST Structural Properties ---
+Line Count: 248
+UI Elements: 18 (Depth: 16)
+Total Hooks: 4
+useState: 2, useEffect: 0, useRef: 3, useContext: 0
+Event Handlers: 0
+Array Maps: 0, Filters: 1
+Data Fetching: No",,,0
+Q4-C16,animated modal with refs and multiple event handlers,"// Component Name: nan
+// Original File: reactotron/reactotron/lib/reactotron-core-ui/src/modals/SnapshotRenameModal/index.tsx
+// Purpose: No documentation.
+
+// --- AST Structural Properties ---
+Line Count: 90
+UI Elements: 8 (Depth: 5)
+Total Hooks: 3
+useState: 2, useEffect: 0, useRef: 2, useContext: 0
+Event Handlers: 2
+Array Maps: 0, Filters: 0
+Data Fetching: No",,,1
+Q4-C17,animated modal with refs and multiple event handlers,"// Component Name: nan
+// Original File: adazzle/react-data-grid/website/components/DraggableRowRenderer.tsx
+// Purpose: only accept pertinent drag events: - ignore drag events going from the container to an element inside the container - ignore drag events going from an element inside the container to the container
+
+// --- AST Structural Properties ---
+Line Count: 91
+UI Elements: 10 (Depth: 9)
+Total Hooks: 1
+useState: 3, useEffect: 0, useRef: 0, useContext: 0
+Event Handlers: 0
+Array Maps: 0, Filters: 0
+Data Fetching: No",,,0
+Q4-C18,animated modal with refs and multiple event handlers,"// Component Name: Route
+// Original File: adazzle/react-data-grid/website/routes/AllFeatures.tsx
+// Purpose: No documentation.
+
+// --- AST Structural Properties ---
+Line Count: 314
+UI Elements: 9 (Depth: 6)
+Total Hooks: 3
+useState: 4, useEffect: 0, useRef: 0, useContext: 0
+Event Handlers: 0
+Array Maps: 1, Filters: 0
+Data Fetching: No",,,0
+Q4-C19,animated modal with refs and multiple event handlers,"// Component Name: nan
+// Original File: andreypopp/react-textarea-autosize/src/index.tsx
+// Purpose: No documentation.
+
+// --- AST Structural Properties ---
+Line Count: 121
+UI Elements: 9 (Depth: 7)
+Total Hooks: 6
+useState: 0, useEffect: 0, useRef: 3, useContext: 0
+Event Handlers: 2
+Array Maps: 0, Filters: 0
+Data Fetching: No",,,1
+Q4-C20,animated modal with refs and multiple event handlers,"// Component Name: CardColors
+// Original File: mui/material-ui/docs/data/joy/components/card/CardColors.tsx
+// Purpose: No documentation.
+
+// --- AST Structural Properties ---
+Line Count: 109
+UI Elements: 20 (Depth: 6)
+Total Hooks: 1
+useState: 2, useEffect: 0, useRef: 0, useContext: 0
+Event Handlers: 0
+Array Maps: 0, Filters: 0
+Data Fetching: No",,,0
+Q5-C21,form with multiple conditional validations and state,"// Component Name: TableRowGroup
+// Original File: adobe/react-spectrum/packages/@react-aria/table/stories/example-resizing.tsx
+// Purpose: No documentation.
+
+// --- AST Structural Properties ---
+Line Count: 321
+UI Elements: 34 (Depth: 9)
+Total Hooks: 20
+useState: 3, useEffect: 0, useRef: 12, useContext: 0
+Event Handlers: 0
+Array Maps: 4, Filters: 0
+Data Fetching: No",,,1
+Q5-C22,form with multiple conditional validations and state,"// Component Name: nan
+// Original File: reactotron/reactotron/lib/reactotron-core-ui/src/timelineCommands/StateValuesChangeCommand/index.tsx
+// Purpose: No documentation.
+
+// --- AST Structural Properties ---
+Line Count: 58
+UI Elements: 6 (Depth: 3)
+Total Hooks: 0
+useState: 0, useEffect: 0, useRef: 0, useContext: 0
+Event Handlers: 0
+Array Maps: 0, Filters: 0
+Data Fetching: No",,,0
+Q5-C23,form with multiple conditional validations and state,"// Component Name: nan
+// Original File: data-driven-forms/react-forms/packages/pf4-component-mapper/src/wizard/wizard-components/step-buttons.tsx
+// Purpose: No documentation.
+
+// --- AST Structural Properties ---
+Line Count: 123
+UI Elements: 16 (Depth: 9)
+Total Hooks: 0
+useState: 0, useEffect: 0, useRef: 0, useContext: 0
+Event Handlers: 0
+Array Maps: 0, Filters: 0
+Data Fetching: No",,,0
+Q5-C24,form with multiple conditional validations and state,"// Component Name: Modal
+// Original File: rsuite/rsuite/src/Modal/Modal.tsx
+// Purpose: A modal can have different sizes
+
+// --- AST Structural Properties ---
+Line Count: 293
+UI Elements: 6 (Depth: 5)
+Total Hooks: 9
+useState: 2, useEffect: 0, useRef: 4, useContext: 0
+Event Handlers: 0
+Array Maps: 0, Filters: 0
+Data Fetching: No",,,1
+Q5-C25,form with multiple conditional validations and state,"// Component Name: nan
+// Original File: react-bootstrap/react-bootstrap/src/Accordion.tsx
+// Purpose: Element used to render the component.
+
+// --- AST Structural Properties ---
+Line Count: 108
+UI Elements: 4 (Depth: 3)
+Total Hooks: 3
+useState: 0, useEffect: 0, useRef: 0, useContext: 0
+Event Handlers: 0
+Array Maps: 0, Filters: 0
+Data Fetching: No",,,0
+Q6-C26,complex table with filtering and mapping,"// Component Name: LabelsMonth
+// Original File: uiwjs/react-heat-map/core/src/LabelsMonth.tsx
+// Purpose: No documentation.
+
+// --- AST Structural Properties ---
+Line Count: 62
+UI Elements: 2 (Depth: 2)
+Total Hooks: 1
+useState: 0, useEffect: 0, useRef: 0, useContext: 0
+Event Handlers: 0
+Array Maps: 2, Filters: 2
+Data Fetching: No",,,1
+Q6-C27,complex table with filtering and mapping,"// Component Name: InterestGallery
+// Original File: zheeeng/react-keyboard-navigator/packages/react-keyboard-navigator-example/pages/interestGallery$.tsx
+// Purpose: @title Interest Gallery @order 3
+
+// --- AST Structural Properties ---
+Line Count: 74
+UI Elements: 7 (Depth: 2)
+Total Hooks: 3
+useState: 3, useEffect: 0, useRef: 0, useContext: 0
+Event Handlers: 0
+Array Maps: 1, Filters: 0
+Data Fetching: No",,,0
+Q6-C28,complex table with filtering and mapping,"// Component Name: InterestGallery
+// Original File: zheeeng/react-keyboard-navigator/packages/react-keyboard-navigator-example/pages/macOSFinder$.tsx
+// Purpose: @title MacOS Finder @order 2
+
+// --- AST Structural Properties ---
+Line Count: 151
+UI Elements: 43 (Depth: 3)
+Total Hooks: 2
+useState: 3, useEffect: 0, useRef: 0, useContext: 0
+Event Handlers: 0
+Array Maps: 0, Filters: 0
+Data Fetching: No",,,0
+Q6-C29,complex table with filtering and mapping,"// Component Name: Modal
+// Original File: ag-grid/ag-grid/external/ag-website-shared/src/components/search/SearchModal.jsx
+// Purpose: We don't want to send a search request if the query is empty, so we override the search method to check for this.
+
+// --- AST Structural Properties ---
+Line Count: 226
+UI Elements: 9 (Depth: 2)
+Total Hooks: 6
+useState: 3, useEffect: 3, useRef: 0, useContext: 0
+Event Handlers: 0
+Array Maps: 1, Filters: 2
+Data Fetching: No",,,1
+Q6-C30,complex table with filtering and mapping,"// Component Name: CheckboxWidget
+// Original File: mozilla-services/react-jsonschema-form/packages/mantine/src/widgets/CheckboxWidget.tsx
+// Purpose: The `CheckBoxWidget` is a widget for rendering boolean properties.  It is typically used to represent a boolean.  @param props - The `WidgetProps` for this component
+
+// --- AST Structural Properties ---
+Line Count: 106
+UI Elements: 6 (Depth: 5)
+Total Hooks: 1
+useState: 0, useEffect: 0, useRef: 0, useContext: 0
+Event Handlers: 0
+Array Maps: 0, Filters: 0
+Data Fetching: No",,,0
+Q7-C31,extremely large data fetching dashboard over 150 lines,"// Component Name: Component
+// Original File: table-library/react-table-library/.storybook/stories/ClientVsServer/Server/base.jsx
+// Purpose: client-side select
+
+// --- AST Structural Properties ---
+Line Count: 235
+UI Elements: 21 (Depth: 4)
+Total Hooks: 8
+useState: 3, useEffect: 1, useRef: 1, useContext: 0
+Event Handlers: 0
+Array Maps: 3, Filters: 0
+Data Fetching: Yes",,,1
+Q7-C32,extremely large data fetching dashboard over 150 lines,"// Component Name: JoyToggleButton
+// Original File: mui/material-ui/docs/pages/experiments/joy/toggle-button.tsx
+// Purpose: No documentation.
+
+// --- AST Structural Properties ---
+Line Count: 85
+UI Elements: 15 (Depth: 5)
+Total Hooks: 3
+useState: 2, useEffect: 1, useRef: 0, useContext: 0
+Event Handlers: 1
+Array Maps: 2, Filters: 0
+Data Fetching: No",,,0
+Q7-C33,extremely large data fetching dashboard over 150 lines,"// Component Name: JoyStyleGuide
+// Original File: mui/material-ui/docs/pages/experiments/joy/style-guide.tsx
+// Purpose: No documentation.
+
+// --- AST Structural Properties ---
+Line Count: 215
+UI Elements: 45 (Depth: 5)
+Total Hooks: 5
+useState: 3, useEffect: 3, useRef: 1, useContext: 0
+Event Handlers: 0
+Array Maps: 5, Filters: 0
+Data Fetching: No",,,0
+Q7-C34,extremely large data fetching dashboard over 150 lines,"// Component Name: nan
+// Original File: pankod/refine/examples/auth-keycloak/src/App.tsx
+// Purpose: No documentation.
+
+// --- AST Structural Properties ---
+Line Count: 202
+UI Elements: 37 (Depth: 6)
+Total Hooks: 2
+useState: 0, useEffect: 0, useRef: 0, useContext: 0
+Event Handlers: 0
+Array Maps: 0, Filters: 0
+Data Fetching: Yes",,,1
+Q7-C35,extremely large data fetching dashboard over 150 lines,"// Component Name: ArrayItem
+// Original File: data-driven-forms/react-forms/packages/pf4-component-mapper/src/field-array/field-array.tsx
+// Purpose: No documentation.
+
+// --- AST Structural Properties ---
+Line Count: 141
+UI Elements: 24 (Depth: 11)
+Total Hooks: 2
+useState: 0, useEffect: 0, useRef: 0, useContext: 0
+Event Handlers: 0
+Array Maps: 2, Filters: 0
+Data Fetching: No",,,0
+Q8-C36,giant monolithic page component with deep html nesting,"// Component Name: Tooltip
+// Original File: adobe/react-spectrum/packages/@react-spectrum/s2/src/Tooltip.tsx
+// Purpose: The content of the tooltip.
+
+// --- AST Structural Properties ---
+Line Count: 222
+UI Elements: 15 (Depth: 11)
+Total Hooks: 5
+useState: 2, useEffect: 0, useRef: 0, useContext: 3
+Event Handlers: 0
+Array Maps: 0, Filters: 0
+Data Fetching: No",,,1
+Q8-C37,giant monolithic page component with deep html nesting,"// Component Name: Pagination
+// Original File: Shopify/polaris/polaris-react/src/components/Pagination/Pagination.tsx
+// Purpose: Keyboard shortcuts for the next button
+
+// --- AST Structural Properties ---
+Line Count: 254
+UI Elements: 20 (Depth: 3)
+Total Hooks: 1
+useState: 0, useEffect: 0, useRef: 0, useContext: 0
+Event Handlers: 2
+Array Maps: 2, Filters: 0
+Data Fetching: No",,,0
+Q8-C38,giant monolithic page component with deep html nesting,"// Component Name: Navigation
+// Original File: Shopify/polaris/polaris-react/src/components/Navigation/Navigation.tsx
+// Purpose: id of the element used as aria-labelledby
+
+// --- AST Structural Properties ---
+Line Count: 91
+UI Elements: 8 (Depth: 3)
+Total Hooks: 3
+useState: 0, useEffect: 0, useRef: 0, useContext: 0
+Event Handlers: 1
+Array Maps: 0, Filters: 0
+Data Fetching: No",,,0
+Q8-C39,giant monolithic page component with deep html nesting,"// Component Name: Component
+// Original File: shadcn-ui/ui/deprecated/www/registry/new-york/internal/sidebar-01.tsx
+// Purpose: No documentation.
+
+// --- AST Structural Properties ---
+Line Count: 285
+UI Elements: 47 (Depth: 8)
+Total Hooks: 1
+useState: 1, useEffect: 0, useRef: 0, useContext: 0
+Event Handlers: 0
+Array Maps: 3, Filters: 0
+Data Fetching: No",,,1
+Q8-C40,giant monolithic page component with deep html nesting,"// Component Name: Home
+// Original File: tailwindlabs/headlessui/playgrounds/react/pages/combobox/combobox-virtual-with-empty-states.tsx
+// Purpose: No documentation.
+
+// --- AST Structural Properties ---
+Line Count: 196
+UI Elements: 21 (Depth: 5)
+Total Hooks: 2
+useState: 4, useEffect: 0, useRef: 3, useContext: 0
+Event Handlers: 0
+Array Maps: 0, Filters: 1
+Data Fetching: No",,,0
+Q9-C41,massive interactive map using refs over 150 lines,"// Component Name: Datepicker
+// Original File: themesberg/flowbite-react/packages/ui/src/components/Datepicker/Datepicker.tsx
+// Purpose: Focus the datepicker input.
+
+// --- AST Structural Properties ---
+Line Count: 389
+UI Elements: 30 (Depth: 11)
+Total Hooks: 8
+useState: 5, useEffect: 3, useRef: 3, useContext: 0
+Event Handlers: 0
+Array Maps: 0, Filters: 0
+Data Fetching: No",,,1
+Q9-C42,massive interactive map using refs over 150 lines,"// Component Name: References
+// Original File: mui/material-ui/docs/src/components/home/References.tsx
+// Purpose: No documentation.
+
+// --- AST Structural Properties ---
+Line Count: 48
+UI Elements: 4 (Depth: 2)
+Total Hooks: 0
+useState: 0, useEffect: 0, useRef: 0, useContext: 0
+Event Handlers: 0
+Array Maps: 0, Filters: 0
+Data Fetching: No",,,0
+Q9-C43,massive interactive map using refs over 150 lines,"// Component Name: ProductSuite
+// Original File: mui/material-ui/docs/src/components/home/ProductSuite.tsx
+// Purpose: No documentation.
+
+// --- AST Structural Properties ---
+Line Count: 91
+UI Elements: 17 (Depth: 7)
+Total Hooks: 2
+useState: 1, useEffect: 0, useRef: 0, useContext: 0
+Event Handlers: 0
+Array Maps: 0, Filters: 0
+Data Fetching: No",,,0
+Q9-C44,massive interactive map using refs over 150 lines,"// Component Name: TOC
+// Original File: Shopify/polaris/polaris.shopify.com/src/components/TOC/TOC.tsx
+// Purpose: No documentation.
+
+// --- AST Structural Properties ---
+Line Count: 216
+UI Elements: 7 (Depth: 2)
+Total Hooks: 3
+useState: 3, useEffect: 3, useRef: 3, useContext: 0
+Event Handlers: 0
+Array Maps: 2, Filters: 0
+Data Fetching: No",,,1
+Q9-C45,massive interactive map using refs over 150 lines,"// Component Name: nan
+// Original File: adobe/react-spectrum/starters/tailwind/src/CommandPalette.tsx
+// Purpose: No documentation.
+
+// --- AST Structural Properties ---
+Line Count: 56
+UI Elements: 10 (Depth: 9)
+Total Hooks: 2
+useState: 0, useEffect: 2, useRef: 0, useContext: 0
+Event Handlers: 0
+Array Maps: 0, Filters: 0
+Data Fetching: No",,,0
+Q10-C46,somewhat complex interactive form wrapper,"// Component Name: Route
+// Original File: adazzle/react-data-grid/website/routes/CustomizableRenderers.tsx
+// Purpose: No documentation.
+
+// --- AST Structural Properties ---
+Line Count: 198
+UI Elements: 9 (Depth: 2)
+Total Hooks: 3
+useState: 4, useEffect: 0, useRef: 0, useContext: 0
+Event Handlers: 1
+Array Maps: 0, Filters: 0
+Data Fetching: No",,,1
+Q10-C47,somewhat complex interactive form wrapper,"// Component Name: CSSGrid
+// Original File: carbon-design-system/carbon/packages/react/src/components/Grid/CSSGrid.tsx
+// Purpose: Copyright IBM Corp. 2016, 2023  This source code is licensed under the Apache-2.0 license found in the LICENSE file in the root directory of this source tree.
+
+// --- AST Structural Properties ---
+Line Count: 190
+UI Elements: 11 (Depth: 5)
+Total Hooks: 2
+useState: 0, useEffect: 0, useRef: 0, useContext: 0
+Event Handlers: 0
+Array Maps: 0, Filters: 0
+Data Fetching: No",,,0
+Q10-C48,somewhat complex interactive form wrapper,"// Component Name: TextPage
+// Original File: pinterest/gestalt/docs/pages/web/textui.tsx
+// Purpose: No documentation.
+
+// --- AST Structural Properties ---
+Line Count: 153
+UI Elements: 29 (Depth: 3)
+Total Hooks: 0
+useState: 0, useEffect: 0, useRef: 0, useContext: 0
+Event Handlers: 0
+Array Maps: 0, Filters: 0
+Data Fetching: No",,,0
+Q10-C49,somewhat complex interactive form wrapper,"// Component Name: ExternalInput
+// Original File: measuredco/puck/packages/core/components/ExternalInput/index.tsx
+// Purpose: No documentation.
+
+// --- AST Structural Properties ---
+Line Count: 315
+UI Elements: 33 (Depth: 2)
+Total Hooks: 4
+useState: 7, useEffect: 2, useRef: 0, useContext: 0
+Event Handlers: 1
+Array Maps: 5, Filters: 0
+Data Fetching: No",,,1
+Q10-C50,somewhat complex interactive form wrapper,"// Component Name: ShowcaseThemeSwitch
+// Original File: nextui-org/nextui/apps/docs/src/app/showcase/[id]/showcase-theme-switch.tsx
+// Purpose: Determine the tooltip content based on whether switching is disabled
+
+// --- AST Structural Properties ---
+Line Count: 66
+UI Elements: 9 (Depth: 3)
+Total Hooks: 2
+useState: 0, useEffect: 0, useRef: 0, useContext: 0
+Event Handlers: 0
+Array Maps: 0, Filters: 0
+Data Fetching: No",,,0
+Q11-C51,mostly simple display card with one state at most,"// Component Name: nan
+// Original File: naver/egjs-flicking/docs/src/showcases/ArtWindow.tsx
+// Purpose: No documentation.
+
+// --- AST Structural Properties ---
+Line Count: 75
+UI Elements: 22 (Depth: 2)
+Total Hooks: 1
+useState: 3, useEffect: 0, useRef: 0, useContext: 0
+Event Handlers: 0
+Array Maps: 0, Filters: 0
+Data Fetching: No",,,1
+Q11-C52,mostly simple display card with one state at most,"// Component Name: App
+// Original File: tannerlinsley/react-table/examples/react/basic-external-state/src/main.tsx
+// Purpose: Manage sorting state with React.useState (although react state causes more re-renders here than necessary compared to using a store)
+
+// --- AST Structural Properties ---
+Line Count: 210
+UI Elements: 18 (Depth: 2)
+Total Hooks: 3
+useState: 5, useEffect: 0, useRef: 0, useContext: 0
+Event Handlers: 0
+Array Maps: 5, Filters: 0
+Data Fetching: No",,,0
+Q11-C53,mostly simple display card with one state at most,"// Component Name: Component
+// Original File: table-library/react-table-library/.storybook/stories/Server/Features/Search/base.jsx
+// Purpose: initial fetching
+
+// --- AST Structural Properties ---
+Line Count: 92
+UI Elements: 16 (Depth: 4)
+Total Hooks: 4
+useState: 2, useEffect: 2, useRef: 0, useContext: 0
+Event Handlers: 0
+Array Maps: 1, Filters: 0
+Data Fetching: No",,,0
+Q11-C54,mostly simple display card with one state at most,"// Component Name: CloseButton
+// Original File: tolgee/tolgee-js/packages/web/src/package/ui/KeyDialog/Tags/CloseButton.tsx
+// Purpose: No documentation.
+
+// --- AST Structural Properties ---
+Line Count: 23
+UI Elements: 3 (Depth: 2)
+Total Hooks: 0
+useState: 0, useEffect: 0, useRef: 0, useContext: 0
+Event Handlers: 1
+Array Maps: 0, Filters: 0
+Data Fetching: No",,,1
+Q11-C55,mostly simple display card with one state at most,"// Component Name: Component
+// Original File: table-library/react-table-library/.storybook/stories/Composites/HideResize/base.jsx
+// Purpose: No documentation.
+
+// --- AST Structural Properties ---
+Line Count: 144
+UI Elements: 25 (Depth: 4)
+Total Hooks: 1
+useState: 1, useEffect: 0, useRef: 0, useContext: 0
+Event Handlers: 0
+Array Maps: 1, Filters: 1
+Data Fetching: No",,,0
+Q12-C56,tiny basic generic button component under 50 lines,"// Component Name: SidebarsMDXPage
+// Original File: ccontrols/component-controls/ui/app/src/SidebarsPage/SidebarsMDXPage.tsx
+// Purpose: @jsx jsx
+
+// --- AST Structural Properties ---
+Line Count: 43
+UI Elements: 7 (Depth: 4)
+Total Hooks: 1
+useState: 0, useEffect: 0, useRef: 2, useContext: 0
+Event Handlers: 0
+Array Maps: 0, Filters: 0
+Data Fetching: No",,,1
+Q12-C57,tiny basic generic button component under 50 lines,"// Component Name: PickerContext
+// Original File: adobe/react-spectrum/packages/@react-spectrum/s2/src/TabsPicker.tsx
+// Purpose: The contents of the collection.
+
+// --- AST Structural Properties ---
+Line Count: 366
+UI Elements: 32 (Depth: 17)
+Total Hooks: 6
+useState: 0, useEffect: 0, useRef: 2, useContext: 2
+Event Handlers: 0
+Array Maps: 0, Filters: 0
+Data Fetching: No",,,0
+Q12-C58,tiny basic generic button component under 50 lines,"// Component Name: SwitchContext
+// Original File: adobe/react-spectrum/packages/@react-spectrum/s2/src/Switch.tsx
+// Purpose: The size of the Switch.  @default 'M'
+
+// --- AST Structural Properties ---
+Line Count: 198
+UI Elements: 13 (Depth: 11)
+Total Hooks: 6
+useState: 0, useEffect: 0, useRef: 3, useContext: 2
+Event Handlers: 0
+Array Maps: 0, Filters: 0
+Data Fetching: No",,,0
+Q12-C59,tiny basic generic button component under 50 lines,"// Component Name: InputGroup
+// Original File: adobe/react-spectrum/starters/docs/src/InputGroup.tsx
+// Purpose: No documentation.
+
+// --- AST Structural Properties ---
+Line Count: 25
+UI Elements: 4 (Depth: 2)
+Total Hooks: 1
+useState: 0, useEffect: 0, useRef: 0, useContext: 0
+Event Handlers: 0
+Array Maps: 0, Filters: 0
+Data Fetching: No",,,1
+Q12-C60,tiny basic generic button component under 50 lines,"// Component Name: NavWorkspaces
+// Original File: shadcn-ui/ui/deprecated/www/registry/new-york/blocks/sidebar-15/components/nav-workspaces.tsx
+// Purpose: No documentation.
+
+// --- AST Structural Properties ---
+Line Count: 85
+UI Elements: 24 (Depth: 6)
+Total Hooks: 0
+useState: 0, useEffect: 0, useRef: 0, useContext: 0
+Event Handlers: 0
+Array Maps: 2, Filters: 0
+Data Fetching: No",,,0

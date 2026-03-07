@@ -1,0 +1,3 @@
+Inter-LLM Kappa: -0.004
+Gemini-GT Kappa: 0.012
+Claude-GT Kappa: 0.859

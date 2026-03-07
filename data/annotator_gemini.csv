@@ -1,0 +1,61 @@
+Pair ID,Query,"Is Relevant? (1=Yes, 0=No)",Annotator
+Q1-C1,completely stateless layout container with zero hooks,1,Gemini_1_5_Pro
+Q1-C2,completely stateless layout container with zero hooks,0,Gemini_1_5_Pro
+Q1-C3,completely stateless layout container with zero hooks,0,Gemini_1_5_Pro
+Q1-C4,completely stateless layout container with zero hooks,1,Gemini_1_5_Pro
+Q1-C5,completely stateless layout container with zero hooks,0,Gemini_1_5_Pro
+Q2-C6,pure presentational badge with no state at all,1,Gemini_1_5_Pro
+Q2-C7,pure presentational badge with no state at all,0,Gemini_1_5_Pro
+Q2-C8,pure presentational badge with no state at all,0,Gemini_1_5_Pro
+Q2-C9,pure presentational badge with no state at all,1,Gemini_1_5_Pro
+Q2-C10,pure presentational badge with no state at all,0,Gemini_1_5_Pro
+Q3-C11,text display component with no interactivity or state,1,Gemini_1_5_Pro
+Q3-C12,text display component with no interactivity or state,0,Gemini_1_5_Pro
+Q3-C13,text display component with no interactivity or state,0,Gemini_1_5_Pro
+Q3-C14,text display component with no interactivity or state,1,Gemini_1_5_Pro
+Q3-C15,text display component with no interactivity or state,0,Gemini_1_5_Pro
+Q4-C16,animated modal with refs and multiple event handlers,1,Gemini_1_5_Pro
+Q4-C17,animated modal with refs and multiple event handlers,0,Gemini_1_5_Pro
+Q4-C18,animated modal with refs and multiple event handlers,0,Gemini_1_5_Pro
+Q4-C19,animated modal with refs and multiple event handlers,1,Gemini_1_5_Pro
+Q4-C20,animated modal with refs and multiple event handlers,0,Gemini_1_5_Pro
+Q5-C21,form with multiple conditional validations and state,1,Gemini_1_5_Pro
+Q5-C22,form with multiple conditional validations and state,0,Gemini_1_5_Pro
+Q5-C23,form with multiple conditional validations and state,0,Gemini_1_5_Pro
+Q5-C24,form with multiple conditional validations and state,1,Gemini_1_5_Pro
+Q5-C25,form with multiple conditional validations and state,0,Gemini_1_5_Pro
+Q6-C26,complex table with filtering and mapping,1,Gemini_1_5_Pro
+Q6-C27,complex table with filtering and mapping,0,Gemini_1_5_Pro
+Q6-C28,complex table with filtering and mapping,0,Gemini_1_5_Pro
+Q6-C29,complex table with filtering and mapping,1,Gemini_1_5_Pro
+Q6-C30,complex table with filtering and mapping,0,Gemini_1_5_Pro
+Q7-C31,extremely large data fetching dashboard over 150 lines,1,Gemini_1_5_Pro
+Q7-C32,extremely large data fetching dashboard over 150 lines,0,Gemini_1_5_Pro
+Q7-C33,extremely large data fetching dashboard over 150 lines,0,Gemini_1_5_Pro
+Q7-C34,extremely large data fetching dashboard over 150 lines,1,Gemini_1_5_Pro
+Q7-C35,extremely large data fetching dashboard over 150 lines,0,Gemini_1_5_Pro
+Q8-C36,giant monolithic page component with deep html nesting,1,Gemini_1_5_Pro
+Q8-C37,giant monolithic page component with deep html nesting,0,Gemini_1_5_Pro
+Q8-C38,giant monolithic page component with deep html nesting,0,Gemini_1_5_Pro
+Q8-C39,giant monolithic page component with deep html nesting,1,Gemini_1_5_Pro
+Q8-C40,giant monolithic page component with deep html nesting,0,Gemini_1_5_Pro
+Q9-C41,massive interactive map using refs over 150 lines,1,Gemini_1_5_Pro
+Q9-C42,massive interactive map using refs over 150 lines,0,Gemini_1_5_Pro
+Q9-C43,massive interactive map using refs over 150 lines,0,Gemini_1_5_Pro
+Q9-C44,massive interactive map using refs over 150 lines,1,Gemini_1_5_Pro
+Q9-C45,massive interactive map using refs over 150 lines,0,Gemini_1_5_Pro
+Q10-C46,somewhat complex interactive form wrapper,1,Gemini_1_5_Pro
+Q10-C47,somewhat complex interactive form wrapper,0,Gemini_1_5_Pro
+Q10-C48,somewhat complex interactive form wrapper,0,Gemini_1_5_Pro
+Q10-C49,somewhat complex interactive form wrapper,1,Gemini_1_5_Pro
+Q10-C50,somewhat complex interactive form wrapper,0,Gemini_1_5_Pro
+Q11-C51,mostly simple display card with one state at most,1,Gemini_1_5_Pro
+Q11-C52,mostly simple display card with one state at most,0,Gemini_1_5_Pro
+Q11-C53,mostly simple display card with one state at most,0,Gemini_1_5_Pro
+Q11-C54,mostly simple display card with one state at most,1,Gemini_1_5_Pro
+Q11-C55,mostly simple display card with one state at most,0,Gemini_1_5_Pro
+Q12-C56,tiny basic generic button component under 50 lines,1,Gemini_1_5_Pro
+Q12-C57,tiny basic generic button component under 50 lines,0,Gemini_1_5_Pro
+Q12-C58,tiny basic generic button component under 50 lines,0,Gemini_1_5_Pro
+Q12-C59,tiny basic generic button component under 50 lines,1,Gemini_1_5_Pro
+Q12-C60,tiny basic generic button component under 50 lines,0,Gemini_1_5_Pro
